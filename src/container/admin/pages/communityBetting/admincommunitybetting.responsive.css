@@ -1,0 +1,85 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .justify-space-list-content{
+        flex-direction: unset;
+        align-items: center;
+    }
+    /* .card-col1 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .card-col2 {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+}
+
+@media screen and (max-width: 767px) {
+    .card-col1 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .justify-space-list-content {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .add-game-button.community-back-right {
+        width: 100%;
+        margin-top: 10px !important;
+    }
+    
+    .community-back-right .common-button {
+        width: 50%;
+    }
+    
+    .community-back-right .common-button button {
+        width: 100%;
+    }
+    .comman-button .no-text-decoration, .export-btn-main .fil_Button{
+        width: 100%;
+    }
+    
+    .card-col2 {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .low-hight-card-main .low-hight-card-flex {
+        padding: 8px 20px;
+    }
+
+    .card-low-high-bet-list .pd-card-low-details {
+        padding: 5px 5px;
+    }
+}
+/* .winner{
+    padding: 30px;
+}
+
+.winner .admin-input-design{
+ margin-bottom: 20px;
+}
+.winnerSecond{
+    margin-top: 30px;
+}
+.winnerSecond .admin-input-design{
+    margin-bottom: 20px;
+} */

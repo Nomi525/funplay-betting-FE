@@ -1,0 +1,178 @@
+.file-upload-details .upload-community-game {
+  padding: 0px;
+  background: transparent;
+}
+
+.file-upload-details .upload-community-game .add-game-img .add-game-img {
+  border-radius: 0px;
+}
+
+.red-star {
+  color: red;
+  padding-left: 5px;
+}
+
+/*  */
+
+.mr-scrollable-details{
+    margin-right: -6px;
+}
+
+.bet-amount-swap-details .bet-swap-list {
+    padding: 0px 7px 0px 0px;
+}
+
+.bet-amount-swap-details .bet-swap-list .bet-swap-listitem {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  background: #151b33;
+  border-radius: 10px;
+  margin: 5px 0px;
+  color: #fff;
+  font-family: "nunito-regular", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.bet-amount-swap-details
+  .bet-swap-list
+  .bet-swap-listitem
+  .col-list-comman:nth-child(1) {
+  width: 20%;
+}
+
+.bet-amount-swap-details
+  .bet-swap-list
+  .bet-swap-listitem
+  .col-list-comman:nth-child(2) {
+  width: 40%;
+}
+
+.bet-amount-swap-details
+  .bet-swap-list
+  .bet-swap-listitem
+  .col-list-comman:nth-child(3) {
+  width: 40%;
+}
+
+.bet-amount-swap-details
+  .bet-swap-list.title-detail-swap
+  .bet-swap-listitem:nth-child(1) {
+  padding: 10px 10px;
+  background: #24396b;
+  border-radius: 11px;
+  color: #ffff;
+  font-family: "nunito-bold", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bet-swap-listitem .checkbox-main-content {
+  padding: 0px;
+}
+
+.checkbox-main-content.Mui-checked svg {
+  color: #3e65c1;
+}
+
+.checkbox-main-content svg {
+  color: #fff;
+}
+
+.inner-details-height-content {
+  height: 330px;
+  overflow: auto;
+}
+
+/* width */
+.inner-details-height-content::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+}
+
+/* Track */
+.inner-details-height-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.inner-details-height-content::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.inner-details-height-content::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+.winner-checkbox-click-details .winner-check-details {
+  text-align: center;
+  background: #24396b;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 5px;
+}
+
+.winner-checkbox-click-details .winner-check-details .winner-center-title {
+  font-size: 15px;
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #fff;
+}
+
+.winner-list-details-checl-show .winner-list-show {
+  padding: 0px;
+}
+
+.winner-list-details-checl-show .winner-list-show .winner-listitem-show {
+  padding: 0px;
+  width: 100%;
+}
+
+.winner-listitem-show .winner-grid-one {
+  padding: 0px 5px;
+  width: 50%;
+}
+
+.winner-listitem-show .winner-user-name-list {
+  background: #151b33;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "nunito-regular", sans-serif;
+  margin: 5px 0px;
+  padding: 10px;
+}
+
+.winner-listitem-show .winner-user-name-prices {
+  background: #151b33;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "nunito-regular", sans-serif;
+  margin: 5px 0px;
+  padding: 10px;
+}
+
+.community-back-right {
+  justify-content: end;
+}
+.community-back-right .add-submit-btn {
+  margin-top: 0px;
+}
+
+.justify-space-list-content {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-bet-content .mr-community-bet{
+  margin-right: 15px ;
+}
+
+.swap-btn-mb-details .mb-15px-swap{
+  margin-bottom: 15px;
+}

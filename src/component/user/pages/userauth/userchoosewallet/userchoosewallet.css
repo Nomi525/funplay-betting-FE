@@ -1,0 +1,59 @@
+.choose-wallet-details .choose-main-wallet-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.wallet-flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn-wallet-main .btn-wallet-content ,.btn-wallet-main .btn-wallet-content:hover{
+    background: #FFFFFF12;
+    border-radius: 8px;
+    width: 100%;
+    justify-content: start;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.btn-wallet-main {
+    margin-bottom: 15px;
+}
+
+.wallet-title-details {
+    text-align: start;
+}
+
+.wallet-title-details .metamask-title-wallet {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'nunito-bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.wallet-title-details  .metamask-details-wallet {
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'nunito-regular', sans-serif;
+    text-transform: initial;
+}
+
+.btn-wallet-main .btn-wallet-content .wallet-main-content {
+    margin-right: 6.66px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.wallet-btn-details .btn-wallet-main:last-child{
+    margin-bottom: 0px;
+}
+

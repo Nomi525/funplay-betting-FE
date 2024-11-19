@@ -1,0 +1,74 @@
+/* .main-login {
+
+    background-image: url('../../../../assets/images/png/backlogin.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.white-login-main {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-login-box.MuiBox-root.css-0 {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+}
+.logo-set2 {
+    margin-bottom: 10px;
+}
+
+.main-box {
+    max-width: 300px !important;
+    width: 300px;
+    flex: 0 0 300px;
+
+}
+
+.box-text p {
+    color: white;
+    font-size: 32px;
+    line-height: 39px;
+    font-family: 'inter-bold';
+}
+
+.bluebox-text p {
+    color: #122B45;
+}
+
+.box-login-text p {
+    font-family: 'inter-regular';
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+    margin: 15px 0px 40px 0px;
+} */
+
+.pass-icon-color-admin {
+    color: #8d9ac9;
+}
+
+.forgot-main {
+    display: flex;
+    justify-content: end;
+    /* cursor: pointer; */
+}
+
+.forgot-main p {
+    cursor: pointer;
+}
+
+.forgot-password-main {
+    display: flex;
+    justify-content: end;
+}
+
+.forgot-password-main p {
+    cursor: pointer;
+}

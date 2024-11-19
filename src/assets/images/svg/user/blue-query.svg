@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="14" height="14">
+	<title>data-searching (1)</title>
+	<defs>
+		<image  width="16" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAAAXNSR0IB2cksfwAAAKhQTFRFjprKjZjMjZnMAAAAjJnMjJnMjpnMjJnMjJjLjJjMjZfLjJnKjZjMjpnMkJrMj5nNjZjMjZfJjprKjpnLjJjLjZnLjJvNmZnMjJjMjpjMi6LRjZjMjZrLjZnLjJrKjJrKjZrNjZjKjprLi5vNjZnKj5nLjpnMlZXVjZjLjZvMjpnKjZnLjprLjJrLi5fLjpjKjpjLjJjLjprKjJjKjZnMjZnLkZnMjpnMZcRLagAAADh0Uk5TfndBAHg8WiimbTGMhoeVZnRnao5ZgDMKgWgLco2JgzVlV5dcgnaRDF6Wc6pYl0BIY1RWPlV/HkYXvOFJAAAAfklEQVR4nGNgYIQCJmYwYGBhZWUD8dk5OLnAAtw8YHlePn4BQSGQgDBYQESUUUxcQpILoYWXhZlZSpoTKCAD0SIrx8wsr6CIEFBSVmFRVVNHaGHT0GQR1dJWBBmqA7ZWV4+ZWd/A0AhmLaOuMdBOExFTuMPMWEDOYjVnQHc6AMvNCCmiPJmDAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="2"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="14" height="14" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+    <g id="__TEMP__SVG__" transform="translate(0 0)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="1" cy="1" r="1" transform="translate(3 4)" fill="#fff"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="1" cy="1" r="1" transform="translate(5.998 2.504)" fill="#fff"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="1" cy="1" r="1" transform="translate(9 4)" fill="#fff"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="1" cy="1" r="1" transform="translate(9.496 7.003)" fill="#fff"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="1" cy="1" r="1" transform="translate(7.497 9.502)" fill="#fff"/>
+      <path id="Path_12" data-name="Path 12" d="M8.267,1A7,7,0,0,0,1,8a2.409,2.409,0,0,0,3.044,2.324l.56-.155A1.5,1.5,0,0,1,6.5,11.616v1.879a1.5,1.5,0,0,0,1.5,1.5A7,7,0,0,0,8.267,1ZM12.32,12.15A5.963,5.963,0,0,1,8,13.995a.5.5,0,0,1-.5-.5V11.616A2.5,2.5,0,0,0,5,9.117a2.534,2.534,0,0,0-.665.09l-.56.155A1.409,1.409,0,0,1,2,8,6,6,0,0,1,8.232,2a6.088,6.088,0,0,1,5.763,5.763,5.943,5.943,0,0,1-1.674,4.393Z" transform="translate(-1 -0.994)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

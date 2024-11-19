@@ -1,0 +1,101 @@
+.top-weekly-box-main {
+    background: #171B37;
+    border-radius: 10px;
+}
+
+.top-weekly-box-main .top-weekly-box-inner {
+    padding: 14px 22px 21px 20px;
+}
+
+.top-weekly-card-main-details .top-week-list {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -16.5px;
+}
+
+.top-weekly-card-main-details .top-week-list .top-week-listitem {
+    padding: 0px 16.5px;
+    width: calc(100% / 4);
+    justify-content: center;
+}
+
+.top-week-user-main {
+    position: relative;
+}
+
+.card-week-main {
+    text-align: center;
+}
+
+.top-week-user-main .weeklytop {
+    height: 38px;
+    width: 38px;
+    object-fit: cover;
+}
+
+.verified-email-main {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -5px;
+}
+
+.top-week-user-details .week-top-name-title {
+    color: #fff;
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'nunito-bold', sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.top-week-user-details {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.8px;
+}
+
+.top-week-user-details .week-top-id-name {
+    color: #606882;
+    font-size: 8px;
+    line-height: 11px;
+    font-family: 'nunito-regular', sans-serif;
+    margin-bottom: 4px;
+        text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.diamond-score-week {
+    display: flex;
+    align-items: center;
+    color: #789CFF;
+    font-size: 8px;
+    line-height: 11px;
+    font-family: 'nunito-regular', sans-serif;
+    justify-content: center;
+}
+
+.diamond-score-week .diamond {
+    margin-right: 4px;
+    width: 8px;
+    height: 6.5px;
+}
+
+.top-weekly-main-details .title-top-review-player {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'nunito-bold', sans-serif;
+    margin-bottom: 16px;
+}
+

@@ -1,0 +1,243 @@
+/* styles for the RadioGroup container */
+.custom-radio-group {
+  /* background-color: lightgray; */
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* styles for individual radio buttons (FormControlLabel) */
+.custom-radio-label {
+  margin: 5px;
+}
+
+/* styles for radio button */
+.custom-radio-input {
+  color: blue;
+}
+
+/* styles for the selected (checked) radio button */
+.custom-radio-input:checked {
+  color: green;
+}
+
+.addfam {
+  margin-top: 20px;
+}
+
+.remove-btn {
+  margin-top: 22px;
+}
+
+.plus-main-content {
+  margin-right: 7px;
+}
+
+.deleteModel-btna1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deleteModel-btna1 .btn-col {
+  width: 50%;
+  padding: 0px 10px;
+}
+
+.deleteModel-heading {
+  margin-bottom: 20px;
+}
+
+.delete-game-data-main .deleteModel-heading {
+  color: #fff;
+}
+
+.delete-game-data-main .deleteModel-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.deleteModel-btna1 {
+  text-align: center;
+}
+
+.user-datepicker-content {
+  margin-right: 0px;
+}
+
+.user-datepicker-content .admin-datepicker-inner {
+  width: 100%;
+}
+
+.proceed-mt-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-btn-spacing {
+  height: 17px;
+  margin-right: 6px;
+}
+
+.red-star {
+  color: red;
+  padding-left: 5px;
+}
+
+.timer-list-content .picker-input-list {
+  width: 100%;
+}
+
+.timer-list-content .MuiStack-root {
+  padding-top: 0px;
+  overflow: initial;
+}
+
+.timer-list-content input {
+  padding: 0px;
+}
+
+.timer-list-content .MuiInputBase-colorPrimary {
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #171b37;
+  border: 1px solid transparent;
+  color: #475887;
+  font-family: "inter-regular", sans-serif;
+  font-size: 14px;
+  height: 35px;
+  line-height: 28px;
+}
+
+.timer-list-content svg {
+  color: #6f7aa6;
+  height: 16px;
+}
+
+.timer-list-content fieldset {
+  border-color: #171c36 !important;
+}
+
+.input-design-div .textarea-content-comman {
+  background-color: #171b37;
+}
+
+.form-control-menu-week {
+  width: 100%;
+  margin: 0px;
+}
+
+
+/* .form-control-menu-week .form-select-week .MuiSelect-multiple  */
+.add-game-dropdown .signin-drop-details .sign-in-inner-form .MuiSelect-select {
+  border-radius: 4px;
+  background: #171b37;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-family: "inter-regular", sans-serif;
+  font-size: 14px;
+  padding: 6.45px 10px;
+  width: 100%;
+}
+
+
+.MuiMenu-paper [aria-labelledby="demo-multiple-name-label"] {
+  color: #fff;
+}
+
+.MuiMenu-paper [aria-labelledby="demo-multiple-name-label"]::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* / / Track / / */
+.MuiMenu-paper [aria-labelledby="demo-multiple-name-label"]::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* / / Handle / / */
+.MuiMenu-paper [aria-labelledby="demo-multiple-name-label"]::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* / / Handle on hover / / */
+.MuiMenu-paper [aria-labelledby="demo-multiple-name-label"]::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.row-time-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.col-plus-icon {
+  margin-left: 15px;
+}
+
+.row-time-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.col-plus-icon {
+  margin-left: 15px;
+}
+
+.btn-plustable {
+  background: #2860c0 !important;
+  border: 0px !important;
+  padding: 7px !important;
+  border-radius: 4px !important;
+  height: 33px !important;
+  width: 33px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 10px !important;
+}
+
+.btn-disable {
+  background: #6a707a !important;
+}
+
+img.minus-icon-btn {
+  width: 16px;
+}
+
+img.plus-icon-btn {
+  width: 16px;
+}
+
+.dots-details-btn .dots-btn-game {
+  min-width: max-content;
+}
+
+.dots-details-btn .dots-btn-game .dots-hight {
+  height: 21px;
+}
+
+.row-time-main .row-time-width {
+  width: 100%;
+}
+
+.dot-menuitem-details .table-view-btn {
+  padding: 0px;
+  font-size: 13px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'poppins-light', sans-serif;
+}
+
+.admin-panel-content .mt-none-game-duration {
+  margin-top: 0px;
+}
+
+.error-message-color {
+  color: red;
+  margin-top: 0px !important;
+}

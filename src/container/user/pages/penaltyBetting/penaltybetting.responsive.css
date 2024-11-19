@@ -1,0 +1,539 @@
+@media screen and (min-width: 1200px) and (max-width:1399px) {}
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .penalty-max-content {
+        transform: translateX(-7%);
+    }
+}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .penalty-bet-details .bet-flex-content {
+        width: 75%;
+    }
+
+    .penalty-game-ground-img {
+        bottom: 9px;
+    }
+
+    .penalty-bet-details {
+        margin: -13px auto 40px auto;
+    }
+
+    /* .penalty-right-net-details {
+        right: 32.2%;
+    } */
+    .penalty-game-ground-img .ground-content-list {
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .flex-mobile-bet-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .price-input-details-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .desktop-btn-bet {
+        display: none;
+    }
+
+    .places-brt-main-btn .place-btn-content,
+    .places-brt-main-btn .place-btn-content:hover,
+    .places-brt-main-btn .place-btn-content:active {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 7px 12px;
+    }
+
+    .penalty-bet-details .bet-flex-content {
+        width: 100%;
+    }
+
+    /* .penalty-left-net-details {
+        top: 211px;
+    } */
+
+    .penalty-game-content {
+        height: 415px;
+        margin: -30px auto auto auto;
+    }
+
+    .audience-img-cotent {
+        top: -15px;
+    }
+
+
+    .flex-gap-penalty {
+        row-gap: 10px;
+    }
+
+    .penalty-game-ground-img .ground-content-list {
+        width: 100%;
+        object-fit: cover;
+        height: 243px;
+    }
+
+    .penalty-bet-details {
+        margin: 0px auto 40px auto;
+    }
+
+    .penalty-max-content {
+        max-width: 263px;
+        margin: auto;
+        position: relative;
+        transform: translateX(-8%);
+        z-index: 1;
+    }
+
+    .penalty-left-net-details,
+    .penalty-right-net-details {
+        top: 151px;
+    }
+
+    .penalty-left-net-details .net-left-content,
+    .penalty-right-net-details .net-right-content {
+        width: 132px;
+        height: 95px;
+    }
+
+    .penalty-game-ground-img {
+        bottom: -2px;
+    }
+
+    .penalty-main-title {
+        width: 139px;
+    }
+
+    .penalty-main-title .penalty-title {
+        margin-bottom: 0px;
+    }
+
+    .penalty-game-content {
+        height: 465px;
+    }
+
+    .penalty-ball-details .ball-football-content {
+        height: 35px;
+        width: 35px;
+    }
+
+    .penalty-ball-details {
+        max-width: 35px;
+        bottom: 108px;
+    }
+
+    .penalty-ball-details::after {
+        width: 32px;
+        height: 5px;
+        background-size: contain;
+    }
+
+    /* .penalty-right-net-details .net-right-content,
+    .penalty-left-net-details .net-left-content {
+        width: 65px;
+        height: 35px;
+    } */
+
+    /* .penalty-right-net-details {
+        right: 30.5%;
+        top: 167px;
+    } */
+
+    /* .penalty-bet-details {
+        margin: -96px auto 40px auto;
+    } */
+
+    /* .penalty-left-net-details {
+        top: 167px;
+    } */
+
+    .penalty-main-title .penalty-title {
+        font-size: 10px;
+    }
+
+    /* .penalty-main-title {
+        width: 65px;
+        top: 146px;
+    } */
+    .lightcontent-penalty {
+        height: 258px;
+    }
+
+    .stadium-light-main-content {
+        top: -6px;
+        right: 0;
+        left: 0;
+    }
+
+    .stadim-img {
+        height: 252px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    @keyframes movebetright {
+        0% {
+            bottom: 45px;
+            left: 28%;
+            transform: rotate(0deg);
+        }
+
+        100% {
+            bottom: 181px;
+            left: 23%;
+            transform: rotate(360deg) scale(0.5);
+        }
+    }
+
+    @keyframes movebetleft {
+        0% {
+            bottom: 45px;
+            transform: rotate(0deg);
+        }
+
+        100% {
+            bottom: 181px;
+            left: -40%;
+            transform: rotate(360deg) scale(0.5);
+        }
+    }
+
+    .penalty-game-ground-img {
+        bottom: 12px;
+    }
+
+    .audience-img-cotent {
+        top: 3px;
+    }
+
+    .penalty-game-content {
+        height: 413px;
+    }
+
+    .penalty-bet-details {
+        margin: -15px auto 40px auto;
+    }
+
+    .stadium-light-main-content {
+        top: 25px;
+    }
+
+    .lightcontent-penalty {
+        height: 207px;
+    }
+
+    .penalty-game-ground-img .ground-content-list {
+        width: 100%;
+        object-fit: cover;
+        height: 188px;
+    }
+
+    .standing-men-content {
+        left: -59px;
+        width: 65px;
+        height: 70px;
+        background-size: contain;
+    }
+
+    .walk-container {
+        width: 24%;
+        padding-bottom: 20%;
+    }
+
+    .walk {
+        left: -14px;
+    }
+
+    .walk-position {
+        bottom: 17px;
+    }
+
+    .ball-pen,
+    .shadow-img-bottom.ball-container {
+        height: 20px;
+        width: 20px;
+    }
+
+    .penalty-main-title {
+        width: 112px;
+        top: -4px;
+    }
+
+
+    .penalty-right-net-details,
+    .penalty-left-net-details {
+        top: 151px;
+    }
+
+    .penalty-right-net-details .net-right-content,
+    .penalty-left-net-details .net-left-content {
+        width: 108px;
+        height: 80px;
+    }
+
+    .progress-timer-green,
+    .timer-progress-bg,
+    .subtract-img , .timer-progress-bg svg{
+        width: 60px;
+        height: 60px;
+    }
+
+    .timer-progress-bg .timer-text-pro {
+        font-family: 'nunito-bold', sans-serif;
+        color: #fff;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .penalty-max-content {
+        max-width: 215px;
+        margin: auto;
+        position: relative;
+        transform: translateX(-7%);
+        z-index: 1;
+    }
+
+    .bet-user-card-content {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:374px) {}
+
+@media screen and (max-width: 320px) {
+    .standing-men-content {
+        left: -29px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .walk-container {
+        width: 11%;
+        padding-bottom: 8%;
+    }
+    .walk-position {
+        bottom: 80px;
+    }
+    
+
+    .ball-pen,
+    .shadow-img-bottom.ball-container {
+        height: 10px;
+        width: 10px;
+    }
+
+    .shadow-img-bottom.ball-container {
+        bottom: 113px;
+    }
+
+    .standing-men-content {
+        left: -29px;
+        width: 25px;
+        height: 25px;
+        bottom: 103px;
+    }
+
+    .walk {
+        left: -7px;
+    }
+
+    @keyframes movebetright {
+        0% {
+            bottom: 113px;
+            left: 28%;
+            transform: rotate(0deg);
+        }
+        
+        100% {
+            bottom: 172px;
+            left: 14%;
+            transform: rotate(360deg) scale(0.5);
+        }
+    }
+
+    @keyframes movebetleft {
+        0% {
+            bottom: 113px;
+            transform: rotate(0deg);
+        }
+        
+        100% {
+            bottom: 172px;
+            left: -20%;
+            transform: rotate(360deg) scale(0.5);
+        }
+    }
+ 
+
+    .penalty-max-content {
+        max-width: 95px;
+        margin: auto;
+        position: relative;
+        transform: translateX(-9%);
+    }
+
+    /* 
+    .penalty-right-net-details .net-right-content, .penalty-left-net-details .net-left-content {
+        width: 57px;
+        height: 32px;
+    }
+    .penalty-right-net-details {
+        right: 27.5%;
+        top: 219px;
+    }
+    .penalty-left-net-details {
+        top: 219px;
+        left: 21%;
+    }
+    .penalty-main-title {
+        left: 22%;
+    }
+    .penalty-main-net-details .penalty-main-title-right {
+        right: 25.56%;
+    }
+    .penalty-main-title {
+        top: 199px;
+    }
+    .penalty-game-ground-img {
+        bottom: 60px;
+    }
+    .penalty-ball-details {
+        max-width: 35px;
+        bottom: 32px;
+    } */
+    .penalty-game-content {
+        height: 380px;
+        margin: -90px auto auto auto;
+    }
+
+    .penalty-ball-details::after {
+        width: 20px;
+    }
+
+    .penalty-ball-details {
+        max-width: 20px;
+        bottom: 116px;
+    }
+
+    .connect-wallet-btn-main .connect-btn-main,
+    .connect-wallet-btn-main .connect-btn-main:hover,
+    .header-rounded-outline .outline-blue-btn-main .outline-blue-btn-content,
+    .header-rounded-outline .outline-blue-btn-main .outline-blue-btn-content:hover {
+        padding: 5px 10px 5px 10px;
+        font-size: 8px;
+    }
+
+    .header-right-top-content .comman-header-mrl {
+        padding: 0px 5px;
+    }
+
+    .penalty-ball-details .ball-football-content {
+        height: 20px;
+        width: 20px;
+    }
+
+    .penalty-bet-details {
+        margin: -113px auto 40px auto;
+    }
+
+    .penalty-game-ground-img .ground-content-list {
+        height: 247px;
+        object-fit: contain;
+    }
+
+    /* .penalty-right-net-details .net-right-content, .penalty-left-net-details .net-left-content {
+        width: 52px;
+        height: 29px;
+    } */
+    .penalty-main-title {
+        width: 50px;
+        top: -5px;
+    }
+
+    .stadium-light-main-content {
+        top: 66px;
+    }
+
+    .lightcontent-penalty {
+        height: 157px;
+    }
+
+    .stadim-img {
+        height: 302px;
+    }
+
+    .penalty-main-net-details .penalty-main-title-right {
+        right: 28.56%;
+    }
+
+    .audience-img-cotent {
+        top: -3px;
+    }
+
+    .penalty-right-net-details, .penalty-left-net-details {
+        top: 144px;
+    }
+
+    .penalty-right-net-details .net-right-content,
+    .penalty-left-net-details .net-left-content {
+        width: 47.5px;
+        height: 80px;
+    }
+
+    .penalty-main-title .penalty-title {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .penalty-right-net-details, .penalty-left-net-details {
+        top: 151px;
+    }
+    .walk-position {
+        bottom: 83px;
+    }
+    @keyframes movebetright {
+        0% {
+            bottom: 113px;
+            left: 28%;
+            transform: rotate(0deg);
+        }
+        100% {
+            bottom: 165px;
+            left: 14%;
+            transform: rotate(360deg) scale(0.5);
+        }
+    }
+    @keyframes movebetleft {
+        0% {
+            bottom: 113px;
+            transform: rotate(0deg);
+        }
+        100% {
+            bottom: 165px;
+            left: -20%;
+            transform: rotate(360deg) scale(0.5);
+        }
+    }
+    .penalty-timer-details .timer-progress-details {
+        bottom: 118px;
+    }
+    .progress-timer-green, .timer-progress-bg, .subtract-img,.timer-progress-bg svg {
+        width: 30px;
+        height: 30px;
+    }
+    .timer-progress-bg .timer-text-pro {
+        font-size: 7px;
+        line-height: 13px;
+    }
+}

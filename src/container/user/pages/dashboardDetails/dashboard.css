@@ -1,0 +1,46 @@
+.user-dashboard-details {
+    display: flex;
+    align-items: center;
+}
+
+.user-dashboard-details .dashborad-total-details {
+    width: calc(100% / 5);
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.user-dashboard-details .dashboard-pd-content{
+    padding: 24px;
+    background: #171b37;
+    color: #6A7EB7;
+    border-radius: 10px;
+
+}
+
+.display {
+    display: flex;
+
+}
+
+.dashboard-title {
+    color: #6A7EB7;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.dashborad-total-details .dashboard-title-user {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 18px;
+    font-family: 'inter-bold', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.dashborad-total-details .dashboard-amount-user {
+    font-size: 18px;
+    font-family: 'nunito-bold', sans-serif;
+    font-weight: bold;
+    color: #8591be;
+}

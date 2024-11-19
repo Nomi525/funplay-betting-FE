@@ -1,0 +1,791 @@
+.live-game-bg-main {
+    background: #5356FB;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.live-game-bg-main::after {
+    content: '';
+    background: url('/src/assets/images/png/live-game-bg.png');
+    position: absolute;
+    top: 0;
+    width: 287.54px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.live-game-bg-main .live-game-pd-content {
+    padding: 29px 39px 28px 39px;
+}
+
+.dasboard-flex-user-main {
+    display: flex;
+}
+
+.right-dashboard-main-user {
+    /* max-width: 204px;
+    width: 204px;
+    flex: 0 0 204px;
+    padding-left: 14px; */
+    max-width: 240px;
+    width: 240px;
+    flex: 0 0 240px;
+    padding-left: 0px;
+    position: fixed;
+    right: 8px;
+    top: 93px;
+    /* right: 45px;
+    top: 102px; */
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    z-index: 999;
+}
+
+
+.left-dashboard-main-user {
+    width: calc(100%);
+    padding-right: 10px;
+}
+
+.live-game-flex-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.livegame-col1 {
+    flex: 0 0 343px;
+    max-width: 343px;
+    width: 343px;
+    z-index: 11;
+    position: relative;
+}
+
+.livegame-col2 {
+    flex: 0 0 366px;
+    max-width: 366px;
+    width: 366px;
+}
+
+.live-game-text-details .live-game-title {
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'nunito-bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.live-game-text-details .live-game-details-play {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.live-game-text-details {
+    margin-bottom: 20px;
+}
+
+.number-betting-text-details .live-game-title {
+    color: #fff;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.number-betting-text-details .live-game-details-play {
+    color: #fff;
+    line-height: 16px;
+    font-size: 12px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.number-betting-text-details {
+    margin-bottom: 15px;
+}
+
+.play-now-live-btn .play-now-white-btn,
+.play-now-live-btn .play-now-white-btn:hover {
+    background: #ffff;
+    padding: 7.76px 28px 6.24px 28px;
+    border-radius: 30px;
+    color: #2E60EB;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.live-game-card-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+    height: 100%;
+    align-items: end;
+    padding-bottom: 12px;
+}
+
+.live-game-card-main-content .live-game-card {
+    width: calc(100% / 3);
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.live-user-game-img img {
+    height: 57px;
+    max-width: 57px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.live-user-game-img {
+    position: relative;
+}
+
+.live-user-game-num {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.live-user-game-num .live-game-number-title {
+    background: #E57716;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'nunito-regular', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.live-game-user-details {
+    margin-top: 9px;
+    text-align: center;
+}
+
+.live-game-user-details .user-game-title {
+    color: #fff;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.live-game-user-details .user-game-title-id {
+    color: #ABB9E1;
+    font-family: 'nunito-regular', sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.game-id-main-show {
+    background: #FFFFFF;
+    border-radius: 11px;
+    padding: 4px 8px 3px 8px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+
+.game-id-main-show .game-controller {
+    max-width: 9.69px;
+    height: 7.11px;
+    object-fit: contain;
+    margin-right: 6.31px;
+}
+
+.game-id-main-show .span-game-controller {
+    color: #141B4D;
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'nunito-bold', sans-serif;
+}
+
+/* .live-user-game-img.user-scale-main img {
+    height: 101px;
+    width: 101px;
+} */
+
+.deposit-bonus-box .deposit {
+    width: 100%;
+    height: 100px;
+    /* max-width: 838px; */
+    border-radius: 6px 6px 0px 0px;
+}
+
+.our-game-title-details .game-title-our {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'nunito-bold', sans-serif;
+}
+
+.card-our-game-main .card-game-our-pd {
+    padding: 15px 15px 20px 15px;
+}
+
+.our-game-img-content .our-game-bg {
+    height: 150px;
+    width: 100%;
+    /* object-fit: cover; */
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card-our-game-main {
+    background-color: #171B37;
+    border-radius: 10px;
+}
+
+.our-game-img-content {
+    margin-bottom: 16px;
+}
+
+.flex-star-game {
+    /* display: flex;
+    align-items: center;
+    max-width: max-content; */
+    display: flex;
+    align-items: center;
+    /* max-width: max-content; */
+    /* justify-content: start; */
+    width: 100%;
+}
+
+.flex-star-game .star-game {
+    height: 9.95px;
+    margin-right: 5px;
+    display: inline-flex;
+    align-items: center;
+    /* position: absolute; */
+    /* right: 0; */
+    /* margin-left: auto; */
+    /* width: 100%; */
+    justify-content: start;
+
+}
+
+.star-list-content {
+    /* display: flex;
+    margin-bottom: 8.05px; */
+    display: flex;
+    margin-bottom: 8.05px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.star-list-content .review-game-main {
+    color: #789CFF;
+    font-size: 10px;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 14px;
+}
+
+.our-game-details .number-betting {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 19px;
+    font-family: 'nunito-bold', sans-serif;
+    /* margin-bottom: 2px; */
+}
+
+.our-game-details .game-details-content {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.our-game-title-details {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+
+.show-main-all-game .show-all-details {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.grid-top-weekly .grid-inner-weekly .grid-column {
+    padding: 0px 11px;
+}
+
+.grid-top-weekly .grid-inner-weekly {
+    margin: 0px -11px;
+}
+
+.live-beat-card-bg {
+    background: #171B37;
+    border-radius: 10px;
+}
+
+.live-beat-card-bg .live-beat-padding {
+    padding: 15px 22px 20px;
+}
+
+.live-beat-details .live-beat-title {
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'nunito-bold', sans-serif;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #212854;
+}
+
+.table-livebeat .table-head-livebeat .table-row-livebeat th {
+    border-bottom: transparent;
+    color: #789CFF;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'nunito-regular', sans-serif;
+    padding-bottom: 0px;
+}
+
+.table-livebeat tbody .table-tr-livebeat {
+    border: 1px solid #3C528F;
+}
+
+.table-livebeat tbody .table-tr-livebeat td:nth-child(1) {
+    border-radius: 9px 0px 0px 9px;
+    border: 1px solid #3C528F;
+    border-right: 0px;
+}
+
+.table-livebeat tbody .table-tr-livebeat td:nth-child(2) {
+    border-radius: 0;
+    border: 1px solid #3C528F;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.table-livebeat tbody .table-tr-livebeat td:nth-child(3) {
+    border-radius: 0;
+    border: 1px solid #3C528F;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.table-livebeat tbody .table-tr-livebeat td:nth-child(4) {
+    border-radius: 0px 9px 9px 0px;
+    border: 1px solid #3C528F;
+    border-left: 0px;
+}
+
+
+.flex-league-main {
+    display: flex;
+    align-items: center;
+}
+
+.flex-league-main-name {
+    display: flex;
+    align-items: center;
+}
+
+.flex-league-main .league-user {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.flex-league-main .details-live-beat {
+    font-size: 14px;
+    color: #fff;
+    line-height: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.flex-league-main-name .league-user-img {
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.league-id-details {
+    text-align: start;
+}
+
+.league-id-details .title-user-name {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.league-id-details .title-user-idname {
+    color: #789CFF;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.win-text-livebeat,
+.win-text-livebeat,
+.table-livebeat thead tr th,
+.table-livebeat tbody tr td {
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.table-livebeat thead tr th,
+.table-livebeat tbody tr td {
+    padding: 12px 16px;
+}
+
+.table-livebeat thead tr th:nth-child(1),
+.table-livebeat tbody tr td:nth-child(1) {
+    width: 40%;
+    min-width: 40%;
+}
+
+.table-livebeat thead tr th:nth-child(2),
+.table-livebeat tbody tr td:nth-child(2) {
+    width: 27%;
+    min-width: 27%;
+}
+
+.table-livebeat thead tr th:nth-child(3),
+.table-livebeat tbody tr td:nth-child(3) {
+    width: 15%;
+    min-width: 15%;
+}
+
+.table-livebeat thead tr th:nth-child(4),
+.table-livebeat tbody tr td:nth-child(4) {
+    width: 18%;
+    min-width: 18%;
+}
+
+.table-container-livebeat .table-livebeat {
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+
+.card-betting-main .betting-card-bg {
+    background: #171B37;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+.card-betting-main .betting-card-bg .betting-card-pd {
+    padding: 104px 15px 22px 15px;
+}
+
+.card-betting-main {
+    position: relative;
+}
+
+.card-betting-main .betting-img-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -27px;
+}
+
+.betting-img-content .betting-img {
+    max-width: 154px;
+    height: 114px;
+    object-fit: cover;
+}
+
+.betting-card-bg .betting-title-right {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 8px;
+    font-family: 'nunito-semibold', sans-serif;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.betting-card-bg .betting-details-right {
+    color: #FFFFFF;
+    font-size: 8px;
+    line-height: 11px;
+    font-family: 'nunito-regular', sans-serif;
+    margin-bottom: 15px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.our-game-slider .owl-nav {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: -45px;
+}
+
+.our-game-carousel .our-game-slider .owl-nav .owl-prev,
+.our-game-carousel .our-game-slider .owl-nav .owl-prev:hover,
+.our-game-carousel .our-game-slider .owl-nav .owl-next,
+.our-game-carousel .our-game-slider .owl-nav .owl-next:hover {
+    color: transparent;
+    background: transparent;
+    margin: 0px;
+    padding: 0px 5px;
+}
+
+.our-game-carousel .our-game-slider .owl-nav .owl-next,
+.our-game-carousel .our-game-slider .owl-nav .owl-next:hover {
+    /* opacity: 0.6; */
+    transform: rotate(180deg);
+    margin-top: -6px;
+}
+
+.our-game-error {
+    opacity: 0.6;
+}
+
+.right-live-game-img .casino-banner {
+    width: 100%;
+    height: 187px;
+    object-fit: cover;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+}
+
+.deposit-bonus-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px 30px;
+}
+
+.col1-dash {
+    width: 100%;
+    min-width: 100%;
+    flex: 0 0 100%;
+    padding: 0px 10px;
+}
+
+.custom-col1 {
+    width: 100%;
+    /* min-width: 100%; */
+    flex: 1;
+}
+
+.col2-dash {
+    width: 100%;
+    min-width: 100%;
+    flex: 0 0 100%;
+    padding: 0px 10px;
+}
+
+.banner-slider-details {
+    margin-bottom: 15px;
+}
+
+.refrral-details-user-dash .copy-hash-id-flex {
+    margin-top: 0px;
+    position: relative;
+}
+
+.refrral-details-user-dash .title-label-comman-user {
+    color: #fff !important;
+    font-family: 'nunito-bold', sans-serif !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin-bottom: 0px !important;
+    text-transform: capitalize;
+    padding-right: 12px;
+}
+
+.banner-slider-details .owl-nav.disabled {
+    display: block;
+}
+
+.banner-slider-details .owl-nav {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    top: 0;
+    margin: 0px !important;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    left: 0px;
+}
+
+.deposit-bonus-box .banner-slider-details .owl-nav .owl-prev,
+.deposit-bonus-box .banner-slider-details .owl-nav .owl-next {
+    background: #ffffffd6;
+    padding: 0px;
+    height: initial;
+    margin: 0px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.deposit-bonus-box .banner-slider-details .owl-nav .owl-prev {
+
+    position: absolute;
+    left: -10px;
+
+}
+
+.deposit-bonus-box .banner-slider-details .owl-nav .owl-next {
+
+    position: absolute;
+    right: -10px;
+
+}
+
+.banner-slider-details .owl-nav .owl-next {
+    transform: rotate(180deg);
+}
+
+.star-game .MuiRating-icon {
+    /* color: gray; */
+    color: #faaf00;
+}
+
+.MuiRating-decimal .MuiRating-iconFilled {
+    color: #faaf00;
+}
+
+
+.owl-slider-main-content .owl-nav [class*=owl-]:hover {
+    background: white;
+}
+
+.referral-link-title {
+    position: absolute;
+    left: 14px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #2b2a5d;
+}
+
+.copy-hash-id-flex .form-control-details-auth .custom-auth-user-control input {
+    padding-left: 155px;
+    padding-right: 100px;
+    text-overflow: ellipsis;
+}
+
+.flex-justify-game {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5.05px;
+    justify-content: space-between;
+}
+
+.live-beat-details {
+    margin-bottom: -15px;
+}
+
+.dots-img-game-details .game-dot-btns {
+    padding: 0px;
+    min-width: max-content;
+}
+
+.dots-img-game-details .game-dot-btns img {
+    height: 20px;
+}
+
+.copy-link-btn-dash {
+    position: absolute;
+    right: 5px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.dot-game-details .dot-form-controls .select-dot-conetnt {
+    background: #0c0e1d;
+    border: 1px solid #2b2a5d;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 17px;
+}
+
+.dot-game-details .dot-form-controls .select-dot-conetnt .MuiSelect-select {
+    padding: 2px 20px 2px 10px;
+}
+
+.menuitem-dot-content {
+    color: #fff !important;
+    font-size: 10px !important;
+    font-family: 'nunito-regular', sans-serif !important;
+    padding: 5px 10px !important;
+    text-align: center;
+    justify-content: center !important;
+}
+
+.dot-game-details .dot-form-controls .select-dot-conetnt svg {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+
+.mobile-our-game-show {
+    display: none;
+}
+
+.desk-our-game-show {
+    display: block;
+}
+
+.betting-img-content .betting-img {
+    height: 105px;
+    max-width: 154px;
+    object-fit: cover;
+}
+
+.card-betting-main .betting-card-bg .betting-card-pd {
+    padding: 89px 15px 16px;
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="14" height="14">
+	<title>data-searching</title>
+	<defs>
+		<image  width="16" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAAAXNSR0IB2cksfwAAAKVQTFRF////////////AAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////jb/nTAAAADd0Uk5TfndBAHg8WiimbTGMhoeVZnRnao5ZgDMKgWgLco2JgzVlV5dcgnaRDF6Wc6pYQEhjVFY+VX8eRu/ZBJkAAAB+SURBVHicY2BghAImZjBgYGFlZQPx2Tk4ucAC3DxgeV4+fgFBIZCAMFhARJRRTFxCkguhhZeFmVlKmhMoIAPRIivHzCyvoIgQUFJWYVFVU0doYdPQZBHV0lYEGaoDtlZJl5lZT9/AEGYto5IR0E5jERO4w0xZQM5iNWNAdzoAxcoICbHJVqcAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="2"/>
+</svg>

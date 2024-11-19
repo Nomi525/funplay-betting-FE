@@ -1,0 +1,89 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .card-title-bet-details .card-title-main {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* .card-bet-bg {
+        margin-bottom: 20px;
+    } */
+
+    .price-content-bit .price-list-bit {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .price-content-bit .price-list-bit .price-content-bit {
+        max-width: max-content;
+        margin-bottom: 20px;
+    }
+
+    .bet-amount-bg-content {
+        padding: 20px 10px;
+    }
+
+    .price-bet-bid-content {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .bet-flex-content {
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+    .price-input-details-content .input-design-div.with-border input,
+    .price-bet-input-details {
+        width: 100%;
+    }
+
+    .price-bet-or-details .price-or-text {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    .low-card-main-btn .low-card-btn-list,
+    .low-card-main-btn .low-card-btn-list:hover,
+    .low-card-main-btn .low-card-btn-list:active,
+    .low-card-main-btn .low-card-btn-list.Mui-focusVisible
+    .high-card-main-btn .high-card-btn-list,
+    .high-card-main-btn .high-card-btn-list:hover,
+    .high-card-main-btn .high-card-btn-list:active,
+    .high-card-main-btn .high-card-btn-list.Mui-focusVisible {
+        font-size: 10px;
+        line-height: 15px;
+        padding: 7px 10px;
+    }
+
+    .low-card-main-btn .low-card-btn-list::after,
+    .high-card-main-btn .high-card-btn-list::after {
+        height: 30px;
+    }
+}
+
+@media screen and (max-wudth: 281px) {
+    .card-bet-video .card-betting-video {
+        height: 195px;
+    }
+    .card-bg-details .card-flip-middle-content {
+        width: 31px;
+        height: 45px;
+    }
+    .high-card-main-btn .high-card-btn-list, .high-card-main-btn .high-card-btn-list:hover, .high-card-main-btn .high-card-btn-list:active, .high-card-main-btn .high-card-btn-list.Mui-focusVisible {
+        font-size: 10px;
+    }
+}

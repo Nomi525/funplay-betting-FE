@@ -1,0 +1,65 @@
+/* styles for the RadioGroup container */
+.custom-radio-group {
+    /* background-color: lightgray; */
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+/* styles for individual radio buttons (FormControlLabel) */
+.custom-radio-label {
+    margin: 5px;
+
+}
+
+/* styles for radio button label text */
+.custom-radio-label-text {
+    /* color: blue; */
+}
+
+/* styles for radio button */
+.custom-radio-input {
+    color: blue;
+}
+
+/* styles for the selected (checked) radio button */
+.custom-radio-input:checked {
+    color: green;
+}
+
+.addfam {
+    margin-top: 20px;
+}
+
+.remove-btn {
+    margin-top: 22px;
+}
+
+.upload-banner-content {
+    text-transform: none;
+}
+
+.upload-banner-content .add-game-img {
+    border-radius: 0px;
+}
+
+/* .MuiFormHelperText-root{
+    background-color: red;
+} */
+
+/* .css-1d1r5q-MuiFormHelperText-root{
+  color: red !important;
+} */
+
+.deleteModel-heading {
+    margin-bottom: 20px;
+}
+
+.red-star {
+    color: red;
+}
+
+
+.mr-10px-button {
+    margin-right: 10px;
+}

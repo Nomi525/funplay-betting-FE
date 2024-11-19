@@ -1,0 +1,206 @@
+const Api = {
+  ADMIN_LOGIN: "admin/login",
+  FORGOT_PASSWORD: "admin/forgot-password",
+  ADMIN_OTP: "admin/verify-otp",
+  RESEND_OTP: "admin/resend-otp",
+  RESET_PASSWORD: "admin/reset-password",
+  CHANGE_PASSWORD: "admin/change-password",
+  PROFILE_UPDATE: "admin/profile-update",
+  PROFILE_GET: "admin/profile",
+  ADMIN_DASHBOARD: "admin/dashboard",
+  TRANSACTION: "admin/get-all-transaction",
+  TRANSACTION_SINGLE_USER: "admin/get-deposite-withdrawal-list",
+  GET_SINGLE_ADMIN_USER_TRANSACTION: "admin/get-User-Transation-Data",
+  GET_SINGLE_ADMIN_USER_BANK_DETAILS: "admin/get-User-bank-Data",
+  GET_SINGLE_ADMIN_USER_WALLET_DETAILS: "admin/get-User-wallet-Data",
+  GET_SINGLE_ADMIN_USER_GAME_DETAILS: "admin/get-User-game-Data",
+  GET_SINGLE_ADMIN_USER_REFERRAL_DETAILS: "admin/get-User-referral-Data",
+
+  ADMIN_SETTING_ADD: "admin/setting-add-edit",
+  ADMIN_SETTING_GET: "admin/setting-get",
+  ADMIN_CMS: "admin/cms",
+  TERMS_CONDITION: "admin/cms/terms-and-condition",
+  PRIVACY_POLICY: "admin/cms/add-edit-privacy-policy",
+  ADMIN_GAMES: "admin/games",
+  ADMIN_VIEW: "admin/single-game",
+  ADMIN_ADD: "admin/game/add-edit",
+  ADMIN_GAME_DELETE: "admin/game/delete",
+  ADMIN_BANNER: "common/banners",
+  ADMIN_BANNER_ADD: "common/banner-add-edit",
+  ADMIN_BANNER_DELETE: "common/banner-delete",
+  ADMIN_GAME_RULES: "admin/game-rules",
+  ADMIN_GAME_ACTIVE: "admin/game-active-deactive",
+  ADMIN_GAME_RULES_ADD: "admin/game-rules/add-edit",
+  ADMIN_ADD_USER: "admin//user-edit",
+  ADMIN_DELETE_USER: "admin/user-delete",
+  ADMIN_GET_USER: "admin//users",
+  ADMIN_SINGLE_USER: "admin/single-user",
+  ADMIN_ACTIVE_DEACTIVE: "admin/user/activate/deactivate",
+  ADMIN_GET_QUERY: "admin/queries",
+  ADMIN_GET_USER_WISE_GAME_LIST: "admin/get-user-wise-game-list",
+  ADMIN_ADD_EDIT_COMMUNITY_BETTING: "admin/add-edit-community-betting",
+  ADMIN_GET_ALL_LIST_COMMUNITY_BETTING: "admin/get-all-community-betting",
+  ADMIN_GET_SINGLE_LIST_COMMUNITY_BETTING: "admin/get-single-community-betting",
+  ADMIN_GET_UPDATE_WINNERS_USER: "admin/get-all-and-update-winners-user",
+  ADMIN_GET_USERS_WINNERS_COMMUNITY_BETTING:
+    "admin/get-all-users-and-winners-community-betting",
+  ADMIN_UPDATE_DECLARE_WINNER: "admin/declare-community-betting-winner",
+  ADMIN_DECLARE_WINNER_NUMBER_BETTING: "admin/declare-number-betting-winner",
+  ADMIN_DECLARE_WINNER_COLOR_BETTING: "admin/declare-colour-betting-winner",
+  ADMIN_DECLARE_WINNER_CARD_BETTING: "admin/declare-card-betting-winner",
+  ADMIN_DECLARE_WINNER_PENALTY_BETTING: "admin/declare-penalty-betting-winner",
+  ADMIN_GAME_PERIODS: "admin/get-all-game-periods",
+  ADMIN_PERIODS_LIST: "common/get-periods-details-all-game",
+  ADMIN_PERIODS_SELECTED_TIME_LIST: "admin/get-all-game-period-selected-time",
+
+  // add payment
+  ADMIN_PAYMENT_ADD: "admin/add-update-qr-upi",
+  ADMIN_GET_PAYMENT_DETAILS: "common/get-qr-upi",
+
+  // bet history
+  ADMIN_BET_HISTORY_LIST: "user/get-all-betting-history",
+
+  // deposite req
+  ADMIN_GET_DEPOSIT_REQUEST: "/admin/get-all-faint-currency",
+  ADMIN_DEPOSIT_REQUEST_APPROVED_REJECTED:
+    "/admin/change-status-faint-currency",
+  ADMIN_USER_ADD_TRANSACTION: "/admin/add-user-credit-debit",
+  //role_permission
+
+  ADD_ROLE_PERMISSION: "admin/permission-add-edit",
+  GET_ROLE_PERMISSION: "/admin/get-all-permission",
+  DELETE_ROLE_PERMISSION: "/admin/permission-delete",
+  GET_ROLE_ADMIN: "/admin/get-role-admin",
+
+  //subadmin
+
+  ADD_SUBADMIN: "/admin/add-subadmin",
+  GET_SUBADMIN: "/admin/get-sub-admin",
+  DELETE_SUBADMIN: "/admin//delete-subadmin",
+
+  // currency
+  Add_edit_currency: "admin/add-edit-currency-coin",
+  Get_currency: "admin/get-all-currency-coin",
+  Admin_currency_delete: "admin/delete-currency-coin",
+
+  // withdrawal req
+  WITHDRAWAL_LIST: "admin/get-all-request-withdrawal",
+  GET_SINGLE_WITHDRAWAL_REQ: "admin/get-single-withdrawal-request",
+  ADMIN_WITHDRAWAL_REQUEST_APPROVED_REJECTED:
+    "admin/accept-reject-withdrawal-req",
+
+  GET_UPI_PAYMENT_LIST: "admin/get-all-upi-method",
+  ADD_UPI_PAYMENT: "admin/add-upi-method ",
+  DELETE_UPI_PAYMENT_METHOD: "admin/upi-method-delete",
+  CHANGE_PAYMENT_STATUS: "admin/upi-status-update",
+  ADMIN_GET_BANK_DETAILS: "/admin/get-all-bank-detail",
+  ADMIN_ADD_EDIT_BANK_DETAILS: "admin/add-edit-bank-detail",
+  User: {
+    GET_TOTAL_COINS: "user//total-coin",
+    SIGNUP_USER: "user/signup-signin-otp",
+    OTP_VERIFY: "user/verify-otp",
+    RESEND_OTP: "user/resend-otp",
+    PASSWORD_USER: "user/signup-password",
+    LOGIN_USER: "user/check-email",
+    FORGOT_PASSWORD: "user/forgot-password",
+    RESET_PASSWORD: "user/reset-password",
+    GUEST_LOGIN: "user/guest-login",
+    DELETE_USER: "user/deactivate-user",
+    USER_PROFILE: "user/profile",
+    EDIT_PROFILE: "user/profile-update",
+    CHAGES_PASSWORD: "user/change-password",
+    SET_PASSWORD: "user/set-password",
+    ADD_EDIT_QUERY: "user/query/add-edit",
+    TRANSATION_HISTORY: "user/get-deposit-withdrawal",
+    ADD_TRANSATION_HISTORY: "user/new-transction/add",
+    USER_DASHBOARD_DETAILS: "user/dashboard",
+    USER_DASHBOARD_DETAILS_NEW: "user/userDashboard1",
+    USER_AMOUNT_DEPOSIT: "user/total-amount-deposit",
+    USER_WITHDRAWAL_REQUEST: "user/withdrawal-request",
+    USER_WALLET_SIGNUP: "user/signin-wallet",
+    USER_GAMES: "user/games",
+    USER_GAME_RULES: "common/get-single-game-rule",
+    USER_CURRENCY: "common/get-all-currency",
+    USER_RATING: "user/game/rating/average",
+    USER_ADD_NUMBERBETTING: "user/create-number-bet",
+    USER_GET_ALLNUMBERBET: "user/get-number-bets",
+    USER_GET_SINGLENUMBER_BET: "user/get-single-number-bet",
+    USER_DELETE_NUMBERBET: "user/delete-number-bet",
+    // USER_GET_SINGLE_GAMETIME: "common/get-single-game-time",
+    USER_COIN: "common/get-all-currency",
+    THREE_COLOR_BETTING: "user/create-colour-bet",
+    GAME_WINNER_LIST_NUMBER_BETTING: "user/get-number-betting-winner",
+    GAME_WINNER_LIST: "user/get-color-betting-winner",
+    GET_ALL_USER_WINNER_LIST: "user/get-all-color-game-winners",
+    GET_SINGLE_USER_LIST: "user/get-single-color-game-winners",
+    GET_ALL_GAME_PERIOAD: "user/get-all-game-period",
+    GET_SINGLE_GAME_PERIOAD: "user/get-by-id-game-period",
+    GET_ALL_NUMBER_GAME_PERIOD: "user/get-all-number-game-period",
+    GET_MY_RECORDS: "user/get-single-number-game-period",
+    GET_GAME_PERIOD: "user/get-period",
+    // GET_ALL_GAME_PERIOAD: "user/get-by-id-game-period",
+
+    GET_ALL_COMMUNITY: "/user/get-all-live-community-bets",
+    GET_COMMUNITY_DAY_USER: "user/get-all-last-day-community-betting-winners",
+    GET_COMMUNITY_LOGIN_USER: "user/get-login-user-community-bets",
+    ADD_COMMUNITY_BEAT: "/user/add-edit-community-bets",
+    GET_COMMUNITY_WINNER_USER: "/user/community-winners",
+    GET_TOP_WEEKLY_MONTHLY_PLAYER: "user/get-top-weekly-monthly-users",
+    GET_SLOTS_BOOKED_IN_COMMUNITY_BETTING:
+      "user/community-betting-slots-booked",
+    //pentaly betting api
+    CREATE_PENALTY_BET: "/user/create-penalty-bet",
+    GET_MY_RECORD: "/user/get-by-id-penalty-betting-period",
+    GET_ALL_RECORD: "/user/get-all-penalty-betting-period",
+    PENALTY_WINNER_RESULT: "/user/get-penalty-betting-winner",
+
+    //card betting api
+    CREATE_CARD_BET: "/user/create-card-bet",
+    GET_ALL_CARD_GAME_PERIOD: "user/get-all-card-betting-period",
+    GET_CARD_MY_RECORDS: "user/get-by-id-card-betting-period",
+    CARD_WINNER_RESULT: "user/get-card-betting-winner",
+
+    //user bank management
+
+    USER_BANK_DELETE: "user/remove-bankDetail",
+    // Himanshu's Changes
+    WALLET_SIGNUP_SIGNIN: "user/signup-signin-with-wallet",
+    UPDATE_EMAIL: "user/update-email",
+    CHECK_WALLET: "user/check-wallet-connectivity",
+    CMS_DETAILS: "user/cms-details",
+    GETALL_USER_GAMES: "user/games",
+    MANUAL_WITHDRAWL_REQUEST: "user/user-withdrawal-request",
+    GET_CURRENT_EXCHANGE_RATE:
+      "https://api.coinbase.com/v2/exchange-rates?currency=ETH",
+    ADD_FIAT_CURRENCY: "user/add-faint-currency",
+    GET_USER_WITHDRAW_REQUEST: "user/get-user-withdrawal-currency",
+    GET_USER_DEPOSIT_REQUEST: "user/get-user-faint-currency",
+    GET_NOTIFICATIONS: "user/get-notifications",
+    GIVE_GAME_RATING: "user/game/rating/add-edit",
+    DELETE_NOTIFICATION: "user/delete-notifications",
+    GET_UPI_PAYMENT_LIST: "user/get-all-upi",
+    GET_DEPOSIT_BANK_DETAILS: "user/get-bank-for-deposit",
+    TOP_WEEKLY_PLAYER: "admin/top-player",
+    TOP_ALL_PLAYER: "admin/top-all-player",
+    USER_TOTAL_WIN: "user/total-win-bet",
+    USER_TOTAL_LOSE: "user/total-loose-bet",
+    BET_HISTORY: "user/find-all-user-bet",
+  },
+  common: {
+    CHAT_IMAGE_UPLOAD: "common/upload-image",
+
+    // for bett.appworkdemo.com
+    // BASE_URL: "https://socket.bett.appworkdemo.com",
+    // TIMER_SOCKET: "https://socket.bett.appworkdemo.com/my-socket",
+
+    //for betting.appworkdemo.com
+    // BASE_URL: "https://betting-api.appworkdemo.com",
+    // TIMER_SOCKET: "https://socket.bett.appworkdemo.com/my-socket",
+
+    // BASE_URL: "http://localhost:3032",
+    // TIMER_SOCKET: "http://localhost:3032/my-socket",
+    BASE_URL: "http://localhost:3032",
+    TIMER_SOCKET: "http://localhost:3032/my-socket",
+  },
+};
+export { Api };

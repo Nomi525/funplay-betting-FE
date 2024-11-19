@@ -1,0 +1,61 @@
+.card-main {
+  background: #101325;
+  padding: 30px;
+  box-shadow: 0px 3px 30px #0000000d;
+  border-radius: 10px;
+}
+
+.grey-button button,
+.grey-button button:hover {
+  background: #101424;
+  border: 2px solid #2d65e6;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.max-profile-content {
+  position: relative;
+  max-width: max-content;
+  margin: auto;
+}
+
+.max-profile-content .max-profile-img-admin .profile-pos-details{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #8d9ac9;
+  z-index: 9;
+  color: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.max-profile-content .max-profile-img-admin .profile-pos-details svg{
+  color: #0c0e1c;
+  height: 17px;
+  width: 17px;
+}
+
+.set-textarea-box-top textarea {
+  padding: 10px 12px;
+  background: #171c36;
+  border-radius: 4px;
+  border: transparent;
+  color: #475887;
+  font-family: 'inter-regular', sans-serif;
+  font-size: 14px;
+  height: 150px !important;
+}
+
+.mb-profile-details .Mui-error {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mb-profile-details{
+  margin-bottom: 30px;
+}

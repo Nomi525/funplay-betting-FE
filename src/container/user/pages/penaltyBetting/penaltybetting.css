@@ -1,0 +1,625 @@
+.penalty-game-content {
+    /* height: 85vh; */
+    height: 460px;
+    position: relative;
+    max-width: 807px;
+    margin: 70px auto auto auto;
+}
+
+.penalty-game-ground-img .ground-content-list {
+    width: 100%;
+    object-fit: contain;
+    height: 280px;
+}
+
+.penalty-game-ground-img {
+    position: absolute;
+    bottom: 12px;
+}
+
+/* 
+.penalty-left-net-details {
+    position: absolute;
+    left: 25%;
+    top: 12.5%;
+}
+
+.penalty-left-net-details .net-left-content {
+    width: 159px;
+    height: 77px;
+} */
+
+
+.penalty-right-net-details {
+    position: absolute;
+    right: 0px;
+    /* right: 33%; */
+    top: 102px;
+    z-index: 1;
+}
+
+.penalty-right-net-details .net-right-content {
+    width: 159px;
+    height: 77px;
+}
+
+/* .penalty-main-net-details {
+    position: relative;
+} */
+
+.penalty-main-title .penalty-title {
+    color: #fff;
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+
+.penalty-left-net-details {
+    position: absolute;
+    /* left: 27.6%; */
+    left: 0;
+    top: 102px;
+    z-index: 1;
+}
+
+.penalty-left-net-details .net-left-content {
+    width: 159px;
+    height: 77px;
+}
+
+
+.penalty-main-title .penalty-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'nunito-semibold', sans-serif;
+}
+
+.penalty-main-title {
+    width: 159px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+}
+
+.penalty-main-net-details .penalty-main-title-right {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.penalty-ball-details .ball-football-content {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    z-index: 2;
+    position: relative;
+}
+
+.penalty-ball-details {
+    max-width: 60px;
+    margin: auto;
+    /* position: absolute; */
+    bottom: 55px;
+    /* left: 0;
+    right: 0; */
+}
+
+/* .shadow-img-bottom{
+    position: relative;
+}
+
+ */
+
+.penalty-ball-details::after {
+    content: '';
+    background-image: url('../../../../assets/images/png/ball_shadow.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 63px;
+    height: 10px;
+    display: block;
+    z-index: 1;
+}
+
+
+.audience-img-cotent {
+    position: absolute;
+    top: -141px;
+    /* z-index: 9; */
+    left: 0;
+    right: 0;
+}
+
+.stadim-img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.stadium-light-main-content {
+    position: absolute;
+    top: -20%;
+}
+
+.lightcontent-penalty {
+    width: 100%;
+    height: 374px;
+}
+
+.bet-place-details .places-brt-main-btn {
+    padding-top: 0px;
+}
+
+.penalty-bet-details .bet-flex-content {
+    width: 65%;
+    margin: auto;
+}
+
+/* .card-bet-details-con .bet-flex-content {
+    width: 58%;
+    margin: auto;
+} */
+
+.bet-amount-title .bet-amount-title-content {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 20px;
+}
+
+.bet-place-details .places-brt-main-btn .place-btn-content,
+.bet-place-details .places-brt-main-btn .place-btn-content:hover,
+.bet-place-details .places-brt-main-btn .place-btn-content:active {
+    padding: 7px 15px;
+}
+
+
+.penalty-bet-details {
+    max-width: 807px;
+    margin: -15px auto 40px auto;
+    position: relative;
+    z-index: 9;
+}
+
+
+
+.penalty-bet-details .bet-amount-bg-content {
+    border-radius: 0px;
+}
+
+.penalty-flex-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .shadow-img-bottom {
+    animation-name: bounce;
+    animation-duration: 1s;
+    transform: translateY(456px);
+    animation-iteration-count: infinite;
+}
+.ball-football-content {
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5,0,1,.5);
+    animation-iteration-count: 16;
+}
+
+  
+@keyframes bounce{
+    0% {top: 0px; transform: scale(1, 1);}
+    80%{transform: scale(0.85, 1);}
+    100% {top: 120px; transform: scale(1.2,0.6);}
+  }
+
+@keyframes movepenaltyit{
+    0% {bottom: 55px;right: 50%;}
+    100% {bottom: -70%;right: 100%;}
+  }
+
+  .ball-container{
+    animation-name: movepenaltyit;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    height: 200px;
+    width: 82px;
+  }
+   */
+
+/* .shadow-img-bottom.ball-container.left-football {
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    bottom: 45px;
+    height: 60px;
+    width: 60px;
+    
+} */
+
+
+.shadow-img-bottom.ball-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 45px;
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+    /* animation-name: movebetright;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform: rotate(0deg); */
+}
+
+.right-football {
+    animation-name: movebetright;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform: rotate(0deg);
+}
+
+.left-football {
+    animation-name: movebetleft;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform: rotate(0deg);
+}
+
+@keyframes movebetleft {
+    0% {
+        bottom: 45px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        bottom: 253px;
+        left: -20%;
+        transform: rotate(360deg) scale(0.5);
+    }
+}
+
+@keyframes movebetright {
+    0% {
+        bottom: 45px;
+        left: 28%;
+        transform: rotate(0deg);
+    }
+
+    /* 50%{
+        transform: rotate(360deg) scale(0.7);
+    } */
+
+    100% {
+        bottom: 253px;
+        left: 23%;
+        transform: rotate(360deg) scale(0.5);
+    }
+}
+
+/* 
+@keyframes movepenaltyit {
+    0% {
+        bottom: 50px;
+        right: 50%;
+    }
+    25% {
+        bottom: 75px;
+        right: 55%;
+    }
+    50% {
+        bottom: 150px;
+        right: 57%;
+    }
+    75% {
+        bottom: 225px;
+        right: 62%;
+    }
+    100% {
+        bottom: 258px;
+        right: 79%;
+        left: 59%;
+    }
+} */
+
+/* @keyframes penbounce {
+    0% {
+        top: 0px;
+        transform: scale(1, 1);
+    }
+
+    80% {
+        transform: scale(0.85, 1);
+    }
+
+
+    100% {
+        top: 190px;
+        transform: scale(1.2, 0.6);
+    }
+}
+*/
+
+/* @keyframes ballpenanimation{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+.ball-pen {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background: radial-gradient(at 20px 20px, rgba(191, 142, 250, 1) 0%, rgba(58, 16, 105, 1) 100%);
+    /* box-shadow: inset -10px -10px 10px rgba(0,0,0,.6);
+    animation-name: penbounce;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5,0,1,.5);
+    animation-iteration-count: 6; */
+}
+
+
+/* .ball-container .ball-pen {
+    animation-name: ballpenanimation;
+} */
+
+/*  */
+
+.mens-kick-ball-main svg {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+
+.mens-kick-ball-main {
+    position: absolute;
+    left: -3rem;
+    right: 0;
+    bottom: 3rem;
+    text-align: center;
+}
+
+
+.men-animation {
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    transform-origin: 50% 50%;
+    animation-name: men-animation;
+}
+
+@keyframes men-animation {
+    0% {
+        transform: skew(0);
+    }
+
+    100% {
+        transform: skewY(-35deg);
+    }
+}
+
+/*  */
+
+/*  */
+
+.walk-position {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.walk-container {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    padding-bottom: 15%;
+    vertical-align: middle;
+    overflow: hidden;
+    animation: stroll 2.5s linear infinite;
+}
+
+@keyframes walkanim {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes stroll {
+    0% {
+        padding-bottom: 15%;
+    }
+
+    100% {
+        padding-bottom: 20%;
+    }
+}
+
+.walk {
+    /* animation: gowalk 1s infinite ; */
+    /* bottom: 0px; */
+    background-image: url(../../../../assets/images/svg/final\ 1\ \(3\).svg);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -23px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 700%;
+    animation: walkanim 2s infinite steps(7);
+}
+
+@keyframes gowalk {
+    0% {
+        bottom: 0px;
+    }
+
+    30% {
+        bottom: 20px;
+    }
+}
+
+/* .walk:after {
+    content: '';
+    background-image: url(../../../../assets/images/svg/walk-sequence.svg);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 800%;
+    animation: walkanim 1s infinite steps(7);
+}
+ */
+
+
+/*  */
+
+/*  */
+.standing-men-content {
+    background-image: url(../../../../assets/images/svg/standing-person.svg);
+    position: absolute;
+    left: -90px;
+    width: 140px;
+    height: 140px;
+    background-repeat: no-repeat;
+    right: 0;
+    margin: auto;
+    bottom: 2px;
+}
+
+.penalty-timer-details .timer-progress-details {
+    bottom: 28px;
+}
+
+
+
+.base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+
+}
+
+.base-timer__path-remaining.orange {
+    color: orange;
+}
+
+.base-timer__path-remaining.red {
+    color: red;
+}
+
+.base-timer {
+    position: relative;
+    width: 100%;
+
+}
+
+.base-timer__svg {
+    transform: scaleX(-1);
+}
+
+.base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+
+.timer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    color: #aaa;
+}
+
+.value {
+    font-size: 40px;
+}
+
+.info {
+    max-width: 360px;
+    margin: 40px auto 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.button-wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.penalty-max-content {
+    max-width: 317px;
+    margin: auto;
+    position: relative;
+    transform: translateX(-9%);
+    z-index: 1;
+}
+
+.desktop-btn-bet {
+    display: block;
+}
+
+.flex-mobile-bet-btn {
+    display: none;
+}
+
+text.CircularProgressbar-text {
+    transform: translate(-8px, 5px);
+}
+
+.game-list-main Strong {
+    font-weight: 600;
+}

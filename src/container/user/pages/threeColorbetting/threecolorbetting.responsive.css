@@ -1,0 +1,1038 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+    .gaming-circle-count {
+        margin: 2rem auto auto auto;
+    }
+
+    .button-inner-list .button-item {
+        width: 6.25rem;
+
+    }
+
+    .spin-arrow-content {
+        top: -1rem;
+    }
+
+    .game-spin-details::before {
+        height: 32.5rem;
+    }
+
+    .border-timer-rounded svg {
+        width: calc(200% - -0.625rem);
+        height: calc(200% - 2.375rem);
+        transform: translate(calc(0.125rem - 30.68%), calc(0.125rem - 22%))rotate(270deg);
+    }
+
+    .border-timer-rounded {
+        width: 8.6rem;
+        height: 8.6rem;
+        left: 7px;
+        top: 6px;
+    }
+
+    .button-await-details {
+        width: 8rem;
+        height: 8rem;
+        top: 11px;
+        left: 0px;
+    }
+
+    .button-landscape {
+        width: 8rem;
+        height: 8rem;
+        left: -3px;
+    }
+
+    .button-control-game {
+        width: 8.4rem;
+        height: 8.4rem;
+    }
+
+    .button-btn-game {
+        height: 2.125rem;
+    }
+
+    .button-item {
+        width: 6rem;
+        height: 3.65rem;
+    }
+
+    .button-game-user-list {
+        width: 23.125rem;
+        left: 54%;
+        top: 9rem;
+        z-index: 9;
+    }
+
+    .amount-landscape-inner {
+        width: 99%;
+        height: 98%;
+    }
+
+    .game-amount-landscape {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .game-amount-landscape {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .user-data-game-show {
+        width: 27.375rem;
+        bottom: -5rem;
+
+    }
+
+    .game-amount-details {
+        top: 5rem;
+        left: 1.5rem;
+        width: 13rem;
+    }
+
+    .button-control-game {
+        top: 6rem;
+    }
+
+    .choose-mutiple-rounded {
+        top: 10px;
+        left: -1px;
+    }
+
+    .multiple-line-timer-show {
+        max-width: 130px;
+    }
+
+
+    .choose-mutiple-rounded .multi-line-border .loader-img-multi {
+        height: 130px;
+        width: 130px;
+    }
+
+    .button-control-inner {
+        justify-content: start;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1360px) and (orientation : landscape) {
+    .button-game-user-list {
+        width: 23.125rem;
+        /* position: absolute;
+        left: 49%;
+        transform: translate(-38%);
+        top: 10rem;
+        z-index: 9; */
+    }
+
+    .game-amount-details {
+        left: -0.5rem;
+    }
+
+    .button-control-game {
+        right: 0.5rem;
+    }
+
+    .button-inner-list .button-item {
+        width: 6.25rem;
+    }
+
+    .game-spin-details::before {
+        top: -11.5rem;
+    }
+
+    .user-show-details {
+        top: -21rem;
+    }
+
+    .user-listitem-details {
+        height: 118px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation : landscape) {
+    .button-control-game {
+        width: 9.875rem;
+        height: 9.875rem;
+    }
+
+    .choose-mutiple-rounded {
+        left: 8px;
+    }
+
+    .button-inner-list .button-item {
+        width: 5.99rem;
+    }
+
+    .button-btn-game>span {
+        font-size: .75rem;
+    }
+
+    .button-game-user-list {
+        width: 20.125rem;
+        left: 49%;
+        z-index: 9;
+        transform: translate(-36%);
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .border-timer-rounded {
+        left: 19px;
+    }
+    .choose-mutiple-rounded {
+        left: 13px;
+    }
+    
+    .user-show-details {
+        top: -25rem;
+    }
+
+    .game-records-details {
+        max-width: calc(100% - 30px);
+    }
+
+    .game-record-number-id .recordid-text-content {
+        font-size: 13px;
+    }
+
+    .user-data-show-three {
+        max-width: 670px;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .gaming-circle-count {
+        margin: 2rem auto auto auto;
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .game-spin-details::before {
+        top: -7rem;
+        height: 30.5rem;
+    }
+
+    .betting-three-main {
+        padding-top: 24px;
+        /* min-height: 785px; */
+    }
+
+    .spin-arrow-content {
+        top: -0.4rem;
+    }
+
+    .mobile-overflow-content {
+        overflow-x: hidden;
+    }
+
+    .button-game-user-list {
+        width: 26.125rem;
+        left: 52.5%;
+        top: 13rem;
+        z-index: 9;
+    }
+
+    .button-control-game {
+        width: 11.875rem;
+        height: 10.5rem;
+        top: 9rem;
+        right: 1.5rem;
+    }
+
+    .game-amount-details {
+        width: 11.5rem;
+        height: 11.75rem;
+        left: 3.5rem;
+        top: 9rem;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+    .choose-mutiple-rounded {
+        left: 24px;
+    }
+
+    .button-game-user-list {
+        width: 21.125rem;
+        transform: translate(-47%);
+        z-index: 9;
+    }
+}
+
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .game-record-number-id .recordid-text-content {
+        font-size: 12px;
+    }
+
+    .button-await-details {
+        left: 3px;
+    }
+
+    .gaming-circle-count {
+        margin: 2rem auto auto auto;
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .spin-arrow-content {
+        top: -0.4rem;
+    }
+    
+    
+
+    .game-spin-details::before {
+        top: -8rem;
+        height: 30.5rem;
+        /* height: 50.5rem; */
+    }
+
+    .user-data-game-show {
+        bottom: -5rem;
+    }
+
+    .game-amount-details {
+        width: 10.5rem;
+        height: 10.75rem;
+        left: 1.5rem;
+        top: 6rem;
+    }
+
+    .button-control-game {
+        width: 9.5rem;
+        height: 9.5rem;
+        top: 6rem;
+        right: 1.5rem;
+    }
+
+    .button-game-user-list {
+        width: 20.125rem;
+        /* left: 53.08%;
+        transform: translate(-50%);
+        top: 10rem; */
+        z-index: 9;
+    }
+
+    .button-inner-list {
+        padding: 0px;
+    }
+
+    .button-inner-list .button-item {
+        width: 7.25rem;
+        height: 3.5rem;
+        padding: 0px;
+        margin: 0px 5px;
+        border-radius: 0.7rem;
+    }
+
+    .border-timer-rounded {
+        width: 8.7rem;
+        height: 8.7rem;
+        left: 4px;
+    }
+    .button-btn-game {
+        height: 2.5rem;
+        border-radius: 0.7rem;
+        top: -9px;
+    }
+
+    .mobile-overflow-content {
+        overflow-x: hidden;
+    }
+
+    .choose-mutiple-rounded {
+        left: 0px;
+        top: -1px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button-landscape-inner {
+        letter-spacing: 1px;
+        font-size: 0.6rem;
+    }
+    .bet-details-img .center-bet-img {
+        height: 140px;
+    }
+
+    .user-listitem-details {
+        height: 124px;
+    }
+
+    .game-details-uldetails .game-records-ul {
+        margin: initial;
+    }
+
+    .game-records-ul .game-record--listitem {
+        padding: 0px 8.4px 10px 8.4px;
+        width: calc(100% / 6);
+    }
+
+    .game-record-number-id .recordid-text-content {
+        font-size: 12px;
+    }
+
+    .user-show-details {
+        /* width: calc(100% - 30px); */
+        top: -22rem;
+        left: 0px;
+        right: 0;
+        margin: auto;
+    }
+
+
+    /* .gaming-circle-count {
+        width: 37rem;
+        height: 37rem;
+        margin: -3rem auto auto auto;
+    } */
+
+    .gaming-circle-count {
+        width: 450px;
+        height: 450px;
+        margin: 5rem auto auto auto;
+    }
+
+    .game-spin-details {
+        /* height: 36.5rem; */
+    }
+
+    .game-spin-details::before {
+        top: -3rem;
+        width: calc(100% + 23px);
+        height: 20.5rem;
+        background-size: 100% 90%;
+        left: -9px;
+    }
+
+    .spin-arrow-content {
+        width: 1rem;
+        height: 2.625rem;
+        top: 3.5rem;
+        left: 50%;
+        transform-origin: unset;
+    }
+
+
+    .user-data-game-show {
+        width: 100%;
+        /* width: 21.375rem; */
+        height: 11.25rem;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        bottom: 1rem;
+    }
+
+
+    .game-content-rounded {
+        -webkit-mask-image: radial-gradient(55.76% 57.91% at 53% 16.09%, #0c0e1c 15%, rgba(0, 0, 0, 0) 100%);
+        /* -webkit-mask-image: radial-gradient(53.76% 21.91% at 49% 38.09%, #0c0e1c 35%, rgba(0, 0, 0, 0) 100%); */
+    }
+
+    .betting-three-main {
+        min-height: auto;
+    }
+
+    .total-play-list-details {
+        padding: 0px 10px 5px 10px;
+    }
+
+    .user-list-flex-content {
+        padding: 0px 10px 5px 10px;
+    }
+
+    .user-name-prices,
+    .user-name-prices {
+        text-align: end;
+    }
+
+    .button-game-user-list {
+        width: 21.125rem;
+        left: 0px;
+        transform: translate(0%);
+        top: -1rem;
+        right: 0px;
+        margin: auto;
+        z-index: 9;
+        padding-bottom: 20px;
+    }
+
+    .button-inner-list {
+        padding: 0rem;
+    }
+
+    .button-inner-list .button-item {
+        width: 6.25rem;
+        height: 3.5rem;
+        padding: 0px;
+    }
+
+    .height-remove {
+        height: 3.75rem;
+        bottom: 5rem;
+    }
+
+    .choose-mutiple-rounded {
+        /* left: 5.7px;
+        top: 1.7px; */
+            left: 2.7px;
+            top: -3.3px;
+    }
+
+    .choose-mutiple-rounded .multi-line-border .loader-img-multi {
+        height: 136px;
+        width: 136px;
+    }
+    .button-control-game {
+        width: 7.875rem;
+        height: 7.875rem;
+        right: 1.7rem;
+    }
+
+
+    .button-await-details {
+        width: 8.5rem;
+        height: 8.5rem;
+        left: 2px;
+    }
+
+    .border-timer-rounded {
+        left: 3px;
+        width: 8.5rem;
+        height: 8.3rem;
+        top: 0;
+    }
+
+    .mobile-overflow-content {
+        overflow-x: hidden;
+    }
+
+    .game-amount-landscape {
+        width: 8rem;
+        z-index: 9;
+    position: relative;
+        height: 8rem;
+    }
+
+    .game-amount-details {
+        width: 9.5rem;
+        height: 7.75rem;
+        left: 0.5rem;
+    }
+
+    .game-amount-title {
+        padding: 3px 8px;
+        font-size: 8px;
+    }
+
+    .amount-landscape-center {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .amount-landscape-inner:after {
+        height: 7.5rem;
+    }
+
+    .button-control-game {
+        width: 8.875rem;
+        height: 7.875rem;
+        right: -0.3rem;
+    }
+
+    .button-control-inner {
+        width: 8.575rem;
+        height: 8.375rem;
+    }
+
+    .button-landscape {
+        width: 12rem;
+        height: 8rem;
+        left: 3px;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .bet-details-img .center-bet-img {
+        height: 110px;
+    }
+
+
+    .game-records-ul .game-record--listitem {
+        width: calc(100% / 3);
+    }
+
+    .game-list-title .game-title,
+    .game-record-title .record-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* .game-content-rounded {
+        -webkit-mask-image: radial-gradient(53.76% 44.91% at 50% 34.09%, #0c0e1c 53%, rgba(0, 0, 0, 0) 100%);
+    } */
+    /* .gaming-circle-count {
+        width: 41rem;
+    height: 41rem;
+    }
+    .game-spin-details::before {
+        top: -4rem;
+    } */
+}
+
+@media screen and (max-width: 475px) {
+
+    /*  */
+
+    .border-timer-rounded {
+        left: 3px;
+        width: 8.5rem;
+        height: 8.3rem;
+        top: -1px;
+    }
+    
+    .game-controller-details {
+        flex-direction: column;
+        height: max-content;
+        justify-content: start;
+        align-items: start;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: -45px;
+    }
+
+    /*  */
+    .bet-details-img .center-bet-img {
+        height: 90px;
+    }
+
+    /*  */
+    .user-data-game-show {
+        bottom: unset;
+    }
+
+    .game-amount-details {
+        /*left: 0; */
+        /* right: 0; */
+        /* margin: auto; */
+        background-image: none;
+        flex-direction: column;
+        align-items: start;
+        /* width: 8.5rem; */
+        width: 50%;
+        
+        order: 2;
+
+    }
+
+    .game-amount-title {
+        padding: 3px 0px 5px 0px;
+        font-size: 13px;
+        max-width: initial;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0px;
+        display: none;
+    }
+
+    .game-amount-landscape {
+        margin-top: 10px;
+    }
+
+    .button-control-game {
+        right: 0px;
+        top: 4.3rem;
+        /* left: 0; */
+        order: 3;
+        width: 38%;
+        margin-left: auto;
+        position: absolute;
+        justify-content: end;
+    }
+
+    .betting-three-main {
+        min-height: auto;
+    }
+
+    /*  */
+    .game-spin-details::before {
+        height: 12.5rem;
+    }
+
+    .gaming-circle-count {
+        width: 37rem;
+        height: 33rem;
+    }
+
+    .button-inner-list .button-item {
+        width: 4.56rem;
+        height: 2.65rem;
+    }
+
+    .button-btn-game {
+        height: 2.25rem;
+    }
+
+    .button-game-user-list {
+        width: 15.125rem;
+        left: 0px;
+        top: -1rem;
+        right: 0px;
+        order: 1;
+    }
+
+    .button-btn-game>span {
+        font-size: .6rem;
+        line-height: 1.rem;
+    }
+
+    .game-records-ul .game-record--listitem {
+        padding: 0px 10.6px 10px 10.6px;
+        width: calc(100% / 3);
+    }
+
+    .user-show-details {
+        top: -15rem;
+    }
+
+    .gaming-circle-count {
+        height: 338px;
+        margin: 3rem auto auto auto;
+    }
+
+    /* .game-content-rounded {
+        -webkit-mask-image: radial-gradient(86.76% 30.91% at 55% 16.09%, #0c0e1c 15%, rgba(0, 0, 0, 0) 100%);
+    } */
+
+    .user-show-details {
+        top: -14rem;
+    }
+
+    .spin-arrow-content {
+        top: 1.3rem;
+    }
+
+    /* .game-spin-details {
+        height: 27.5rem;
+    } */
+
+}
+
+/* @media  only screen and (max-width: 350px) and (min-width: 354px){
+    .spin-arrow-content {
+        top: 1.9rem;
+    }
+} */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3){
+    .spin-arrow-content {
+        top: 1.9rem;
+    }
+
+
+    .spin-arrow-content {
+        top: -1.1rem;
+        height: 1.6rem;
+    }
+    .gaming-circle-count {
+        height: 222px;
+        width: 25rem;
+        margin: 0rem auto auto auto;
+    }
+
+    .game-bottomright {
+        top: -12px;
+    }
+
+    .game-bottomleft {
+        left: -11px;
+    }
+
+    .game-topright {
+        right: -11px;
+    }
+
+    .game-topleft{
+        bottom: -10px;
+    }
+
+    .button-control-inner {
+        width: 7.575rem;
+        height: 7.375rem;
+    }
+
+    .border-timer-rounded {
+        left: 3px;
+        width: 7.5rem;
+        height: 7.3rem;
+        top: 0px;
+    }
+
+    .choose-mutiple-rounded {
+        left: 3.7px;
+        top: -2px;
+    }
+
+    .button-control-game {
+      background-image: none;
+    }
+
+    .button-landscape-inner .button-landscape-text {
+        font-size: 11px;
+    }
+
+    .button-await-details {
+        width: 7.5rem;
+        height: 7.5rem;
+        left: 4px;
+        top: -1px;
+    }
+
+    .choose-mutiple-rounded .multi-line-border .loader-img-multi {
+        height: 120px;
+        width: 120px;
+    }
+    
+    
+
+    .button-landscape {
+        width: 12rem;
+        height: 7rem;
+        left: 3px;
+        padding: 0.3rem;
+    }
+
+
+    .game-controller-details {
+        margin-top: -145px;
+    }
+
+    .button-btn-game {
+        height: 2rem;
+    }
+
+    .game-amount-landscape {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .amount-landscape-center {
+        width: 2.67rem;
+        height: 2.67rem;
+    }
+
+    .amount-landscape-inner:before,
+    .amount-landscape-inner:after {
+        height: 7rem;
+    }
+
+    .game-content-rounded {
+        -webkit-mask-image: radial-gradient(55.76% 23.91% at 53% 16.09%, #0c0e1c 15%, rgba(0, 0, 0, 0) 100%);
+        /* -webkit-mask-image: radial-gradient(53.76% 21.91% at 49% 38.09%, #0c0e1c 35%, rgba(0, 0, 0, 0) 100%); */
+    }
+
+}
+
+@media screen and (max-width: 331px) {
+
+    .game-list-title .game-title,
+    .game-record-title .record-title {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .game-controller-details {
+        /* height: 26rem; */
+        height: auto;
+    }
+
+    /* .game-amount-details {
+        left: 0;
+        right: 0;
+        margin: auto;
+    } */
+
+    .game-amount-title {
+        margin: auto;
+    }
+
+    /* .button-control-game {
+        right: 0;
+        top: 16rem;
+        left: 0;
+        margin: auto;
+    } */
+}
+
+@media screen and (max-width: 281px) {
+    .choose-mutiple-rounded {
+        left: 2.7px;
+        top: 6.7px;
+    }
+    .choose-mutiple-rounded .multi-line-border .loader-img-multi {
+        height: 120px;
+        width: 120px;
+    }
+    .game-records-ul .game-record--listitem {
+        padding: 0px 10.6px 10px 10.6px;
+        width: calc(100% / 3);
+    }
+
+    .record-box-content .comman-bg-record {
+        height: 26px;
+        width: 26px;
+    }
+
+    /*  */
+    .user-data-game-show {
+        bottom: unset;
+    }
+
+    .game-controller-details {
+        /* height: 26rem; */
+        height: auto;
+        margin-top: -100px;
+    }
+
+    /* .game-amount-details {
+        left: 0;
+        right: 0;
+        margin: auto;
+    } */
+
+    /* .button-control-game {
+        right: 0;
+        top: 16rem;
+        left: 0;
+        margin: auto;
+    } */
+
+    /*  */
+    .game-spin-details::before {
+        height: 12.5rem;
+    }
+
+    .gaming-circle-count {
+        width: 37rem;
+        height: 33rem;
+    }
+
+    .button-inner-list .button-item {
+        width: 4.56rem;
+        height: 2.65rem;
+    }
+
+    .button-btn-game {
+        height: 2.25rem;
+    }
+
+    .button-game-user-list {
+        width: 15.125rem;
+        left: 0px;
+        top: -1rem;
+        right: 0px;
+    }
+
+    .button-btn-game>span {
+        font-size: .6rem;
+        line-height: 1.rem;
+    }
+
+    .game-records-ul .game-record--listitem {
+        padding: 0px 10.6px 10px 10.6px;
+        width: calc(100% / 2);
+    }
+
+    .user-show-details {
+        top: -15rem;
+    }
+
+    .gaming-circle-count {
+        height: 338px;
+        margin: 0rem auto auto auto;
+    }
+
+    .game-content-rounded {
+        -webkit-mask-image: radial-gradient(86.76% 30.91% at 55% 16.09%, #0c0e1c 15%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .user-show-details {
+        top: -14rem;
+    }
+
+    .spin-arrow-content {
+        top: 1.3rem;
+    }
+
+    /* .game-spin-details {
+        height: 27.5rem;
+    } */
+
+    .game-amount-landscape {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .amount-landscape-inner:before, .amount-landscape-inner:after {
+        height: 6.5rem;
+    }
+
+    .amount-landscape-center {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+    .game-bottomright {
+        top: -12px;
+    }
+
+    .game-bottomleft {
+        left: -11px;
+    }
+
+    .game-topright {
+        right: -11px;
+    }
+
+    .game-topleft{
+        bottom: -10px;
+    }
+
+    .button-landscape {
+        width: 12rem;
+        height: 7rem;
+        left: 3px;
+        padding: 0.2rem;
+    }
+
+    .button-control-inner {
+        width: 7.575rem;
+    }
+
+    .border-timer-rounded {
+        left: 3px;
+        width: 7.5rem;
+        height: 7.3rem;
+        top: 8px;
+    }
+
+    .button-await-details {
+        width: 7.5rem;
+        height: 7.5rem;
+        left: 5px;
+        top: 4px;
+        bottom: 0;
+    }
+}
+

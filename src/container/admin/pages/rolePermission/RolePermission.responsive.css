@@ -1,0 +1,35 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .role-titles-main {
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .role-titles-main {
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .role-card-inner-flex {
+        flex-direction: column;
+    }
+    .role-titles-main .role-titles{
+        margin-bottom: 10px;
+    }
+    .roles-data-main-flex {
+        flex-wrap: wrap;
+    }
+}

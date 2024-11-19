@@ -1,0 +1,694 @@
+.card-bet-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+}
+
+.card-col1 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0px 10px;
+}
+
+/* .card-col2 {
+    width: 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 0px 10px;
+} */
+
+.flex-col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-bet-bg {
+    background: #f3a521;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-bet-bg .card-pd-bet {
+    padding: 2px;
+    position: relative;
+}
+
+.card-bet-video {
+    display: flex;
+}
+
+.card-bet-video .card-betting-video {
+    width: 100%;
+    border-radius: 10px;
+    height: 285px;
+    object-position: top;
+    /* height: 268px; */
+    object-fit: cover;
+}
+
+.low-hight-card-main {
+    background: rgb(0 0 0 / 60%);
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+}
+
+.low-hight-card-main .low-hight-card-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 50px;
+}
+
+.low-hight-card-flex .low-card-title {
+    font-size: 16px;
+    color: #eb1c18;
+    text-transform: uppercase;
+    font-family: 'Poppins-Bold', sans-serif;
+    line-height: 21px;
+}
+
+.low-hight-card-flex .high-card-title {
+    font-size: 16px;
+    color: #2839d9;
+    text-transform: uppercase;
+    font-family: 'Poppins-Bold', sans-serif;
+    line-height: 21px;
+}
+
+.card-flip-small-video {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.card-flip-small-video .card-flip-small-bg {
+    background: rgb(0 0 0 / 60%);
+    display: flex;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.card-flip-small-video {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.card-flip-small-video .card-flip-small-bg {
+    background: rgb(0 0 0 / 60%);
+    display: flex;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.card-bet-timer-main {
+    background: rgb(0 0 0 / 60%);
+    max-width: max-content;
+    border-radius: 6px;
+    /* position: absolute;
+    bottom: 20px;
+    right: 19px; */
+}
+
+.card-bet-timer-main .card-pd-timer {
+    padding: 8px 19px;
+}
+
+.card-bet-timer-main .card-pd-timer .timer-card-title {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins-Bold', sans-serif;
+}
+
+.low-card-main-btn .low-card-btn-list,
+.low-card-main-btn .low-card-btn-list:hover,
+.low-card-main-btn .low-card-btn-list:active,
+.low-card-main-btn .low-card-btn-list.Mui-focusVisible {
+    text-transform: capitalize;
+    background: #eb2d29;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    line-height: 24px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.low-card-main-btn .low-card-btn-list span {
+    z-index: 99;
+    position: relative;
+}
+
+.low-card-main-btn .low-card-btn-list::after {
+    content: '';
+    background: linear-gradient(176deg, #ffffff5c, #eb312d);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.card-low-high-bet-list .pd-card-low-details {
+    padding: 5px 40px;
+}
+
+.low-card-content .low-card-time {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+
+.low-card-content,
+.card-show-content,
+.high-card-content {
+    width: 33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    text-align: center;
+}
+
+.flex-low-high-card {
+    display: flex;
+    align-items: center;
+}
+
+.low-card-content .low-card-value {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 3px;
+}
+
+.card-bg-details {
+    background: black;
+    max-width: max-content;
+    padding: 4px;
+    display: flex;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.card-bg-details .card-flip-middle-content {
+    width: 47px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 2px;
+    transition: all 1s;
+    /* new */
+
+}
+
+.card-bg-details .card-flip-middle-content-second {
+    transition: all 1s;
+    transform: rotateY(180deg);
+
+}
+
+/* card flip new css */
+
+
+
+
+/* card flip new css end*/
+
+
+.high-card-content .high-card-time {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+
+.high-card-main-btn .high-card-btn-list,
+.high-card-main-btn .high-card-btn-list:hover,
+.high-card-main-btn .high-card-btn-list:active,
+.high-card-main-btn .high-card-btn-list.Mui-focusVisible {
+    text-transform: capitalize;
+    background: #2d29eb;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    line-height: 24px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.high-card-main-btn .high-card-btn-list::after {
+    content: '';
+    background: linear-gradient(176deg, #ffffff5c, #2d29eb);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.high-card-main-btn .high-card-btn-list span {
+    z-index: 99;
+    position: relative;
+}
+
+.high-card-content .high-card-value {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 3px;
+}
+
+.min-max-value-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.min-max-value-details .min-value-details {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 6px;
+}
+
+.min-max-value-details .max-value-details {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.min-max-value-details .min-value-details {
+    color: #492e01;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 6px;
+}
+
+.card-bett-bg-content {
+    border: 2px solid #f3a521;
+    border-radius: 10px;
+}
+
+.card-pd-betting {
+    background: #f3a521;
+    border-radius: 7px;
+}
+
+.card-pd-betting .card-title-details {
+    font-size: 20px;
+    font-family: 'Poppins-Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+.list-card-details .list-card-bet-ul {
+    padding: 0px;
+}
+
+.list-card-details .list-card-bet-ul .list-card-item-details {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.list-card-details .list-card-bet-ul .list-card-item-details:last-child {
+    margin-bottom: 0px;
+}
+
+.list-card-details {
+    padding: 10px;
+}
+
+.card-title-bet-details {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: #fff;
+    width: 100%;
+}
+
+.card-title-bet-details .card-title-main {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Poppins-Regular', sans-serif;
+    line-height: 15px;
+    width: 45%;
+}
+
+.card-title-bet-details .card-bet-dot {
+    font-family: 'poppins-regular', sans-serif;
+    width: 10%;
+    font-size: 12px;
+}
+
+.card-title-bet-details .card-details-main-bet {
+    font-size: 12px;
+    font-family: 'poppins-regular', sans-serif;
+    line-height: 19px;
+    width: 45%;
+    text-transform: uppercase;
+}
+
+.success-done {
+    color: #6fc84c;
+}
+
+.bid-amount-success .bit-title-details {
+    color: #13f502;
+    font-family: 'Poppins-Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.bid-amount-success {
+    text-align: center;
+}
+
+.card-col3 {
+    width: 100%;
+    flex: 1;
+    max-width: 100%;
+}
+
+.bid-details-contentg {
+    padding: 30px 11px;
+}
+
+.bid-amount-success {
+    padding-bottom: 11px;
+}
+
+.bet-amount-details .amount-details-bet {
+    color: #2e60eb;
+    font-family: 'Poppins-Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.bet-amount-details .amount-details-bet span {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.price-content-bit .price-list-bit {
+    padding: 0px;
+    display: flex;
+    margin: 0px -10px;
+}
+
+.price-content-bit .price-list-bit .price-content-bit {
+    padding: 0px 10px;
+}
+
+.price-bet-bid-content {
+    width: 505px;
+    max-width: 505px;
+    flex: 0 0 505px;
+}
+
+.price-bet-or-details {
+    width: 10%;
+    text-align: center;
+}
+
+.bet-flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet-amount-bg-content {
+    border: 2px solid #4a79fb;
+    border-radius: 10px;
+    background: #171b37;
+    padding: 20px;
+}
+
+img.group-img-bit {
+    width: 45px;
+    height: 50px;
+    display: flex;
+    object-fit: contain;
+}
+
+.price-bet-or-details .price-or-text {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'poppins-regular', sans-serif;
+    line-height: 20px;
+}
+
+.price-input-details-content .input-design-div.with-border input {
+    background-color: #0b0d1d;
+    color: #fff;
+}
+
+.price-input-details-content .input-design-div.with-border input::placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.places-brt-main-btn .place-btn-content,
+.places-brt-main-btn .place-btn-content:hover,
+.places-brt-main-btn .place-btn-content:active {
+    background: #6fc74b;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Poppins-Bold', sans-serif;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.places-brt-main-btn {
+    text-align: center;
+    /* padding-top: 25px; */
+}
+
+
+.price-content-bit .price-list-bit .price-content-bit.bid-active {
+    position: relative;
+}
+
+.price-content-bit .price-list-bit .price-content-bit.bid-active::after {
+    content: '';
+    position: absolute;
+    border: 2px dashed #fff;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: -3px;
+    bottom: 0;
+    margin: auto;
+}
+
+.bet-user-card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.place-plus-bet-left .plus-bet-btn-card,
+.place-plus-bet-left .plus-bet-btn-card:hover,
+.place-plus-bet-right .plus-bet-btn-card,
+.place-plus-bet-right .plus-bet-btn-card:hover {
+    background: #2e60eb;
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    height: initial;
+    line-height: 35px;
+    width: 30px;
+    min-width: initial;
+}
+
+.place-plus-bet-left {
+    position: absolute;
+    top: 0;
+}
+
+.place-plus-bet-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.price-input-details-content {
+    position: relative;
+    max-width: 220px;
+}
+
+.price-bet-input-details .price-input-details-content .input-design-div.with-border input {
+    padding: 3px 35px !important;
+    text-align: center;
+}
+
+/* .card-timer-details {
+    border: 2px solid #f3a521;
+    border-radius: 10px;
+    height: 100%;
+} */
+
+.card-timer-bg-content {
+    background: #f3a521;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card-pd-timer-list {
+    padding: 10px;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+
+.card-pd-timer-list {
+    padding: 0px 0px 4px 0px;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffff;
+}
+
+.bet-timer-inner-bg {
+    background: #101630;
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bet-timer-bg-card {
+    background: #21284a;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.bet-timer-listing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 60px);
+}
+
+.bet-timer-counted {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'nunito-bold', sans-serif;
+    color: #fff;
+}
+
+.record-box-content .card-game-record {
+    width: 37px;
+    height: 54px;
+    object-fit: cover;
+}
+
+img.ball-records {
+    height: 30px;
+    width: 30px;
+}
+
+.timer-progress-details {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+}
+
+.timer-progress-bg {
+    background: #28262685;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.timer-progress-bg .timer-text-pro {
+    font-family: 'nunito-bold', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    line-height: 35px;
+}
+
+.progress-timer-green {
+    position: absolute;
+    /* height: 10px; */
+    /* width: 100%; */
+    /* background: #7cd0f3; */
+    /* border-radius: 6px; */
+    /* margin-bottom: 0; */
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+/* .progbar-main[aria-label="1"] span {
+    width: 0%;
+}
+
+.progbar-main[aria-label="2"] span {
+    width: 30%;
+}
+
+.progbar-main[aria-label="3"] span {
+    width: 50%;
+}
+
+.progbar-main[aria-label="4"] span {
+    width: 70%;
+}
+
+.progbar-main[aria-label="5"] span {
+    width: 100%;
+} */
+
+.timer-text-details {
+    position: absolute;
+    color: #fff;
+    font-family: "inter-bold";
+}
+
+.record-box-content {
+    text-align: center;
+}
+
+.high-card-main-btn .high-card-btn-list, .low-card-main-btn .low-card-btn-list{
+    cursor: default;
+}

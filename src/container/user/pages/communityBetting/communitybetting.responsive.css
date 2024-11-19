@@ -1,0 +1,109 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+    .value-user-live-bet .user-bet-value {
+        font-size: 10px;
+    }
+    .live-bet-details {
+        border: 1px solid #2b2a5d;
+        border-top: 0px;
+        max-height: 451px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .community-content-timer-details {
+        margin-top: 20px;
+    }
+
+    .live-bet-details {
+        max-height: 198px;
+    }
+
+    .community-col2 ,
+    .community-col1{
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .community-content-timer-details {
+        margin-top: 20px;
+    }
+
+    .live-bet-details {
+        max-height: 198px;
+    }
+
+    .community-col2 ,
+    .community-col1{
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .left-flexible-content {
+        width: 67%;
+    }
+    .community-col1,
+    .community-col2,
+    .community-col6,
+    .live-bet-col1 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .community-betting-img {
+        margin-bottom: 20px;
+    }
+
+    .live-bet-details {
+        max-height: 193px;
+    }
+
+    .community-content-timer-details {
+        margin-top: 20px;
+    }
+
+    .entry-feee-show {
+        width: 35%;
+    }
+
+    .entry-fee-title .entry-fee-content {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 321px) {
+    .flex-flexible-content .flexible-prices {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .flexible-img-content {
+        height: 13px;
+        width: 13px;
+    }
+    .flexible-main-content-details {
+        padding: 9px 7px;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .flex-winner .community-bet-color {
+        font-size: 9px;
+        line-height: 14px;
+    }
+}

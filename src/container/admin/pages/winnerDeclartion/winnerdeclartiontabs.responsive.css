@@ -1,0 +1,56 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .declaration-winner-title .declaration-title-content {
+        font-size: 17px !important;
+        line-height: 18px !important;
+    }    
+}
+
+@media screen and (max-width: 991px) {
+    .declaration-winner-title .declaration-title-content {
+        font-size: 17px !important;
+        line-height: 18px !important;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    .declaration-winner-title .declaration-title-content{
+        margin-bottom: 10px;
+    }
+
+    .btn-winning-number {
+        margin-top: 10px;
+    }
+
+    .flex-just-edit-list .title-header-flex {
+        margin-bottom: 20px !important;
+        width: 100%;
+        align-items: start;
+    }
+    .export-details-content-num {
+        width: 100%;
+    }
+    
+    .number-manage-container .number-bet-table {
+        min-width: 956px;
+    }
+    
+    
+    .flex-just-edit-list {
+        margin-bottom: 30px !important;
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+}

@@ -1,0 +1,586 @@
+.community-row-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+}
+
+.community-main-title .community-betting-details {
+    color: #fff;
+    font-family: 'nunito-semibold', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.community-main-title {
+    margin-bottom: 15px;
+}
+
+.community-col2 {
+    width: 39.33%;
+    max-width: 39.33%;
+    flex: 0 0 39.33%;
+    padding: 0px 10px;
+}
+
+.community-col1 {
+    width: 60.66%;
+    max-width: 60.66%;
+    flex: 0 0 60.66%;
+    padding: 0px 10px;
+}
+
+.community-col6 {
+    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0px 10px;
+}
+
+.community-col12 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0px 10px;
+}
+
+.community-betting-img .community-bet-img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.progress-flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.progress-flex-content .spots-text-details-left {
+    color: #2e60eb;
+    font-size: 10px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.progress-flex-content .spots-text-right {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.progress-content-bet {
+    padding: 15px 10px;
+}
+
+.flexible-main-content-details {
+    background: #0c0e1d;
+    border-top: 1px solid #2b2a5d;
+    padding: 10px;
+}
+
+.entry-fee-title .entry-fee-content {
+    color: #f2f2f3;
+    font-size: 17px;
+    font-family: 'nunito-semibold', sans-serif;
+    line-height: 25px;
+}
+
+.entry-feee-show {
+    width: 50%;
+    cursor: pointer;
+}
+
+.entry-bet-fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.winner-main-title {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.entry-free-price {
+    background: #2e60eb;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.padding-fee-price {
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.entry-free-price .entry-fee-price {
+    font-size: 15px;
+    font-family: 'nunito-semibold', sans-serif;
+    text-align: center;
+}
+
+.winner-prices-main {
+    max-width: 218px;
+    margin: auto;
+    top: 0;
+    position: absolute;
+    left: 8px;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner-prices-main .winner-amount span {
+    color: #2e60eb;
+    font-size: 13px;
+    font-family: 'nunito-bold', sans-serif;
+    line-height: 20px;
+}
+
+.winner-prices-main .winner-amount {
+    color: #000;
+    font-family: 'nunito-semibold', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.user-winner-listing {
+    padding: 0px 0px 0px 0px;
+}
+
+.bg-img-winner .winner-bg {
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+
+.winner-main-title .entry-winner-content {
+    color: #f2f2f3;
+    font-size: 20px;
+    font-family: 'nunito-semibold', sans-serif;
+    line-height: 25px;
+    text-align: center;
+}
+
+.winner-distribution-main {
+    margin-top: 10px;
+}
+
+.owl-slider-main-content-winner .owl-stage-outer {
+    padding-top: 25px;
+}
+
+
+.owl-slider-main-content-winner .owl-stage-outer {
+    padding-top: 39px;
+    padding-bottom: 25px;
+    /* padding-left: 15px; */
+    /* padding-right: 19px; */
+}
+
+.owl-slider-main-content-winner .owl-item.active:hover,
+.owl-slider-main-content-winner .owl-item.active+.owl-item.active+.owl-item.active:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+.owl-slider-main-content-winner {
+    /* padding: 0px 13px; */
+}
+
+.game-id-main-show {
+    max-width: 81px;
+    margin: auto;
+
+}
+
+.owl-slider-main-content-winner .owl-item.active+.owl-item.active {
+    transform: scale(1.2);
+}
+
+.owl-slider-main-content-winner .owl-item.active+.owl-item.active+.owl-item.active {
+    transform: scale(1);
+}
+
+.main-description-details .self-main-title {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'nunito-bold', sans-serif;
+    padding: 10px;
+    border-bottom: 2px solid #254cb9;
+}
+
+.winner-distribute-self {
+    border: 1px solid #2B2A5D;
+}
+
+.main-description-details {
+    background: #171b37;
+}
+
+.flex-winner {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.winner-listing-details .winner-list {
+    padding: 0px;
+}
+
+.winner-listing-details .winner-list .winner-listitem:last-child {
+    border-bottom: 0px;
+}
+
+.winner-listing-details .winner-list .winner-listitem {
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #2b2a5d;
+}
+
+/* .winner-listing-details {
+    padding: 5px 10px;
+} */
+
+.winner-listing-details {
+    height: 100px;
+    overflow: auto;
+}
+
+.flex-winner .winner-id-table {
+    font-size: 13px;
+    color: #2e60eb;
+    line-height: 16px;
+    font-family: 'nunito-bold', sans-serif;
+    padding: 0px 5px 0px 0px;
+}
+
+.flex-winner .winner-email-id {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 16px;
+    padding: 0px 5px 0px 0px;
+}
+
+.flex-winner .winner-time-date {
+    padding-right: 0px;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 15px;
+}
+
+
+
+.winner-listing-details {
+    height: 108px;
+    overflow: auto;
+}
+
+/* width */
+.winner-listing-details::-webkit-scrollbar,
+.live-bet-details::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.winner-listing-details::-webkit-scrollbar-track,
+.live-bet-details::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.winner-listing-details::-webkit-scrollbar-thumb,
+.live-bet-details::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.winner-listing-details::-webkit-scrollbar-thumb:hover,
+.live-bet-details::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.community-timer-main-content .timer-commuity-page {
+    font-size: 16px;
+    font-family: 'nunito-semibold', sans-serif;
+    color: #ffff;
+}
+
+.community-timer-main-content {
+    /* background: #171b37;
+    border-bottom: 2px solid #254cb9;
+    padding: 7px 10px; */
+    text-align: center;
+}
+
+.live-bet-community-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.live-bet-col1 {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.live-bet-components {
+    border: 1px solid #2b2a5d;
+    /* border-top: 0px; */
+    padding: 5px 10px;
+}
+
+.live-bet-details-main .live-title-bet-content {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'nunito-semibold', sans-serif;
+    color: #2e60eb;
+}
+
+.live-winner-components {
+    border: 1px solid #2b2a5d;
+    /* border-top: 0px; */
+    padding: 5px 10px;
+}
+
+.live-winner-details-main .live-title-winner-content {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'nunito-semibold', sans-serif;
+    color: #2e60eb;
+}
+
+.live-bet-details {
+    border: 1px solid #2b2a5d;
+    border-top: 0px;
+    max-height: 438px;
+    overflow: auto;
+}
+
+.list-livebet-item .list-livebet-community-details:last-child {
+    padding-bottom: 0px;
+}
+
+.live-bet-details .list-livebet-item {
+    padding: 10px 5px 10px 10px;
+}
+
+.list-livebet-item .list-livebet-community-details {
+    padding: 0px 0px 9px 0px;
+    /* border: 1px solid #2b2a5d; */
+    border-left: 0px;
+}
+
+.list-livebet-item .live-user-bet-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.live-user-img .usericon-profile {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-name-list .user-name-live-bet {
+    color: #fff;
+    font-size: 11px;
+    font-family: 'nunito-regular', sans-serif;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+}
+
+.live-user-img {
+    position: absolute;
+    left: -7px;
+    background: #0c0e1d;
+    border-radius: 50%;
+    top: -2px;
+    height: 32px;
+    width: 32px;
+}
+
+.user-name-list {
+    padding: 5px 5px 5px 29px;
+    max-width: 122px;
+}
+
+
+.user-live-border-list {
+    display: flex;
+    border: 1px solid #2b2a5d;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.value-user-live-bet {
+    background: #171b37;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.value-user-live-bet .user-bet-value {
+    font-size: 12px;
+    color: #fff;
+    padding: 5px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.progress-content-community {
+    background: #171b37;
+    padding: 10px 0px 0px 0px;
+    border: 1px solid #2b2a5d;
+    margin-bottom: 20px;
+}
+
+
+.flex-max-prices {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: space-between;
+}
+
+.max-prize-content .max-prize-title {
+    color: #fff;
+    /* color: #2e60eb; */
+    font-size: 10px;
+    font-family: 'nunito-regular', sans-serif;
+    line-height: 11px;
+}
+
+.fee-entry-content .entry-fees-title {
+    font-size: 10px;
+    font-family: 'nunito-regular', sans-serif;
+    color: white;
+    line-height: 11px;
+}
+
+.max-prize-content .max-prize-title span {
+    color: #2e60eb;
+    /* text-decoration: line-through; */
+}
+
+.fee-entry-content .entry-fees-title span {
+    color: #2e60eb;
+    /* text-decoration: line-through; */
+}
+
+.flexible-img-content {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.flex-flexible-content .flexible-list {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-flexible-content .flexible-list .flexble-listitem {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-flexible-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-flexible-content .flexible-prices {
+    font-size: 11px;
+    color: #fff;
+    line-height: 15px;
+}
+
+.left-flexible-content {
+    width: 62%;
+}
+
+.record-in-center {
+    text-align: center;
+}
+
+.flex-winner .community-bet-color {
+    color: #fff;
+    font-family: 'nunito-bold', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.flex-winner .community-bet-color,
+.flex-winner .calc-commuity-width {
+    text-align: center;
+}
+
+.flex-winner .community-bet-color:nth-child(1),
+.flex-winner .calc-commuity-width:nth-child(1) {
+    width: 17%;
+    max-width: 17%;
+}
+
+.flex-winner .community-bet-color:nth-child(2),
+.flex-winner .calc-commuity-width:nth-child(2) {
+    width: 15%;
+    max-width: 15%;
+}
+
+.flex-winner .community-bet-color:nth-child(3),
+.flex-winner .calc-commuity-width:nth-child(3) {
+    width: 30%;
+    max-width: 30%;
+}
+
+.flex-winner .community-bet-color:nth-child(4),
+.flex-winner .calc-commuity-width:nth-child(4) {
+    width: 25%;
+    max-width: 25%;
+}
+
+.flex-winner .community-bet-color:nth-child(5),
+.flex-winner .calc-commuity-width:nth-child(5) {
+    width: 20%;
+    max-width: 20%;
+}
+
+.more-community-content {
+    padding: 0px 10px 10px 0px;
+}
+
+.more-community-content .more-link-content {
+    font-size: 12px;
+}
+
+.record-content-none {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 79px;
+}
+
+.flex-community-timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

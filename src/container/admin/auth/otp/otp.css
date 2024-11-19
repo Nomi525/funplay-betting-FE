@@ -1,0 +1,9 @@
+.otp-flex-input-content {
+    display: flex;
+    align-items: center;
+    margin: 40px 0px 0px 0px;
+}
+
+.otp-flex-input-content .login-input-design-div {
+    padding: 0px 10px;
+}

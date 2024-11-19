@@ -1,0 +1,514 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+  .chat-betting-main .chat-betting {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-user-game li {
+    width: calc(100% / 2);
+  }
+
+  .chat-drawer .MuiDrawer-paper {
+    display: none;
+  }
+  .main-chat-back .add-chat-cancel {
+    display: flex;
+  }
+
+  .mobile-banner-refferal{
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+  
+
+  .drop-header-menu .desktop-mobile-hideshow {
+    display: flex;
+  }
+
+  .save-btn button {
+    min-width: 93px;
+  }
+
+  .main-chat-back .add-chat-cancel {
+    display: flex;
+  }
+
+  .list-user-game li {
+    width: calc(100% / 2);
+  }
+
+  /* .chat-drawer .MuiDrawer-paper {
+        display: none;
+    } */
+  /* 
+     */
+  .chat-betting-main .chat-betting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom-sent-chat {
+    position: fixed;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+  }
+
+  .main-chat-back .add-chat-cancel {
+    display: flex;
+  }
+
+  .drop-header-menu .desktop-mobile-hideshow {
+    display: flex;
+  }
+
+  .save-btn button {
+    min-width: 93px;
+  }
+
+  .barge-common-box {
+    padding: 20px 15px;
+  }
+
+  .chat-heading-text{
+    min-height: 80px;
+  }
+  
+  .chat-heading-text .chat-heading-main-text{
+    font-size: 28px;
+  }
+  .chat-heading-text .chat-heading-main-text img{
+    width: 28px;
+  }
+
+  /* .chat-drawer .MuiDrawer-paper {
+        display: none;
+    } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .chatbox {
+    height: calc(100vh - 85px);
+  }
+
+  .list-user-game li {
+    width: calc(100% / 2);
+  }
+
+  .profile-content {
+    height: calc(100vh - 230px);
+  }
+
+  .chat-betting-main .chat-betting {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chat-drawer .MuiDrawer-paper {
+    z-index: 99;
+  }
+
+  .header-rounded-outline .outline-blue-btn-main .outline-blue-btn-content,
+  .header-rounded-outline .outline-blue-btn-main .outline-blue-btn-content:hover {
+    padding: 5px 15px 5px 15px;
+  }
+
+  .title-header-flex {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+
+  .flex-currency-data {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* .res-title-header-flex .title-main {
+        margin-bottom: 10px;
+    } */
+
+  .ipad-flex-small-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: unset;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .mobile-banner-refferal{
+    display: none;
+  }
+  .list-user-sidebar .term-condition{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile_fullName {
+    display: none;
+  }
+
+  .chat-betting-main .chat-betting {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chat-drawer .MuiDrawer-paper {
+    z-index: 99;
+    height: calc(100vh - 94px);
+  }
+
+  .chatbox {
+    height: calc(100vh - 85px);
+  }
+
+  .pd-inner-comman-user::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .block-wallet {
+    display: block !important;
+  }
+
+  .wallet-balance-main-content .wallet-pd-content {
+    padding: 7px 15px 7px 15px;
+  }
+
+  .wallet-balance-main-content .wallet-bg-main .wallet-number {
+    font-size: 11px;
+    padding-left: 5px;
+  }
+
+  .menu-details-wallets .MuiMenu-paper::before {
+    left: 0px;
+    right: 0;
+    margin: auto;
+  }
+
+  .wallet-balance-main-content .wallet-bg-main .wallet-number {
+    font-size: 11px;
+    padding-left: 5px;
+  }
+
+  .menu-details-wallets .MuiMenu-paper::before {
+    left: 0px;
+    right: 0;
+    margin: auto;
+  }
+
+  .title-header-flex .periodstable-listing {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .periodstable-listing .res-set-search {
+    margin-top: 0px;
+  }
+
+  .comman-button .no-text-decoration,
+  .export-btn-main .fil_Button,
+  .res-auto-left {
+    width: 100%;
+  }
+
+  .ml-export {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .list-user-game li {
+    width: calc(100% / 1);
+  }
+
+  .export-btn-main .fil_Button,
+  .export-btn-main .fil_Button:hover {
+    padding: 3px 20px;
+  }
+
+  .modal-comman-details .modal-comman-inner-style {
+    min-width: 300px;
+    max-width: 300px;
+    padding: 50px 15px;
+  }
+
+  .res-set-search {
+    width: 100%;
+  }
+
+  .deposit-flex-content {
+    margin: 0px -10px;
+    flex-wrap: wrap;
+  }
+
+  .deposit-content-qr-copy,
+  .deposit-content-qr-content {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0px 10px;
+  }
+
+  .deposit-flex-content::after {
+    display: none;
+  }
+
+  .copy-hash-id-flex {
+    margin-top: 20px;
+  }
+
+  .deposit-content-qr-copy {
+    margin-bottom: 20px;
+  }
+
+  .admin-datepicker-main {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .admin-datepicker-main .ant-picker {
+    width: 100%;
+  }
+
+  /* .table-container .MuiTablePagination-root .MuiToolbar-root {
+        width: calc(100% + 110px);
+    }
+
+    .MuiTablePagination-root:last-child {
+        width: calc(100% + 110px);
+        text-align: start;
+        display: flex;
+        overflow: hidden;
+    } */
+
+  .profile-content {
+    height: initial;
+    min-height: initial;
+  }
+
+  .white-login-main .white-login-box {
+    padding: 50px 15px !important;
+    width: 100%;
+  }
+
+  .box-text p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  .box-login-text p {
+    font-size: 12px;
+  }
+
+  .orange-btn button,
+  .orange-btn button:hover,
+  .orange-btn .buttons,
+  .orange-btn .buttons:hover {
+    min-width: 100%;
+  }
+
+  .main-box {
+    width: 100%;
+    max-width: 100% !important;
+    flex: 1;
+  }
+
+  .change-pass-details .white-login-box {
+    width: 100%;
+  }
+
+  .main-login {
+    padding: 0px 10px;
+  }
+
+  .export-btn-main .fil_Button,
+  .export-btn-main .fil_Button:hover {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+
+  .blue-button button,
+  .blue-button button:hover {
+    font-size: 12px;
+    padding: 7px 8px;
+  }
+
+  .admin-comman-title-right .admin-page-title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .flex-user-management-inner svg.ArrowForwardIosIcon-icon-right {
+    width: 14px;
+    height: 14px;
+  }
+
+  .w-100-add-btn,
+  .w-100-add-btn .add-content-banner,
+  .w-100-add-btn button {
+    width: 100%;
+  }
+
+  .search-between .total-bet-title {
+    margin-bottom: 10px;
+  }
+
+  .search-between {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .input-details-winner-value {
+    width: 100%;
+  }
+
+  .total-bet-list-details.search-between .input-details-winner-value {
+    margin: 10px 0px;
+  }
+
+  .back-title {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .status-select {
+    padding-right: 0;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .game-select {
+    padding-right: 0;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .desktop-banner-refferal{
+    display: none;
+  }
+
+  .mobile-banner-refferal{
+    display: block
+  }
+  .list-user-sidebar .term-condition{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .menu-details-wallets .MuiMenu-paper::before {
+    left: -33px;
+    right: 0;
+    margin: auto;
+  }
+
+  .chat-drawer .MuiDrawer-paper {
+    z-index: 99;
+    height: calc(100vh - 94px);
+  }
+
+  /* .chatbox {
+    height: calc(100vh - 179px);
+  } */
+
+  @media screen and (max-width:376px) {
+    .menu-details-wallets .MuiMenu-paper::before {
+      left: -33px;
+      right: 0;
+      margin: auto;
+    }
+
+    .chat-drawer .MuiDrawer-paper {
+      z-index: 99;
+    }
+
+    .chat-betting-main .chat-betting {
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 320px) {
+    .menu-details-wallets .MuiMenu-paper::before {
+      left: -162px;
+      right: 0;
+      margin: auto;
+    }
+
+    .chat-betting-main .chat-betting {
+      margin-left: 10px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .chat-drawer .MuiDrawer-paper {
+      z-index: 99;
+      height: calc(100vh - 94px);
+    }
+
+  }
+
+  .flex-direction-mobile {
+    flex-direction: column;
+  }
+
+  .flex-just-edit-list .mb-10 {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .head-right .search-icon,
+  .head-right .bell-icon {
+    margin-right: 12px;
+  }
+
+  .modal-comman-details .modal-comman-inner-style {
+    min-width: 250px;
+    max-width: 250px;
+    padding: 50px 15px;
+  }
+
+  .main-login {
+    padding: 50px 10px;
+  }
+
+  .ml-export {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .blue-button button {
+    width: 100%;
+  }
+
+  .res-blue-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: inherit;
+    width: 100%;
+  }
+}

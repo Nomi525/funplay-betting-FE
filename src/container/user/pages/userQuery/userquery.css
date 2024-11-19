@@ -1,0 +1,53 @@
+.query-form-details-content {
+  background: #111427;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.query-form-details-content .query-card-main-content {
+  padding: 20px 30px;
+}
+
+.grid-query-row .grid-query-col {
+  padding: 0px 10px;
+}
+
+.query-card-pd-details .right-btn-query {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.query-details-title .query-main-title {
+  font-family: "nunito-bold", sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.query-details-title {
+  padding: 20px 40px 20px 20px;
+  border-bottom: 1px solid #838fbc30;
+}
+
+/* 
+.query-form-details-content::after {
+    content: '';
+    width: 100%;
+    background: linear-gradient(88deg, transparent 38%, rgb(98 99 251 / 50%));
+    height: 285px;
+    position: absolute;
+    left: 0;
+    top: 37%;
+    z-index: -1;
+    filter: blur(81px);
+} */
+
+.icon-position-rel .textarea-content-comman {
+  color: #fff;
+}
+
+.icon-position-rel .textarea-content-comman::placeholder{
+  color: #fff !important;
+}

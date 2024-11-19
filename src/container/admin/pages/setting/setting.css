@@ -1,0 +1,40 @@
+/* styles for the RadioGroup container */
+.custom-radio-group {
+    /* background-color: lightgray; */
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+
+/* styles for individual radio buttons (FormControlLabel) */
+.custom-radio-label {
+    margin: 5px;
+
+}
+
+/* styles for radio button label text */
+.custom-radio-label-text {
+    /* color: blue; */
+}
+
+/* styles for radio button */
+.custom-radio-input {
+    color: blue;
+}
+
+/* styles for the selected (checked) radio button */
+.custom-radio-input:checked {
+    color: green;
+}
+
+.addfam{
+    margin-top: 20px;
+}
+
+.remove-btn{
+    margin-top: 22px;
+}
+
+.mb-30-setting{
+    margin-bottom: 30px !important;
+}

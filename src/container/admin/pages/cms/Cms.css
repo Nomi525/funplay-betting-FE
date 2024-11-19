@@ -1,0 +1,72 @@
+.form-label {
+    color: #122B45;
+    font-family: 'inter-regular', sans-serif;
+}
+
+.save-btn-main .save-user-btn,
+.save-btn-main .save-user-btn:hover {
+    min-width: 87px;
+    background-color: #114A65;
+    color: #FFFFFF;
+    height: 36px;
+}
+
+.border-btn-main .border-btn {
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 6px 14px 5px;
+    font-size: 12px;
+    line-height: 18px;
+    color: red;
+    font-family: 'Poppins-Regular', sans-serif;
+    text-transform: capitalize;
+}
+
+.save-btn-main .save-user-btn,
+.save-btn-main .save-user-btn:hover {
+    min-width: 100px;
+    background: #eaac35;
+    color: #fff;
+    height: 36px;
+}
+
+.border-btn-main .border-btn {
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background: #eaac35;
+    color: #fff;
+    padding: 6px 14px 5px;
+    font-size: 12px;
+    line-height: 18px;
+
+    font-family: 'Poppins-Regular', sans-serif;
+    text-transform: capitalize;
+}
+
+.user-save-icon {
+    margin-right: 8px;
+    object-fit: contain;
+}
+
+
+.save-user-btn img {
+    margin-right: 5px;
+}
+
+.flex-cms-data{
+    display: flex;
+    align-items: center;
+}
+
+.w-100-drop{
+    width: 100%;
+}
+
+.sidebar-ul .cms-menu-sideuser{
+    padding: 0px;
+  }
+
+  .upi-logo-input img{
+    object-fit: contain;
+  }

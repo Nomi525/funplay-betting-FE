@@ -1,0 +1,67 @@
+.payment-method-container .css-8l6tpu {
+  justify-content: space-between;
+  color: #fff;
+}
+.payment-method-container {
+  padding: 5px;
+  /* border-width: 1px;
+    border-style: solid; */
+  /* border-color: #9FA6B2; */
+}
+
+.payment-method-container .MuiRadio-colorPrimary {
+  color: #fff;
+}
+
+.payment-method-container svg {
+  color: #fff;
+}
+
+/* .payment-method-container .form-control .payemnt-method-label {
+    justify-content: space-between !important;
+    color: #fff  !important;;
+} */
+/* MuiFormControlLabel-root MuiFormControlLabel-labelPlacementStart payemnt-method-label css-8l6tpu */
+
+.payment-label {
+  display: flex;
+  align-items: center;
+  gap: 3 !important;
+}
+.payment-title {
+  padding-left: 10px;
+}
+.payment-method-avatar img {
+  width: 30px;
+  object-fit: contain;
+}
+
+.copy-box .copy-avatar {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+.copy-box .copy-avatar img {
+  width: 20px;
+  height: 20px;
+}
+
+.bankdetail-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #171b37;
+  /* color: #6a7eb7; */
+  font-size: 14px;
+  /* line-height: 19px; */
+  padding: 4px 15px;
+  /* border: 0px; */
+  border-radius: 8px !important;
+  margin-bottom: 8px;
+}
+
+.copy-acc-text {
+    font-size: 11px;
+    color: #0d70d9;
+    padding: 8px 0;
+}

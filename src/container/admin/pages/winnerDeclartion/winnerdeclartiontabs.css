@@ -1,0 +1,125 @@
+.table-search-winner {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+
+.flex-just-edit-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.flex-just-edit-list  .mb-10 {
+    margin-bottom: 0px;
+}
+
+.flex-just-edit-list  .title-header-flex{
+    margin-bottom: 0px;
+}
+
+.flex-bet-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flex-bet-content .flex-bet-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'nunito-bold', sans-serif;
+}
+
+.flex-bet-content .flex-bet-value {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 5px;
+    font-family: 'nunito-regular', sans-serif;
+}
+
+.declaration-winner-title .declaration-title-content {
+    font-size: 20px;
+    color: #2e60eb;
+    line-height: 22px;
+    font-family: "nunito-semibold", sans-serif;
+    /* margin-bottom: 10px; */
+}
+/* 
+.btn-winning-number {
+    margin-bottom: 10px;
+} */
+
+.declaration-winner-title .declaration-title-content:first-letter {
+    text-transform: capitalize;
+}
+
+.declaration-winner-details .decalar-details-grid{
+    align-items: center;
+    margin: 0px -10px;
+}
+
+.decalar-details-grid .decalar-inner-grid{
+    padding: 0px 10px;
+}
+
+.declaration-winner-details {
+    margin-bottom: 15px;
+}
+
+.total-bet-list-details .total-bet-title {
+    color: #fff;
+    font-family: 'nunito-regular', sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.declaration-winner-details {
+    margin-bottom: 15px;
+}
+
+.total-bet-list-details .total-bet-title {
+    color: #fff;
+    font-family: 'nunito-regular', sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.bet-prices-details .number-manage-container .number-bet-table {
+    min-width: initial;
+}
+
+/* .btn-winning-number {
+    margin-bottom: 10px;
+} */
+
+.total-bet-number {
+    margin-top: 20px;
+}
+
+.align-center-contenr{
+    align-items:  center;
+}
+
+.winning-number-below-details .bluebox-text1 p {
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'inter-regular', sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.flex-end-edit-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px -5px 0px -5px;
+}
+
+.flex-end-edit-modal .outline-blue-btn-main, .flex-end-edit-modal .blue-btn-main {
+    min-width: 110px;
+    padding: 0px 5px;
+}

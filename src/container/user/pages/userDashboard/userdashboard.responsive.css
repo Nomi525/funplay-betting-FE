@@ -1,0 +1,284 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+    .card-betting-main .betting-card-bg .betting-card-pd {
+        padding: 85px 15px 22px 15px;
+    }
+
+    .betting-img-content .betting-img {
+        max-width: 132px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+    .live-game-bg-main .live-game-pd-content {
+        padding: 29px 25px 28px 25px;
+    }
+    .live-game-user-details .user-game-title {
+        font-size: 12px;
+    }
+    .live-game-user-details .user-game-title-id {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    
+    .right-dashboard-main-user.header-left-active {
+        display: block;
+        right: 0px;
+    }
+
+    .right-dashboard-main-user {
+        display: none;
+        top: 0px;
+        right: 0px;
+        right: -230px;
+        transition: 0.5s all ease-in-out;
+        max-width: 400px;
+        width: 400px;
+        flex: 0 0 400px;
+    }
+
+    .chatbox {
+        height: calc(100vh - 87px);
+    }
+
+    .dasboard-flex-user-main {
+        flex-direction: column-reverse;
+    }
+
+    .card-betting-list {
+        display: flex;
+        /* width: 100%; */
+        justify-content: center;
+        margin: 0px -10px;
+    }
+
+    .card-betting-main {
+        width: 25%;
+        max-width: 25%;
+        flex: 0 0 25%;
+        padding: 0px 10px;
+    }
+
+    .left-dashboard-main-user {
+        width: 100%;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .right-dashboard-main-user.header-left-active {
+        display: block;
+        right: 0px;
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .left-user-chat{
+        max-width: 90%;
+    }
+    .chat-right{
+        max-width: 90%;
+        margin-left: auto;
+    }
+
+    .right-dashboard-main-user {
+        display: none;
+        top: 0px;
+        transition: 0.5s all ease-in-out;
+        right: -230px;
+
+    }
+    /* .right-dashboard-main-user {
+        position: initial;
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 20px 0px 0px 0px;
+    } */
+
+    .dasboard-flex-user-main {
+        flex-direction: column-reverse;
+    }
+
+    .card-betting-list {
+        display: flex;
+        /* width: 100%; */
+        margin: 0px -10px;
+    }
+
+
+
+    .left-dashboard-main-user {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* .right-dashboard-main-user{
+        display: none;
+    } */
+    .livegame-col2 {
+        flex: 1;
+    }
+
+    .live-game-bg-main .live-game-pd-content {
+        padding: 30px 15px;
+    }
+
+    .card-betting-list {
+        justify-content: center;
+    }
+
+    .card-betting-main {
+        width: 33.33%;
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        padding: 0px 10px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .deposit-bonus-box .banner-slider-details .owl-nav .owl-next,
+    .deposit-bonus-box .banner-slider-details .owl-nav .owl-prev{
+        display: none;
+    }
+    .desk-our-game-show{
+        display: none;
+    }
+    .mobile-our-game-show{
+        display: block;
+    }
+    /* .right-dashboard-main-user{
+        display: none;
+    } */
+
+    .table-container-livebeat .table-livebeat {
+        min-width: 660px;
+    }
+    .table-livebeat thead tr th:nth-child(1), .table-livebeat tbody tr td:nth-child(1) {
+        width: 15%;
+        min-width: 15%;
+    }
+
+    .table-livebeat thead tr th:nth-child(2), .table-livebeat tbody tr td:nth-child(2) {
+        width: 12%;
+        min-width: 12%;
+    }
+
+    .card-our-game-main .card-game-our-pd {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .our-game-img-content {
+        margin-bottom: 7px;
+    }
+    .our-game-img-content .our-game-bg {
+        height: 115px;
+    }
+
+    .card-betting-main {
+        width: 50%;
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 0px 10px;
+    }
+
+    .livegame-col1,
+    .livegame-col2,
+    .col1-dash,
+    .col2-dash {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .livegame-col1,
+    .col1-dash {
+        margin-bottom: 15px;
+    }
+
+    .live-game-bg-main::after {
+        width: 100%;
+    }
+
+    .live-game-bg-main .live-game-pd-content {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .table-container-livebeat .table-livebeat {
+        min-width: 780px;
+    }
+
+    .table-container-livebeat {
+        max-width: calc(100vw - 85px);
+    }
+
+    .refrral-details-user-dash .title-label-comman-user {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+
+
+    .copy-hash-id-flex .form-control-details-auth .custom-auth-user-control input {
+        padding-left: 115px;
+        padding-right: 80px;
+    }
+}
+
+
+@media (max-width: 345px) {
+    .card-betting-main {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .card-betting-list {
+        flex-wrap: wrap;
+    }
+    .right-cms-content ul li, .copyright-title-details .copy-details-footer {
+        font-size: 11px;
+        padding: 0px 6px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 319px) {
+    .card-betting-main {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0px 10px;
+    }
+
+    .card-betting-list {
+        flex-wrap: wrap;
+    }
+
+    .table-container-livebeat {
+        max-width: calc(100vw - 67px);
+    }
+
+    .live-beat-card-bg .live-beat-padding {
+        padding: 15px 15px 20px;
+    }
+
+    .referral-link-title {
+        top: -57px;
+        border-right: 0px;
+    }
+
+    .refrral-details-user-dash .copy-hash-id-flex {
+        padding-top: 20px;
+    }
+
+    .copy-hash-id-flex .form-control-details-auth .custom-auth-user-control input {
+        padding-left: 15px;
+    }
+}

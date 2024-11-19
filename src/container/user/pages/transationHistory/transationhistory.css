@@ -1,0 +1,39 @@
+.transaction-table-user thead .transaction-user-tr th:nth-child(1), .transaction-table-user tbody .transaction-user-tr td:nth-child(1) {
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+} 
+
+.transaction-table-user thead .transaction-user-tr th:nth-child(2), .transaction-table-user tbody .transaction-user-tr td:nth-child(2) {
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+} 
+
+.transaction-table-user thead .transaction-user-tr th:nth-child(3), .transaction-table-user tbody .transaction-user-tr td:nth-child(3) {
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+} 
+
+.transaction-table-user thead .transaction-user-tr th:nth-child(4), .transaction-table-user tbody .transaction-user-tr td:nth-child(4) {
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+} 
+
+.transaction-table-user thead .transaction-user-tr th:nth-child(5), .transaction-table-user tbody .transaction-user-tr td:nth-child(5) {
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+} 
+
+.MuiMenu-list .MuiTablePagination-menuItem {
+    color: #fff;
+    font-size: 14px;
+}
+
+.MuiMenu-paper {
+    background-color: transparent;
+}
+

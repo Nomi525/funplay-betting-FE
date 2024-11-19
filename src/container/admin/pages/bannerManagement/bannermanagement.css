@@ -1,0 +1,64 @@
+.deposit-banner-img{
+    width: 140px;
+    height: 40px;
+    object-fit: contain;
+    margin-left: 0px;
+}
+
+.banner-management-table thead tr th:nth-child(1), .banner-management-table tbody tr td:nth-child(1) {
+    min-width: 5%;
+    width: 5%;
+    max-width: 5%;
+}
+
+.banner-management-table thead tr th:nth-child(2), .banner-management-table tbody tr td:nth-child(2) {
+    min-width: 15%;
+    width: 15%;
+    max-width: 15%;
+}
+
+.banner-management-table thead tr th:nth-child(3), .banner-management-table tbody tr td:nth-child(3) {
+    min-width: 25%;
+    width: 25%;
+    max-width: 25%;
+}
+
+.banner-management-table thead tr th:nth-child(4), .banner-management-table tbody tr td:nth-child(4) {
+    min-width: 10%;
+    width: 10%;
+    max-width: 10%;
+    text-align: center;
+}
+
+.banner-img-content {
+    flex-direction: column;
+    align-items: start !important;
+}
+
+.banner-img-content .deposit-banner-view {
+    width: 200px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.banner-img-content .input-user-desc {
+    width: 100%;
+    margin: 0px;
+}
+
+.banner-img-content {
+    margin-bottom: 10px;
+}
+
+.grid-banner-view .grid-banner-list{
+    padding: 0px 10px;
+}
+
+.grid-banner-view{
+    margin: 0px -10px;
+}
+
+.banner-upload-details .custom-file-upload {
+    height: 35px;
+}

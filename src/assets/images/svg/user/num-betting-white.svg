@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="14" height="14" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)">
+    <g id="__TEMP__SVG__" transform="translate(0 0.538)">
+      <path id="Path_8" data-name="Path 8" d="M8.615,11.846h7.538v1.077H8.615Z" transform="translate(-2.154 -2.154)" fill="#fff"/>
+      <path id="Path_9" data-name="Path 9" d="M8.615,4.308h7.538V5.385H8.615Z" transform="translate(-2.154 -2.154)" fill="#fff"/>
+      <path id="Path_10" data-name="Path 10" d="M4.308,6.462V2.154H3.231v.538H2.154V3.769H3.231V6.462H2.154V7.538H5.385V6.462Z" transform="translate(-2.154 -2.154)" fill="#fff"/>
+      <path id="Path_11" data-name="Path 11" d="M5.385,15.077H2.154V12.923a1.077,1.077,0,0,1,1.077-1.077H4.308V10.769H2.154V9.692H4.308a1.077,1.077,0,0,1,1.077,1.077v1.077a1.077,1.077,0,0,1-1.077,1.077H3.231V14H5.385Z" transform="translate(-2.154 -2.154)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

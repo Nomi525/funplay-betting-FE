@@ -1,0 +1,5 @@
+<svg id="arrow-left-circle-fill" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_229" data-name="Group 229">
+    <path id="Path_231" data-name="Path 231" d="M10,0A10,10,0,1,0,20,10,10,10,0,0,0,10,0Zm4.375,9.375a.625.625,0,0,1,0,1.25H7.134l2.684,2.682a.626.626,0,1,1-.885.885l-3.75-3.75a.625.625,0,0,1,0-.885l3.75-3.75a.626.626,0,0,1,.885.885L7.134,9.375Z" fill="#2e60eb"/>
+  </g>
+</svg>

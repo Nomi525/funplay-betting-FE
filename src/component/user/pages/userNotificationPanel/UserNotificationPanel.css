@@ -1,0 +1,107 @@
+.notification-drawer .MuiDrawer-paper {
+  height: calc(100% - 145px);
+  background: #0c0e1d;
+  z-index: 99;
+  top: 93px;
+  border-left: 0.5px solid #2b2a5d;
+  width: 287px;
+  transition: none !important;
+  overflow: hidden;
+}
+/* .chat-drawer .MuiDrawer-paper {
+  transition: none !important;
+  height: calc(100vh - 143px);
+  top: 93px;
+  width: 250px;
+  overflow: hidden;
+  background: #0c0e1d;
+  box-shadow: none;
+} */
+.notification-drawer .MuiModal-backdrop {
+  background: none;
+}
+
+.notification-box{
+    border-bottom: 1px solid #2B2A5D;
+    padding: 10px
+}
+
+.notification-description{
+    color: #fff
+}
+
+.notification-box .timestamp {
+    color: #999;
+    font-size: 10px;
+    text-align: end
+}
+
+.notification-box .title {
+    font-size: 13px;
+    color: white;
+    padding-bottom: 5px
+}
+.notification-box .notification-description {
+    color: #fff;
+    line-height: 16px;
+    font-size: 12px;
+    font-family: 'nunito-regular', sans-serif
+}
+.notification-list {
+  height: calc(100vh - 168px);
+  padding: 5px;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+.notification-list::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .notification-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  .notification-list::-webkit-scrollbar-thumb {
+    background: #5356fb;
+    border-radius: 10px;
+  }
+
+
+  .notification-heading-text {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    border-bottom: 1px solid #2b2a5d;
+  }
+  
+  .notification-heading-text .notification-heading-main-text {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 4px;
+  }
+
+  .blue-btn-main .notification-btn,
+.blue-btn-main .notification-btn:hover {
+  background: #2e60eb;
+  border-radius: 8px;
+  /* width: 100%; */
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 12px;
+  line-height: 19px;
+  font-family: "nunito-regular", sans-serif;
+  min-height: 34px;
+  cursor: pointer;
+}
+
+.notification-img {
+  cursor: pointer;
+  font-size: 12px !important;
+  color: #0d70d9;
+  padding: 4px;
+  border: 1px solid #0d70d9;
+  border-radius: 4px;
+}

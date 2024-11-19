@@ -1,0 +1,284 @@
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .main-card-dash-details .main-list-card-details li {
+    width: calc(100% / 4);
+  }
+}
+
+/* ipad pro */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .admin-dashboard-box {
+    margin-bottom: 20px;
+  }
+
+  .dashboard-content .admin-page-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .admin-dash-box {
+    margin-bottom: 15px;
+  }
+
+  .user-btn-flex {
+    margin-top: 15px;
+  }
+}
+
+/* phone and tablets */
+@media screen and (max-width: 991px) {
+  .admin-login-left-main {
+    display: none;
+  }
+
+  .admin-login-right-main {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .admin-login-box {
+    padding: 50px 15px 100px 15px;
+  }
+
+  .login-left-bg {
+    height: 50vh;
+    background-size: cover;
+  }
+
+  .user-list-flex {
+    align-items: flex-start;
+    margin-bottom: 24px;
+    flex-direction: column;
+  }
+
+  .admin-dashboard-box {
+    margin-bottom: 10px;
+  }
+
+  .admin-dash-box {
+    margin-bottom: 15px;
+  }
+
+  .user-btn-flex {
+    margin-top: 15px;
+  }
+
+  .change-pass-main {
+    max-width: 100%;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .body-overflow {
+    overflow: hidden;
+  }
+}
+
+/* phone */
+@media (max-width: 767px) {
+  .main-card-dash-details .main-list-card-details li {
+    width: calc(100% / 1);
+  }
+  .admin-sidebar-logo-main .sidebar-close-btn {
+    display: block;
+  }
+
+  .dashboard-containt-main {
+    padding: 88px 15px 24px 15px;
+  }
+
+  .admin-dashboard-inner-box {
+    max-width: 100%;
+  }
+
+  .dashboard-content .admin-page-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .admin-dashboard-inner-box .admin-dash-price {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .dash-icons {
+    height: 35px;
+    width: 35px;
+  }
+
+  .admin-login-left-main {
+    display: none;
+  }
+
+  .admin-login-right-main {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .admin-login-box {
+    padding: 50px 15px 50px 15px;
+  }
+
+  .login-left-bg {
+    height: 50vh;
+  }
+
+  .add-user-input .form-control-textarea {
+    min-width: 100%;
+  }
+
+  .user-btn-flex {
+    margin-top: 0px;
+  }
+
+  .user-list-flex,
+  .userlist-btn-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .user-list-inner-flex {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .export-btn-main .export-btn,
+  .export-btn-main .export-btn:hover {
+    margin-right: 0px;
+    min-width: 150px;
+  }
+
+  .adduser-btn-main .adduser-btn,
+  .adduser-btn-main .adduser-btn:hover {
+    min-width: 150px;
+  }
+
+  .dashboard-content .user-list-page-title {
+    margin-bottom: 20px;
+  }
+
+  .user-search-box {
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+
+  .user-search-main {
+    width: 100%;
+  }
+
+  .bergurmenu-icon {
+    height: 20px;
+    object-fit: contain;
+    width: 20px;
+  }
+
+  .admin-header-icon-box {
+    margin-right: 15px;
+  }
+
+  .admin-header-row .bergur-button {
+    padding: 0px;
+    min-width: 37px;
+  }
+
+  .dashboard-left-main {
+    flex: 0 1;
+    max-width: 0;
+    width: 0;
+  }
+
+  .dashboard-right-main {
+    margin-left: 0px;
+  }
+
+  .admin-sidebar-logo-main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .close-icon {
+    height: 23px;
+    width: 23px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .admin-sidebar-logo {
+    order: initial;
+    margin: initial;
+  }
+
+  .admin-header-main.active .admin-sidebar-logo {
+    opacity: 1;
+    display: block;
+    height: 35px;
+    margin-left: 10px;
+    order: 1;
+  }
+
+  .admin-header-main.admin-header-deactive .admin-sidebar-logo {
+    opacity: 1;
+    margin-left: 10px;
+    height: 35px;
+  }
+
+  .admin-header-main {
+    left: 0;
+  }
+
+  .admin-header-deactive .admin-header-logo-main {
+    flex-direction: row-reverse;
+  }
+
+  .filter-main .MuiDrawer-paper {
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  .filter-main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 14px;
+    order: 1;
+  }
+
+  .progress-bar-text {
+    right: 0px;
+    top: -23px;
+  }
+
+  .body-overflow {
+    overflow: hidden;
+  }
+
+  .header-sidebar-logo {
+    order: 2;
+  }
+
+  .modal .modal-inner {
+    max-width: 350px;
+  }
+
+  .filter-checkbox-main .checkbox-lable {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .add-user-input {
+    margin-bottom: 10px;
+  }
+
+  .add-user-containt .add-basic-text {
+    margin: 0px 0px 4px;
+  }
+
+  .user-btn-flex {
+    margin-top: 30px;
+  }
+ 
+}

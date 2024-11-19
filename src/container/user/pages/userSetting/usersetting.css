@@ -1,0 +1,153 @@
+.user-title-deatils .account-user-title {
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'nunito-bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.user-details-setting-details {
+    padding: 30px 0px;
+}
+
+.tab-content-user .tab-btn-details.Mui-selected {
+    color: #fff;
+}
+
+.tab-content-user .tab-btn-details {
+    color: #8591be;
+    text-transform: capitalize;
+    font-family: 'nunito-regular', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tab-border-user .MuiTabs-indicator{
+    background-color: #fff;
+}
+
+
+
+.tab-details-content-top {
+    padding: 20px 0px;
+}
+
+.tab-main-card-content {
+    background: #101325;
+    padding: 30px;
+    box-shadow: 0px 3px 30px #0000000d;
+    border-radius: 10px;
+}
+
+.user-profile-details .user-logo-profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid  #818db6;
+}
+
+.edit-icon-details .edit-user-icon-btn {
+    background: #fff;
+    padding: 2px;
+    min-width: inherit;
+    border-radius: 50%;
+}
+
+.edit-icon-details .edit-user-icon-btn img {
+    height: 17px;
+    width: 17px;
+    object-fit: contain;
+}
+
+.user-profile-details {
+    position: relative;
+    max-width: max-content;
+}
+
+.edit-icon-details {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.grid-row-details {
+    margin: 0px -10px;
+}
+
+.grid-row-details .grid-user-col {
+    padding: 0px 10px;
+}
+
+.max-betting-card {
+    max-width: 150px;
+    margin-left: auto;
+    padding-top: 40px;
+}
+
+.setting-pass-main .setting-password .MuiInputBase-input{
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10px 15px 9.88px !important;
+    border: 0px;
+    border-radius: 8px !important;
+}
+
+.setting-pass-main .setting-password .MuiFilledInput-underline{
+    border-radius: 8px !important;
+}
+
+.MuiTabScrollButton-horizontal svg {
+    color: #60698b;
+}
+
+.ml-profile-left{
+    margin-left: inherit;
+    margin-bottom: 10px;
+}
+
+.mb-profile-user{
+    margin-bottom: 20px;
+}
+
+/* .tab-content-user .dnone-tab-transaction-mobile{
+    display: none;
+} */
+
+.switch-details-account .MuiSwitch-track {
+    background-color: #ffffff9c;
+}
+
+.switch-details-account  .MuiSwitch-switchBase {
+    color: #ffffffb3;
+}
+
+
+.switch-details-account .Mui-checked + .MuiSwitch-track {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.switch-details-account .Mui-checked {
+    color: #2e60eb;
+}
+
+.flex-activaed-details{
+    display: flex;
+    align-items: center;
+}
+
+.flex-activaed-details p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: "nunito-regular", sans-serif;
+}
+
+.switch-deactived-title {
+    color: #fff;
+    font-family: 'nunito-regular';
+    font-size: 15px;
+    line-height: 20px;
+}
+

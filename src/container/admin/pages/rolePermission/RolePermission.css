@@ -1,0 +1,98 @@
+.role-management-table thead tr th:nth-child(1),
+.role-management-table tbody tr td:nth-child(1) {
+  min-width: 26%;
+  width: 25%;
+  max-width: 29%;
+}
+
+.role-management-table thead tr th:nth-child(2),
+.role-management-table tbody tr td:nth-child(2) {
+  min-width: 30%;
+  width: 30%;
+  max-width: 30%;
+}
+
+.role-management-table thead tr th:nth-child(3),
+.role-management-table tbody tr td:nth-child(3) {
+  min-width: 17%;
+  width: 17%;
+  max-width: 17%;
+}
+.add-role-row {
+  margin-bottom: 20px;
+}
+.role-card-main {
+  width: 100%;
+  background-color: #24396b99;
+  border-radius: 11px;
+  padding: 15px;
+}
+.role-card-inner-flex {
+  display: flex;
+}
+.role-titles-main {
+  max-width: 50%;
+  width: 100%;
+  flex: 0 0 50%;
+}
+.role-titles-main .role-titles {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins-Regular", sans-serif;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.roles-data-main-flex {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.roles-data-box .check-box-role svg {
+  color: #9babc5;
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.roles-data-box .check-box-role {
+  padding: 0px;
+}
+.add-role-flex {
+  display: flex;
+}
+.table-th .check-box-role {
+  color: rgba(255, 255, 255, 0.473);
+
+  padding: 0px;
+}
+
+.table-body .check-box-role {
+  color: rgba(255, 255, 255, 0.473);
+  padding: 0px;
+}
+.roles-data-box .role-data-title {
+  font-size: 13px;
+  line-height: 19px;
+  color: #9babc5;
+  font-family: "Poppins-Regular", sans-serif;
+}
+.table-body .check-box-role svg {
+  padding: 0px;
+}
+.roles-data-box .check-box-role svg {
+  color: #9babc5;
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.roles-data-box .check-box-role {
+  padding: 0px;
+}
+.roles-data-box {
+  max-width: 100px;
+  flex: 0 0 100px;
+  width: 100%;
+}
+
+.subadmin-container .subadmin-table{
+  min-width: 850px;
+}

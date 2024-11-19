@@ -1,0 +1,42 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .max-betting-card {
+        padding-top: 20px;
+    }
+
+    .bank-details-conatiner {
+        overflow: auto;
+        max-width: calc(100vw - 60px);
+    }
+
+    .bank-details-conatiner .bank-details-table {
+        min-width: 1000px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* .tab-content-user .dnone-tab-transaction-mobile{
+        display: flex;
+    } */
+    .tab-main-card-content {
+        padding: 30px 15px;
+    }
+
+    .bank-details-conatiner {
+        overflow: auto;
+        max-width: calc(100vw - 60px);
+    }
+
+    .bank-details-conatiner .bank-details-table {
+        min-width: 1000px;
+    }
+}

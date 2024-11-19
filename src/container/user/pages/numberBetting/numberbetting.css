@@ -1,0 +1,1646 @@
+/*  */
+.comman-ball-betting {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 3s;
+  -webkit-transition: transform 3s;
+  -moz-transition: transform 3s;
+  -ms-transition: transform 3s;
+  -o-transition: transform 3s;
+}
+
+.clock-rotated {
+  animation: rightrotated 1200ms linear infinite;
+  -webkit-animation: rightrotated 1200ms linear infinite;
+}
+
+@keyframes rightrotated {
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+.comman-ball-betting img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+
+.clock-rotated-left {
+  animation: leftrotated 1200ms linear infinite;
+  -webkit-animation: leftrotated 1200ms linear infinite;
+}
+
+@keyframes leftrotated {
+  to {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+  }
+}
+
+
+.clock-flex {
+  display: flex;
+}
+
+/* animation code */
+
+@keyframes moveit {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: 100%
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+    transition: 0.5s ease;
+  }
+
+  20% {
+    top: 120px;
+    transition: 0.5s ease;
+  }
+
+  40% {
+    top: 0;
+    transition: 0.5s ease;
+  }
+
+  60% {
+    top: 120px;
+    transition: 0.5s ease;
+  }
+
+  80% {
+    top: 0;
+    transition: 0.5s ease;
+  }
+
+  100% {
+    top: 120px;
+    transition: 0.5s ease;
+  }
+
+}
+
+
+/* 0% {top: 0px; transform: scale(1, 1);}
+    80%{transform: scale(0.85, 1);}
+    100% {top: 120px; transform: scale(1.2,0.6);} */
+
+@keyframes scaleit {
+  0% {
+    transform: scale(0.4, 0.1);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+
+/* CSS */
+
+
+.ball-container {
+  position: relative;
+  /* height: 70px; */
+  height: 43px;
+  display: flex;
+  /* max-width: 800px; */
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ball {
+  /* position: absolute; */
+  height: 39px;
+  width: 39px;
+  border-radius: 40px;
+  margin: 0px 10px;
+  background-color: red;
+  box-shadow: inset -10px -10px 10px rgba(0, 0, 0, .6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: calc(100% / 10); */
+  max-width: 60px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+}
+
+.flex-content .ball-container:nth-child(even) {
+  margin-left: -53px;
+}
+
+
+
+.ball span {
+  font-size: 11px;
+  font-family: "poppins-bold", sans-serif;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: inset 2px -6px 11px rgb(43 43 43);
+}
+
+
+
+
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0) scale(1, 1) rotate(0deg);
+    transition: .5s ease;
+  }
+
+  20% {
+    transform: translateY(70px) scale(1, 0.9);
+    transition: .5s ease;
+  }
+
+  100% {
+    transform: translateY(0) scale(0.95, 1) rotate(360deg);
+    transition: .5s ease;
+  }
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  /* height: calc(100vh - 165px);
+  overflow-y: auto; */
+  /* height: calc(100vh - 197px); */
+  margin-left: 20px;
+  justify-content: center;
+
+  height: calc(100% - 23px);
+
+}
+
+.bet-number-content-scroll {
+  padding: 25px 10px;
+  height: calc(100vh - 247px);
+  overflow: auto;
+}
+
+.bet-coin-num-list .flex-bet-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.bet-bottom-number-content .num-bet-value-flex {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  margin-right: 10px;
+}
+
+.number-value-input .number-input-fleid {
+  width: 100%;
+}
+
+.num-bet-value-flex .number-value-input .number-input-fleid input {
+  background-color: #0c0e1d;
+  color: #6A7EB7;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 6px 15px 9.88px;
+  border-radius: 8px !important;
+  width: 100%;
+}
+
+.bet-now-flex-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bet-now-flex-content .flex-count-num {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.flex-count-num .count-num-show {
+  padding: 9px 10px;
+  background: #0c0e1d;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.flex-count-num .count-button,
+.flex-count-num .count-button:hover,
+.flex-count-num .count-button:active {
+  background: #0c0e1d;
+  padding: 2px 10px;
+  min-width: inherit;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 0px;
+  font-family: 'nunito-semibold', sans-serif;
+}
+
+
+.num-bet-value-flex .number-value-input .number-input-fleid input:-webkit-autofill,
+.num-bet-value-flex .number-value-input .number-input-fleid input:-webkit-autofill:hover,
+.num-bet-value-flex .number-value-input .number-input-fleid input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #0c0e1d inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  border-radius: 8px !important;
+  -webkit-text-fill-color: #fff;
+}
+
+.number-value-input {
+  /* width: 100%; */
+  max-width: 87px;
+  margin-right: 10px;
+}
+
+.bet-bottom-number-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #171b37;
+  padding: 10px;
+  border-top: 2px solid #254cb9;
+}
+
+.bet-coin-num-list .flex-bet-list-ul .number-list-details {
+  padding: 0px 5px 10px 5px;
+  width: calc(100% / 5);
+  text-align: center;
+}
+
+.ball-bet-amount-content {
+  padding-bottom: 10px;
+}
+
+.bet-now-btn-list {
+  padding-top: 10px;
+}
+
+.number-bet-details {
+  height: calc(100% - 64px);
+}
+
+.number-details-main {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bet-coin-num-list .flex-bet-list-ul .number-list-details .bg-num-bet-conetnt {
+  padding: 10px;
+  background-color: #171b37;
+  border-radius: 8px;
+}
+
+.bet-coin-num-list .flex-bet-list-ul .number-list-details .bg-num-bet-conetnt.active-bg {
+  background-color: #2e60eb;
+}
+
+.bet-coin-num-list .flex-bet-list-ul .number-list-details .bg-num-bet-conetnt .number-bet-coin {
+  color: #fff;
+  font-family: 'nunito-semibold', sans-serif;
+  font-size: 16px;
+}
+
+.number-bet-timer-content {
+  background: #171b37;
+  border-bottom: 2px solid #254cb9;
+}
+
+.number-bet-timer-content .timer-contentpd-details {
+  /* padding: 10px 10px; */
+  padding: 0px;
+}
+
+.timer-show-details {
+  color: #fff;
+  font-size: 19px;
+  font-family: 'nunito-bold', sans-serif;
+  line-height: 22px;
+}
+
+.ball-selected-details {
+  background: #171b37;
+  padding: 20px 10px;
+}
+
+.ball-title-content .ball-title-h4 {
+  color: #2e60eb;
+  font-family: 'nunito-bold', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.selected-ul-details .ball-container .ball {
+  height: 50px;
+  width: 50px;
+}
+
+.selected-ul-details .ball-container .ball span {
+  height: 30px;
+  width: 30px;
+  font-size: 12px;
+}
+
+.bet-timer-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px 15px 10px;
+}
+
+.bet-timer-details .timer-title-bet {
+  color: #fff;
+  margin-right: 10px;
+  font-family: 'nunito-semibold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/*  */
+
+.user-inner-content-scroll .number-betting-pd {
+  padding: 10px 0px 0px 0px;
+  margin-top: 0px;
+  height: calc(100vh - 135px);
+}
+
+.ball-multiple-content {
+  display: flex;
+  /* align-items: center; */
+  /* position: relative; */
+}
+
+.ball-multiple-content .ball-rotated-details {
+  padding: 0px 10px;
+  /* position: absolute; */
+
+}
+
+.clock-rotated-right {
+  animation-name: bounceballmultipleright;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounceballmultipleright {
+  0% {
+    transform: translateY(0) scale(1, 1) rotate(0deg);
+    transition: .5s ease;
+  }
+
+  50% {
+    transform: translateY(40px) scale(1, 0.9);
+    transition: .5s ease;
+  }
+
+  100% {
+    transform: translateY(0) scale(0.95, 1) rotate(360deg);
+    transition: .5s ease;
+  }
+}
+
+
+
+.clock-rotated-left {
+  animation-name: bounceballmultipleleft;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounceballmultipleleft {
+  0% {
+    transform: translateY(0) scale(1, 1) rotate(0deg);
+    transition: .5s ease;
+  }
+
+  50% {
+    transform: translateY(40px) scale(1, 0.9);
+    transition: .5s ease;
+  }
+
+  100% {
+    transform: translateY(0) scale(0.95, 1) rotate(-360deg);
+    transition: .5s ease;
+  }
+}
+
+
+.ball-multiple-content .ball-rotated-details img {
+  height: 80px;
+  width: 80px;
+}
+
+.col7-number {
+  width: 62%;
+  max-width: 62%;
+  flex: 0 0 62%;
+}
+
+.row-numberbetting {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 100%; */
+  height: calc(100rem - 1084px);
+}
+
+.col5-number {
+  width: 38%;
+  max-width: 38%;
+  flex: 0 0 38%;
+  border-left: 1px solid #2B2A5D;
+  /* height: calc(100vh - 145px); */
+  overflow: auto;
+  border-bottom: 1px solid #2B2A5D;
+}
+
+.number-bet-title h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'nunito-semibold', sans-serif;
+}
+
+.betting-amount-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.betting-border-list {
+  border: 1px solid #2b2a5d;
+  padding: 10px;
+}
+
+.betting-amount-flex .bet-amount-details {
+  color: #2e60eb;
+  font-size: 14px;
+  font-family: 'poppins-regular', sans-serif;
+  line-height: 18px;
+}
+
+.pd-number-betting-details {
+  padding: 10px;
+}
+
+.betting-amount-flex .bet-amount-prices {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'poppins-regular', sans-serif;
+  cursor: pointer;
+}
+
+.betting-amount-flex .bet-amount-usdt {
+  color: #2e60eb;
+  font-size: 14px;
+  font-family: 'poppins-regular', sans-serif;
+  line-height: 18px;
+}
+
+.animation-stop {
+  /* animation: crescendo 1.5s alternate infinite ease-in; */
+  animation: pulsegame 1s infinite;
+
+}
+
+@keyframes pulsegame {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(183 183 183 / 89%);
+    box-shadow: 0 0 0 0 rgb(183 183 183 / 89%);
+  }
+
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+/* @keyframes crescendo {
+  0% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1.3);
+  }
+} */
+
+.color-1 {
+  /* background: linear-gradient(143deg, rgb(249 253 42) 0%, rgb(208 93 4) 100%); */
+
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #B1D4E0 3%, #145DA0 60%, #B1D4E0 100%);
+}
+
+.color-2 {
+  /* background: linear-gradient(143deg, #3B2667 0%, #BC78EC 100%); */
+  background: radial-gradient(circle at 66% 14%, #fffffffa 3px, #42E695 3%, #0d2b19 62%, #42E695 108%);
+}
+
+.color-3 {
+  /* background: linear-gradient(143deg, #70F570 0%, #49C628 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C9A7EB 3%, #3a1361 60%, #C9A7EB 100%);
+}
+
+.color-4 {
+  /* background: linear-gradient(143deg, rgb(250, 128, 128) 0%, rgb(239, 98, 98) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #f16ce2 3%, #c60159 60%, #f16ce2 100%);
+}
+
+.color-5 {
+  /* background: linear-gradient(143deg, rgb(201, 53, 159) 0%, rgb(152, 33, 118) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #428bf9 3%, #152c5d 60%, #428bf9 100%);
+}
+
+.color-6 {
+  /* background: linear-gradient(143deg, rgb(248, 121, 90) 0%, rgb(226, 94, 62) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFB894 3%, #D20B54 60%, #FFB894 100%);
+
+}
+
+.color-7 {
+  /* background: linear-gradient(143deg, rgb(100, 153, 233) 0%, rgb(100, 153, 233) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #A6F6FF 3%, #0079FF 60%, #A6F6FF 100%);
+}
+
+.color-8 {
+
+  /* background: linear-gradient(143deg, rgb(176, 87, 141) 0%, rgb(176, 87, 141) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #9DB2BF 3%, #27374D 60%, #9DB2BF 100%);
+}
+
+.color-9 {
+  /* background: linear-gradient(143deg, #ff3fa4c4 0%, rgb(255, 63, 164) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #F15A59 3%, #D21312 60%, #F15A59 100%);
+}
+
+.color-10 {
+  /* background: linear-gradient(143deg, rgb(97, 130, 100) 0%, rgb(97, 130, 100) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C060A1 3%, #810CA8 60%, #C060A1 100%);
+}
+
+.color-11 {
+  /* background: linear-gradient(143deg, rgb(252, 11, 76) 0%, rgb(252, 11, 76) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #7dad9c 3%, #28345a 60%, #7dad9c 100%);
+}
+
+.color-12 {
+  /* background: linear-gradient(143deg, rgb(58, 152, 185) 0%, rgb(58, 152, 185) 100%); */
+
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #ECF87F 3%, #4f7011 60%, #ECF87F 100%);
+}
+
+.color-13 {
+  /* background: linear-gradient(143deg, rgb(0, 121, 255) 0%, rgb(0, 121, 255) 100%); */
+
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #E9A178 3%, #A84448 60%, #E9A178 100%);
+}
+
+.color-14 {
+  /* background: linear-gradient(143deg, rgb(241, 26, 123) 0%, rgb(241, 26, 123) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00A8CC 3%, #024655 60%, #00A8CC 100%);
+}
+
+.color-15 {
+  /* background: linear-gradient(143deg, rgb(26, 93, 26) 0%, rgb(26, 93, 26) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFBB5C 3%, #E25E3E 60%, #FFBB5C 100%);
+}
+
+.color-16 {
+  /* background: linear-gradient(143deg, rgb(255, 195, 161) 0%, rgb(255, 195, 161) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #8B9A46 3%, #354a21 60%, #8B9A46 100%);
+}
+
+.color-17 {
+  /* background: linear-gradient(143deg, rgb(167, 49, 33) 0%, rgb(167, 49, 33) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #BF9742 3%, #61481C 60%, #BF9742 100%);
+}
+
+.color-18 {
+  /* background: linear-gradient(143deg, rgb(146, 176, 106) 0%, rgb(146, 176, 106) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #E11299 3%, #7c0653 60%, #E11299 100%);
+}
+
+.color-19 {
+  /* background: linear-gradient(143deg, rgb(124, 129, 173) 0%, rgb(124, 129, 173) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #6499E9 3%, #36537e 60%, #6499E9 100%);
+}
+
+.color-20 {
+  /* background: linear-gradient(143deg, rgb(255, 170, 207) 0%, rgb(255, 170, 207) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #D4ADFC 3%, #47367a 60%, #D4ADFC 100%);
+}
+
+.color-21 {
+  /* background: linear-gradient(143deg, rgb(72, 47, 247) 0%, rgb(72, 47, 247) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #8253D7 3%, #461B93 60%, #8253D7 100%);
+}
+
+.color-22 {
+  /* background: linear-gradient(143deg, rgb(203, 59, 59) 0%, rgb(203, 59, 59) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #D988B9 3%, #B0578D 60%, #D988B9 100%);
+}
+
+.color-23 {
+  /* background: linear-gradient(143deg, rgb(185, 49, 252) 0%, rgb(185, 49, 252) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #A8DF8E 3%, #2a7508 60%, #A8DF8E 100%);
+}
+
+.color-24 {
+  /* background: linear-gradient(143deg, rgb(8, 131, 149) 0%, rgb(8, 131, 149) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #ADC9C5 3%, #10564F 60%, #ADC9C5 100%);
+}
+
+.color-25 {
+  /* background: linear-gradient(143deg, rgb(34, 234, 170) 0%, rgb(34, 234, 170) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #B25068 3%, #4C3A51 60%, #B25068 100%);
+}
+
+.color-26 {
+  /* background: linear-gradient(143deg, rgb(131, 232, 90) 0%, rgb(131, 232, 90) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C3E0E5 3%, #315679 60%, #C3E0E5 100%);
+}
+
+.color-27 {
+  /* background: linear-gradient(143deg, rgb(249, 255, 33) 0%, rgb(249, 255, 33) 100%); */
+  background: radial-gradient(circle at 66% 14%, #fffffffa 3px, aqua 3%, darkblue 60%, aqua 100%);
+}
+
+
+.color-28 {
+  /* background: linear-gradient(143deg, rgb(150, 247, 210) 0%, rgb(150, 247, 210) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFB84C 3%, #855b1c 60%, #FFB84C 100%);
+}
+
+.color-29 {
+  /* background: linear-gradient(143deg, rgb(51, 178, 59) 0%, rgb(51, 178, 59) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #5BBA6F 3%, #0C3D17 60%, #5BBA6F 100%);
+}
+
+.color-30 {
+  /* background: linear-gradient(143deg, rgb(33, 156, 144) 0%, rgb(33, 156, 144) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00C4FF 3%, #155366 60%, #00C4FF 100%);
+}
+
+.color-31 {
+  /* background: linear-gradient(143deg, rgb(126, 90, 131) 0%, rgb(126, 90, 131) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #f0c483 3%, #8f5d12 60%, #f0c483 100%);
+}
+
+.color-32 {
+  /* background: linear-gradient(143deg, rgb(255, 75, 104) 0%, rgb(255, 75, 104) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00C4FF 3%, #0d3744 60%, #00C4FF 100%);
+}
+
+.color-33 {
+  /* background: linear-gradient(143deg, rgb(33, 131, 128) 0%, rgb(33, 131, 128) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #82A0D8 3%, #1f293b 60%, #82A0D8 100%);
+}
+
+.color-34 {
+  /* background: linear-gradient(143deg, rgb(255, 66, 14) 0%, rgb(255, 66, 14) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #DFCCFB 3%, #472e6d 60%, #DFCCFB 100%);
+}
+
+.color-35 {
+  /* background: linear-gradient(143deg, rgb(203, 187, 88) 0%, rgb(203, 187, 88) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #4d4c4c 3%, #0F0F0F 60%, #4d4c4c 100%);
+}
+
+.color-36 {
+  /* background: linear-gradient(143deg, rgb(74, 114, 70) 0%, rgb(74, 114, 70) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C69749 3%, #562B08 60%, #C69749 100%);
+}
+
+.color-37 {
+  /* background: linear-gradient(143deg, rgb(163, 54, 32) 0%, rgb(163, 54, 32) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C23373 3%, #360a1e 60%, #C23373 100%);
+}
+
+.color-38 {
+  /* background: linear-gradient(143deg, rgb(240, 120, 24) 0%, rgb(240, 120, 24) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #898121 3%, #2e2d0c 60%, #898121 100%);
+}
+
+.color-39 {
+  /* background: linear-gradient(143deg, rgb(143, 45, 86) 0%, rgb(143, 45, 86) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #AFD3E2 3%, #0b5d74 60%, #AFD3E2 100%);
+}
+
+.color-40 {
+  /* background: linear-gradient(143deg, rgb(40, 190, 155) 0%, rgb(40, 190, 155) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFD93D 3%, #836900 60%, #FFD93D 100%);
+}
+
+.color-41 {
+  /* background: linear-gradient(143deg, rgb(58, 95, 11) 0%, rgb(58, 95, 11) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #F48484 3%, #ac1e1e 60%, #F48484 100%);
+}
+
+.color-42 {
+  /* background: linear-gradient(143deg, rgb(203, 232, 107) 0%, rgb(203, 232, 107) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #5C469C 3%, #151024 60%, #5C469C 100%);
+}
+
+.color-43 {
+  /* background: linear-gradient(143deg, rgb(192, 89, 73) 0%, rgb(192, 89, 73) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #E5BEEC 3%, #710085 60%, #E5BEEC 100%);
+}
+
+.color-44 {
+  /* background: linear-gradient(143deg, rgb(115, 80, 60) 0%, rgb(115, 80, 60) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #8BCD50 3%, #5eb611 60%, #8BCD50 100%);
+}
+
+.color-45 {
+  /* background: linear-gradient(143deg, rgb(184, 129, 59) 0%, rgb(184, 129, 59) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #3E54AC 3%, #1c39ad 60%, #3E54AC 100%);
+}
+
+.color-46 {
+  /* background: linear-gradient(143deg, rgb(47, 90, 145) 0%, rgb(47, 90, 145) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #9BA4B5 3%, #35373b 60%, #9BA4B5 100%);
+}
+
+.color-47 {
+  /* background: linear-gradient(143deg, rgb(129, 59, 184) 0%, rgb(129, 59, 184) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00C4FF 3%, #1093bb 60%, #3E54AC 100%);
+}
+
+.color-48 {
+  /* background: linear-gradient(143deg, rgb(63, 147, 89) 0%, rgb(63, 147, 89) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #AD7BE9 3%, #7935cc 60%, #AD7BE9 100%);
+}
+
+.color-49 {
+  /* background: linear-gradient(143deg, rgb(85, 78, 68) 0%, rgb(85, 78, 68) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FF6000 3%, #be5819 60%, #FF6000 100%);
+}
+
+.color-50 {
+  /* background: linear-gradient(143deg, rgb(243, 204, 111) 0%, rgb(243, 204, 111) 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFB5B5 3%, #bd4747 60%, #FFB5B5 100%);
+}
+
+.color-51 {
+  /* background: linear-gradient(143deg, #FEC163 0%, #DE4313 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #BECA5C 3%, #636b27 60%, #BECA5C 100%);
+}
+
+.color-52 {
+  /* background: linear-gradient(143deg, #FDEB71 0%, #F8D800 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #850E35 3%, #660425 60%, #850E35 100%);
+}
+
+.color-53 {
+  /* background: linear-gradient(143deg, #ABDCFF 0%, #0396FF 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #0F3D3E 3%, #063031 60%, #0F3D3E 100%);
+}
+
+.color-54 {
+  /* background: linear-gradient(143deg, #FEB692 0%, #EA5455 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00C4FF 3%, #155366 60%, #00C4FF 100%);
+}
+
+.color-55 {
+  /* background: linear-gradient(143deg, #CE9FFC 0%, #7367F0 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #B8621B 3%, #a3500b 60%, #B8621B 100%);
+}
+
+.color-56 {
+  /* background: linear-gradient(143deg, #90F7EC 0%, #32CCBC 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFA3FD 3%, #d643d4 60%, #FFA3FD 100%);
+}
+
+.color-57 {
+  /* background: linear-gradient(143deg, #FFF6B7 0%, #F6416C 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #B25068 3%, #4C3A51 60%, #B25068 100%);
+}
+
+.color-58 {
+  /* background: linear-gradient(143deg, #81FBB8 0%, #28C76F 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #8B9A46 3%, #354a21 60%, #8B9A46 100%);
+}
+
+.color-59 {
+  /* background: linear-gradient(143deg, #E2B0FF 0%, #9F44D3 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00A8CC 3%, #024655 60%, #00A8CC 100%);
+}
+
+.color-60 {
+  /* background: linear-gradient(143deg, #F97794 0%, #623AA2 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C9A7EB 3%, #3a1361 60%, #C9A7EB 100%);
+}
+
+.color-61 {
+  /* background: linear-gradient(143deg, #FCCF31 0%, #F55555 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFA3FD 3%, #c200bf 60%, #FFA3FD 100%);
+}
+
+.color-62 {
+  /* background: linear-gradient(143deg, #F761A1 0%, #8C1BAB 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #7DB9B6 3%, #244241 60%, #7DB9B6 100%);
+}
+
+.color-63 {
+  /* background: linear-gradient(143deg, #43CBFF 0%, #9708CC 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C07F00 3%, #795000 60%, #C07F00 100%);
+}
+
+.color-64 {
+  /* background: linear-gradient(143deg, #5EFCE8 0%, #5EFCE8 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #4E4FEB 3%, #0d0d53 60%, #4E4FEB 100%);
+}
+
+.color-65 {
+  /* background: linear-gradient(143deg, #FAD7A1 0%, #E96D71 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFBB5C 3%, #E25E3E 60%, #FFBB5C 100%);
+}
+
+.color-66 {
+  /* background: linear-gradient(143deg, #FFD26F 0%, #3677FF 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #d5e60d 3%, #fc8908 60%, #d5e60d 100%);
+}
+
+.color-67 {
+  /* background: linear-gradient(143deg, #A0FE65 0%, #FA016D 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #F78CA2 3%, #D80032 60%, #F78CA2 100%);
+}
+
+.color-68 {
+  /* background: linear-gradient(143deg, #FFDB01 0%, #0E197D 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #bcdf96 3%, #74e000 60%, #bcdf96 100%);
+}
+
+.color-69 {
+  /* background: linear-gradient(143deg, #EEAD92 0%, #6018DC 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #D0F5BE 3%, #174400 60%, #D0F5BE 100%);
+}
+
+.color-70 {
+  /* background: linear-gradient(143deg, #92FFC0 0%, #002661 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #98EECC 3%, #079159 60%, #98EECC 100%);
+}
+
+.color-71 {
+  /* background: linear-gradient(143deg, #52E5E7 0%, #130CB7 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #9DB2BF 3%, #27374D 60%, #9DB2BF 100%);
+}
+
+.color-72 {
+  /* background: linear-gradient(143deg, #F1CA74 0%, #A64DB6 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #F48484 3%, #ac1e1e 60%, #F48484 100%);
+}
+
+.color-73 {
+  /* background: linear-gradient(143deg, #E8D07A 0%, #5312D6 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #E11299 3%, #7c0653 60%, #E11299 100%);
+}
+
+.color-74 {
+  /* background: linear-gradient(143deg, #EECE13 0%, #B210FF 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #B25068 3%, #4C3A51 60%, #B25068 100%);
+}
+
+.color-75 {
+  /* background: linear-gradient(143deg, #79F1A4 0%, #0E5CAD 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #4F709C 3%, #213146 60%, #4F709C 100%);
+}
+
+.color-76 {
+  /* background: linear-gradient(143deg, #FDD819 0%, #E80505 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #CBB279 3%, #805d0c 60%, #CBB279 100%);
+}
+
+.color-77 {
+  /* background: linear-gradient(143deg, #FFF3B0 0%, #CA26FF 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #1d9dd8 3%, #0c445c 60%, #1d9dd8 100%);
+}
+
+.color-78 {
+  /* background: linear-gradient(143deg, #FFF5C3 0%, #9452A5 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FF6000 3%, #742e03 60%, #FF6000 100%);
+}
+
+.color-79 {
+  /* background: linear-gradient(143deg, #F05F57 0%, #360940 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #B2A4FF 3%, #413683 60%, #B2A4FF 100%);
+}
+
+.color-80 {
+  /* background: linear-gradient(143deg, #2AFADF 0%, #4C83FF 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFDEB4 3%, #8a5a1c 60%, #FFDEB4 100%);
+}
+
+.color-81 {
+  /* background: linear-gradient(143deg, #FFF886 0%, #F072B6 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFB894 3%, #D20B54 60%, #FFB894 100%);
+}
+
+.color-82 {
+  /* background: linear-gradient(143deg, #97ABFF 0%, #123597 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #4d4c4c 3%, #0F0F0F 60%, #4d4c4c 100%);
+}
+
+.color-83 {
+  /* background: linear-gradient(143deg, #F5CBFF 0%, #C346C2 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00C4FF 3%, #155366 60%, #00C4FF 100%);
+}
+
+.color-84 {
+  /* background: linear-gradient(143deg, #FFF720 0%, #3CD500 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #ECF87F 3%, #4f7011 60%, #ECF87F 100%);
+
+}
+
+.color-85 {
+  /* background: linear-gradient(143deg, #FF6FD8 0%, #3813C2 100%); */
+  background: radial-gradient(circle at 66% 14%, #fffffffa 3px, aqua 3%, rgb(0, 0, 223) 60%, aqua 100%);
+}
+
+.color-86 {
+  /* background: linear-gradient(143deg, #FFD3A5 0%, #FD6585 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C060A1 3%, #810CA8 60%, #C060A1 100%);
+}
+
+.color-87 {
+  /* background: linear-gradient(143deg, #C2FFD8 0%, #465EFB 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #b11448 3%, #660425 60%, #b11448 100%);
+}
+
+.color-88 {
+  /* background: linear-gradient(143deg, #FD6585 0%, #0D25B9 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #3A98B9 3%, #0c3c4e 60%, #3A98B9 100%);
+}
+
+.color-89 {
+  /* background: linear-gradient(143deg, #FD6E6A 0%, #FFC600 100%); */
+  background: radial-gradient(circle at 66% 14%, #fffffffa 3px, #42E695 3%, #0d2b19 62%, #42E695 108%);
+}
+
+.color-90 {
+  /* background: linear-gradient(143deg, #65FDF0 0%, #1D6FA3 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #C3ACD0 3%, #674188 60%, #C3ACD0 100%);
+}
+
+.color-91 {
+  /* background: linear-gradient(143deg, #6B73FF 0%, #000DFF 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #0F3D3E 3%, #063031 60%, #0F3D3E 100%);
+}
+
+.color-92 {
+  /* background: linear-gradient(143deg, #FF7AF5 0%, #513162 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #8BCD50 3%, #5eb611 60%, #8BCD50 100%);
+}
+
+.color-93 {
+  /* background: linear-gradient(143deg, #F0FF00 0%, #58CFFB 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FFCACC 3%, #740004 60%, #FFCACC 100%);
+}
+
+.color-94 {
+  /* background: linear-gradient(143deg, #FFE985 0%, #FA742B 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #D4ADFC 3%, #47367a 60%, #D4ADFC 100%);
+}
+
+.color-95 {
+  /* background: linear-gradient(143deg, #FFA6B7 0%, #1E2AD2 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #D988B9 3%, #B0578D 60%, #D988B9 100%);
+}
+
+.color-96 {
+  /* background: linear-gradient(143deg, #FFAA85 0%, #B3315F 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #7dad9c 3%, #28345a 60%, #7dad9c 100%);
+}
+
+.color-97 {
+  /* background: linear-gradient(143deg, #72EDF2 0%, #5151E5 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #00C4FF 3%, #155366 60%, #00C4FF 100%);
+}
+
+.color-98 {
+  /* background: linear-gradient(143deg, #FF9D6C 0%, #BB4E75 100%); */
+
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #898121 3%, #524c0a 60%, #898121 100%);
+}
+
+.color-99 {
+  /* background: linear-gradient(143deg, #F6D242 0%, #FF52E5 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #5C469C 3%, #151024 60%, #5C469C 100%);
+}
+
+.color-100 {
+  /* background: linear-gradient(143deg, #FFCF71 0%, #2376DD 100%); */
+  background: radial-gradient(circle at 66% 11%, #fffffffa 2px, #FF6AC2 3%, #ac0265 60%, #FF6AC2 100%);
+}
+
+/*  */
+
+.color-1.animation-stop {
+  box-shadow: 0px -1px 10px #000dff;
+}
+
+.color-2.animation-stop {
+  box-shadow: 0px -1px 10px #265f3d;
+}
+
+.color-3.animation-stop {
+  box-shadow: 0px -1px 10px #3a1361;
+}
+
+.color-4.animation-stop {
+  box-shadow: 0px -1px 10px #c60159;
+}
+
+.color-5.animation-stop {
+  box-shadow: 0px -1px 10px #3457a3;
+}
+
+.color-6.animation-stop {
+  box-shadow: 0px -1px 10px #D20B54;
+}
+
+.color-7.animation-stop {
+  box-shadow: 0px -1px 10px #0079ff;
+}
+
+.color-8.animation-stop {
+  box-shadow: 0px -1px 10px #476083;
+}
+
+.color-9.animation-stop {
+  box-shadow: 0px -1px 10px #d21312;
+}
+
+.color-10.animation-stop {
+  box-shadow: 0px -1px 10px #a611d8;
+}
+
+.color-11.animation-stop {
+  box-shadow: 0px -1px 10px #28345a;
+}
+
+.color-12.animation-stop {
+  box-shadow: 0px -1px 10px #4f7011;
+}
+
+.color-13.animation-stop {
+  box-shadow: 0px -1px 10px #A84448;
+}
+
+.color-14.animation-stop {
+  box-shadow: 0px -1px 10px #024655;
+}
+
+.color-15.animation-stop {
+  box-shadow: 0px -1px 10px #e25e3e;
+}
+
+.color-16.animation-stop {
+  box-shadow: 0px -1px 10px #354a21;
+}
+
+.color-17.animation-stop {
+  box-shadow: 0px -1px 10px #61481C;
+}
+
+.color-18.animation-stop {
+  box-shadow: 0px -1px 10px #7c0653;
+}
+
+.color-19.animation-stop {
+  box-shadow: 0px -1px 10px #36537e;
+}
+
+.color-20.animation-stop {
+  box-shadow: 0px -1px 10px #47367a;
+}
+
+.color-21.animation-stop {
+  box-shadow: 0px -1px 10px #461b93;
+}
+
+.color-22.animation-stop {
+  box-shadow: 0px -1px 10px #B0578D;
+}
+
+.color-23.animation-stop {
+  box-shadow: 0px -1px 10px #2a7508;
+}
+
+.color-24.animation-stop {
+  box-shadow: 0px -1px 10px #10564f;
+}
+
+.color-25.animation-stop {
+  box-shadow: 0px -1px 10px #4C3A51;
+}
+
+.color-26.animation-stop {
+  box-shadow: 0px -1px 10px #315679;
+}
+
+.color-27.animation-stop {
+  box-shadow: 0px -1px 10px #1515cf;
+}
+
+.color-28.animation-stop {
+  box-shadow: 0px -1px 10px #855b1c;
+}
+
+.color-29.animation-stop {
+  box-shadow: 0px -1px 10px #0c3d17;
+}
+
+.color-30.animation-stop {
+  box-shadow: 0px -1px 10px #155366;
+}
+
+.color-31.animation-stop {
+  box-shadow: 0px -1px 10px #8f5d12;
+}
+
+.color-32.animation-stop {
+  box-shadow: 0px -1px 10px #0d3744;
+}
+
+.color-33.animation-stop {
+  box-shadow: 0px -1px 10px #334462;
+}
+
+.color-34.animation-stop {
+  box-shadow: 0px -1px 10px #472e6d;
+}
+
+.color-35.animation-stop {
+  box-shadow: 0px -1px 10px #484646;
+}
+
+.color-36.animation-stop {
+  box-shadow: 0px -1px 10px #562b08;
+}
+
+.color-37.animation-stop {
+  box-shadow: 0px -1px 10px #721741;
+}
+
+.color-38.animation-stop {
+  box-shadow: 0px -1px 10px #62601e;
+}
+
+.color-39.animation-stop {
+  box-shadow: 0px -1px 10px #0b5d74;
+}
+
+.color-40.animation-stop {
+  box-shadow: 0px -1px 10px #836900;
+}
+
+.color-41.animation-stop {
+  box-shadow: 0px -1px 10px #ac1e1e;
+}
+
+.color-42.animation-stop {
+  box-shadow: 0px -1px 10px #443374;
+}
+
+.color-43.animation-stop {
+  box-shadow: 0px -1px 10px #710085;
+}
+
+.color-44.animation-stop {
+  box-shadow: 0px -1px 10px #5eb611;
+}
+
+.color-45.animation-stop {
+  box-shadow: 0px -1px 10px #1c39ad;
+}
+
+.color-46.animation-stop {
+  box-shadow: 0px -1px 10px #35373b;
+}
+
+.color-47.animation-stop {
+  box-shadow: 0px -1px 10px #1093bb;
+}
+
+.color-48.animation-stop {
+  box-shadow: 0px -1px 10px #7935cc;
+}
+
+.color-49.animation-stop {
+  box-shadow: 0px -1px 10px #be5819;
+}
+
+.color-50.animation-stop {
+  box-shadow: 0px -1px 10px #bd4747;
+}
+
+.color-51.animation-stop {
+  box-shadow: 0px -1px 10px #636b27;
+}
+
+.color-52.animation-stop {
+  box-shadow: 0px -1px 10px #660425;
+}
+
+.color-53.animation-stop {
+  box-shadow: 0px -1px 10px #063031;
+}
+
+.color-54.animation-stop {
+  box-shadow: 0px -1px 10px #155366;
+}
+
+.color-55.animation-stop {
+  box-shadow: 0px -1px 10px #a3500b;
+}
+
+.color-56.animation-stop {
+  box-shadow: 0px -1px 10px #d643d4;
+}
+
+.color-57.animation-stop {
+  box-shadow: 0px -1px 10px #9c64ab;
+}
+
+.color-58.animation-stop {
+  box-shadow: 0px -1px 10px #354a21;
+}
+
+.color-59.animation-stop {
+  box-shadow: 0px -1px 10px #024655;
+}
+
+.color-60.animation-stop {
+  box-shadow: 0px -1px 10px #52198b;
+}
+
+.color-61.animation-stop {
+  box-shadow: 0px -1px 10px #c200bf;
+}
+
+.color-62.animation-stop {
+  box-shadow: 0px -1px 10px #244241;
+}
+
+.color-63.animation-stop {
+  box-shadow: 0px -1px 10px #795000;
+}
+
+.color-64.animation-stop {
+  box-shadow: 0px -1px 10px #0f0f6a;
+}
+
+.color-65.animation-stop {
+  box-shadow: 0px -1px 10px #e25e3e;
+}
+
+.color-66.animation-stop {
+  box-shadow: 0px -1px 10px #fc8908;
+}
+
+.color-67.animation-stop {
+  box-shadow: 0px -1px 10px #d80032;
+}
+
+.color-68.animation-stop {
+  box-shadow: 0px -1px 10px #74e000;
+}
+
+.color-69.animation-stop {
+  box-shadow: 0px -1px 10px #174400;
+}
+
+.color-70.animation-stop {
+  box-shadow: 0px -1px 10px #079159;
+}
+
+.color-71.animation-stop {
+  box-shadow: 0px -1px 10px #27374d;
+}
+
+.color-72.animation-stop {
+  box-shadow: 0px -1px 10px #ac1e1e;
+}
+
+.color-73.animation-stop {
+  box-shadow: 0px -1px 10px #7c0653;
+}
+
+.color-74.animation-stop {
+  box-shadow: 0px -1px 10px #4c3a51;
+}
+
+.color-75.animation-stop {
+  box-shadow: 0px -1px 10px #213146;
+}
+
+.color-76.animation-stop {
+  box-shadow: 0px -1px 10px #805d0c;
+}
+
+.color-77.animation-stop {
+  box-shadow: 0px -1px 10px #0e5371;
+}
+
+.color-78.animation-stop {
+  box-shadow: 0px -1px 10px #742e03;
+}
+
+.color-79.animation-stop {
+  box-shadow: 0px -1px 10px #413683;
+}
+
+.color-80.animation-stop {
+  box-shadow: 0px -1px 10px #8a5a1c;
+}
+
+.color-81.animation-stop {
+  box-shadow: 0px -1px 10px #d20b54;
+}
+
+.color-82.animation-stop {
+  box-shadow: 0px -1px 10px #5b5858;
+}
+
+.color-83.animation-stop {
+  box-shadow: 0px -1px 10px #155366;
+}
+
+.color-84.animation-stop {
+  box-shadow: 0px -1px 10px #4f7011;
+}
+
+.color-85.animation-stop {
+  box-shadow: 0px -1px 10px #1515cf
+}
+
+.color-86.animation-stop {
+  box-shadow: 0px -1px 10px #810ca8;
+}
+
+.color-87.animation-stop {
+  box-shadow: 0px -1px 10px #660425;
+}
+
+.color-88.animation-stop {
+  box-shadow: 0px -1px 10px #0c3c4e;
+}
+
+.color-89.animation-stop {
+  box-shadow: 0px -1px 10px #154d2b;
+}
+
+.color-90.animation-stop {
+  box-shadow: 0px -1px 10px #674188;
+}
+
+.color-91.animation-stop {
+  box-shadow: 0px -1px 10px #063031;
+}
+
+.color-92.animation-stop {
+  box-shadow: 0px -1px 10px #5eb611;
+}
+
+.color-93.animation-stop {
+  box-shadow: 0px -1px 10px #740004;
+}
+
+.color-94.animation-stop {
+  box-shadow: 0px -1px 10px #47367a;
+}
+
+.color-95.animation-stop {
+  box-shadow: 0px -1px 10px #b0578d;
+}
+
+.color-96.animation-stop {
+  box-shadow: 0px -1px 10px #28345a;
+}
+
+.color-97.animation-stop {
+  box-shadow: 0px -1px 10px #155366;
+}
+
+.color-98.animation-stop {
+  box-shadow: 0px -1px 10px #524c0a;
+}
+
+.color-99.animation-stop {
+  box-shadow: 0px -1px 10px #2a2049;
+}
+
+.color-100.animation-stop {
+  box-shadow: 0px -1px 10px #ac0265;
+}
+
+.main-center-ball {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* pointer-events: none; */
+}
+
+/* .pos-number-details {
+  position: relative;
+} */
+
+.pos-number-details {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+}
+
+.number-bet-scroll {
+  /* overflow: auto;
+  height: 100%; */
+  height: calc(100% + 3px);
+  /* height: calc(100% + 19px); */
+}
+
+.center-justify-ball {
+  align-items: center;
+}
+
+/* .center-justify-ball .flex-content{
+  margin-top: -10px;
+} */
+
+.centerball-content {
+  animation: center-animation 6s alternate forwards ease-in-out;
+}
+
+@keyframes center-animation {
+  0% {
+    transform: scale(0);
+  }
+
+  20% {
+    transform: scale(9);
+  }
+
+  40% {
+    transform: scale(9);
+  }
+
+  60% {
+    transform: scale(9);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.d-none-block-ball {
+  display: none;
+}
+
+.block-onclick-ball {
+  display: block;
+}
+
+/* .d-none-selected{
+  display: none;
+} */
+
+.block-content {
+  display: block;
+}
+
+.bg-number-betting {
+  background-image: url('../../../../assets/images/png/frame.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 10px 10px 0px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: calc(100% + -20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+  /* height: calc(100vh - 165px); */
+}
+
+.number-list-details .second-list-button {
+  background: #2e60eb;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "nunito-regular", sans-serif;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.number-list-details .second-list-button:last-child {
+  margin-right: 0px;
+}
+
+.second-listbtn-main {
+  display: flex;
+  margin-left: 20px;
+}
+
+.second-listbtn-main .selected-game-time {
+  background-color: #079159;
+}
+
+.number-betting-records .game-records-details {
+    margin-top: 40px;
+}
+
+.accordian-main-record-title span {
+  margin-left: 8px;
+}
+
+
+.period-id-number-bet {
+  padding: 10px;
+  text-align: center;
+  color: #ffff;
+  border-bottom: 1px solid #2b2a5d;
+}
+
+.period-id-number-bet .period-data {
+  font-family: 'nunito-semibold', sans-serif;
+}
+
+.number-ball-details {
+  margin: auto;
+  color: #ffff;
+  height: 35px;
+  width: 35px;
+}
+
+.game-records-details.pb-30px{
+  padding-bottom: 50px;
+}
+.ball-number-disabled{
+  pointer-events: none;
+  opacity: 0.5;
+}
+.my-record-no-data-found{
+color:white
+}
+
+.number-record-pd{
+  padding: 0px 20px;
+}

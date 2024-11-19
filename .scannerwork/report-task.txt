@@ -1,0 +1,42 @@
+projectKey=Betting
+serverUrl=http://localhost:9000
+serverVersion=10.3.0.82913
+dashboardUrl=http://localhost:9000/dashboard?id=Betting
+ceTaskId=AYzoBxog_obiuJ0Z09r6
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYzoBxog_obiuJ0Z09r6
+
+
+
+
+
+flash rhythm drill pact gain gravity pepper jar alert one acoustic multiply
+
+[{"color":"green","totalLeastColourAmount":40,"totalLeastNumberAmount":20,"usedColourNumbers":[5,3],"unUsedColourNumbers":[1,7,9],
+"totalLeastColourNumber":5,"totalLeastColourAndNumbersAmount":90},{"color":"violet","totalLeastColourAmount":60,"totalLeastNumberAmount":20,
+"usedColourNumbers":[0,5],"unUsedColourNumbers":[],"totalLeastColourNumber":5,"totalLeastColourAndNumbersAmount":100},{"color":"red",
+"totalLeastColourAmount":50,"totalLeastNumberAmount":40,"usedColourNumbers":[0,6,2],"unUsedColourNumbers":[4,8],"totalLeastColourNumber":6,
+"totalLeastColourAndNumbersAmount":160}]
+
+
+violet = 10 50
+  0 =   30
+  5 =   10
+color  = 60
+number = 40
+total  = 100
+-----------------------
+green = 10 30 
+5 = 10
+3 = 40
+color  =  40
+number =  50
+total  =  90
+-----------------------
+red = 10 40
+0 =  30 
+6 = 40
+2 = 40
+color  =   50 
+number =   110
+total  =   160
+-----------------------

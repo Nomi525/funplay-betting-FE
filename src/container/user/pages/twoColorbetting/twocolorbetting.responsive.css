@@ -1,0 +1,68 @@
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+    .two-color-bet-game-width {
+        left: 54%;
+        /* width: 17.12rem; */
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1360px) and (orientation : landscape) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .two-color-bet-game-width {
+        width: 17.12rem;
+        max-width: 325px;
+    }
+
+    .left-two-bet-details {
+        width: 11.5rem;
+        height: 11.75rem;
+        left: 8.5rem;
+        top: 9rem;
+    }
+
+    .two-btn-control-right {
+        width: 11.875rem;
+        height: 10.5rem;
+        top: 9.5rem;
+        right: 7.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* .two-color-bet-game-width {
+        width: 17.125rem;
+    } */
+}
+
+@media screen and (max-width: 767px) {
+    .two-color-bet-game-width {
+        padding-bottom: 20px;
+        max-width: 225px !important;
+    }
+
+
+    /* .two-color-bet-game-width{
+        width: 14.125rem;
+    } */
+    .inner-pd-content-details .second-title {
+        flex-direction: column;
+        align-items: center;
+        font-size: 23px;
+        line-height: 32px;
+
+    }
+
+    .second-title-list {
+        font-size: 13px;
+        line-height: 15px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    .two-color-bet-game-width {
+        max-width: 165px !important;
+    }
+}

@@ -1,0 +1,67 @@
+@media screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+    .pd-inner-comman-user {
+        padding: 30px 15px;
+      
+    }
+
+    .user-outlet-main-content .user-sidebar-outlet-content {
+        max-width: 238px;
+        width: 238px;
+        flex: 0 0 238px;
+        position: fixed;
+        left: -238px;
+        z-index: 999;
+        transition: 0.5s all;
+    }
+
+    .user-sidebar-outlet-content.header-left-active {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .user-outlet-main-content .user-sidebar-outlet-content {
+        max-width: 238px;
+        width: 238px;
+        flex: 0 0 238px;
+        position: fixed;
+        left: -238px;
+        z-index: 999;
+        transition: 0.5s all;
+    }
+
+    .pd-inner-comman-user {
+        padding: 30px 15px;
+        margin-top: 0px;
+    }
+
+    .user-sidebar-outlet-content.header-left-active {
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+
+    .pd-inner-comman-user {
+        height: calc(100vh - 93px);
+        /* height: calc(100vh - 160px); */
+    }
+ 
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3){
+
+    .pd-inner-comman-user {
+        height: calc(100vh - 120px);
+    }
+}
