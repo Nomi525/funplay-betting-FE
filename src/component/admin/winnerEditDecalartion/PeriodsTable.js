@@ -45,7 +45,6 @@ export default function PeriodsTable() {
   const { state } = useLocation();
   let id = state?.gameId;
   let type = state?.gameType;
-  
 
   // Handle Edit Button
   const handleCommunityBetting = (periodId, totalUser, time) => {
@@ -58,7 +57,7 @@ export default function PeriodsTable() {
           totalUser: totalUser,
         },
       });
-    } else if (type == "3colorBetting") {
+    } else if (type == "Color Prediction") {
       navigate(`/admin/three-color-betting-edit`, {
         state: {
           gameId: id,
@@ -145,7 +144,7 @@ export default function PeriodsTable() {
   useEffect(() => {
     if (
       type == "2colorBetting" ||
-      type == "3colorBetting" ||
+      type == "Color Prediction" ||
       type == "cardBetting" ||
       type == "penaltyBetting"
     ) {
@@ -233,7 +232,7 @@ export default function PeriodsTable() {
                       Periods Id
                     </Index.TableCell>
                     {type == "2colorBetting" ||
-                    type == "3colorBetting" ||
+                    type == "Color Prediction" ||
                     type == "cardBetting" ||
                     type == "penaltyBetting" ? (
                       <Index.TableCell className="number-bet-th" align="left">
@@ -262,7 +261,7 @@ export default function PeriodsTable() {
                             </Index.Box>
                           </Index.TableCell>
                           {type == "2colorBetting" ||
-                          type == "3colorBetting" ||
+                          type == "Color Prediction" ||
                           type == "cardBetting" ||
                           type == "penaltyBetting" ? (
                             <Index.TableCell className="number-bet-td">

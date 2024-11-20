@@ -50,7 +50,7 @@ export default function WinnerDeclartionTabs() {
       navigate(`/admin/periods-table`, {
         state: { gameId: gameId, gameName: gameName, gameType: gameType },
       });
-    } else if (gameType == "3colorBetting") {
+    } else if (gameType == "Color Prediction") {
       navigate(`/admin/periods-table`, {
         state: {
           gameId: gameId,

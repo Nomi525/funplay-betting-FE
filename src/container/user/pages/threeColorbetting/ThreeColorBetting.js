@@ -107,7 +107,7 @@ export default function ThreeColorBetting() {
     (state) => state?.UserReducer?.totalCoins?.totalCoin
   );
 
-  const gameType = "3colorBetting";
+  const gameType = "Color Prediction";
   const [responseMessage, setResponseMessage] = useState("");
   const [time, setTime] = useState([]);
   const [isActive, setIsActive] = useState(false);
@@ -900,7 +900,7 @@ export default function ThreeColorBetting() {
                       width="100%"
                       maxWidth="800px"
                     >
-                      {["Green", "Violet", "Red"].map((colorName, index) => (
+                      {["green", "violet", "red"].map((colorName, index) => (
                         <Button
                           key={colorName}
                           onClick={() =>

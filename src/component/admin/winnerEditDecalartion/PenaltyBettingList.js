@@ -76,8 +76,6 @@ export default function PenaltyBettingList() {
   const [betDetails, setBetDetails] = useState([]);
   const [loading, setLoading] = useState(false);
 
- 
-
   const handleCloseModel = () => setOpenModel(false);
   const handleOpenModel = () => setOpenModel(true);
   const handleCloseWinnerModel = () => setWinnerModel(false);
@@ -125,7 +123,6 @@ export default function PenaltyBettingList() {
       `${Api.ADMIN_GAME_PERIODS}/${type}/${id}?periodFor=${time}`
     )
       .then((res) => {
-       
         // setColorBet(res.data.data);
         // setSearchedData(res.data.data.getAllUsers);
         // console.log(res?.data?.data, "data");
@@ -182,7 +179,6 @@ export default function PenaltyBettingList() {
             0
           );
 
-    
         setTotalBetCoins(totalBetCoins);
         setTotalBetUser(res.data.data[0].totalUsers);
         // setLoading(false);
@@ -252,7 +248,6 @@ export default function PenaltyBettingList() {
   //     }
   //   });
   const statusUpdate = () => {
-    
     let newData = [...colorBet];
     let sortedData = newData?.sort((a, b) => {
       if (sortingOrder === "asc") {
@@ -300,7 +295,7 @@ export default function PenaltyBettingList() {
                                 gameType: state?.gameType,
                               },
                             });
-                          } else if (state?.gameType == "3colorBetting") {
+                          } else if (state?.gameType == "Color Prediction") {
                             navigate(`/admin/periods-table`, {
                               state: {
                                 gameId: state?.gameId,
@@ -737,7 +732,7 @@ export default function PenaltyBettingList() {
                             gameType: state.gameType,
                           },
                         });
-                      } else if (state.gameType == "3colorBetting") {
+                      } else if (state.gameType == "Color Prediction") {
                         navigate(`/admin/periods-table`, {
                           state: {
                             gameId: state.gameId,

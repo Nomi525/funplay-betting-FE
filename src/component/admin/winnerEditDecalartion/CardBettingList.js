@@ -56,7 +56,7 @@ export default function CardBettingList() {
   let type = state?.gameType;
   let periodId = state?.periodId;
   let time = state?.periodFor;
- 
+
   const decodedTitle = decodeURIComponent(state?.gameName);
   const [cardBet, setCardBet] = useState([]);
   const [searchedData, setSearchedData] = useState([]);
@@ -78,7 +78,7 @@ export default function CardBettingList() {
   const [loading, setLoading] = useState(false);
 
   // Download CSV file
-  console.log(cardBet,"hhh");
+  console.log(cardBet, "hhh");
   useEffect(() => {
     const customHeadings = cardBet?.map((item) => ({
       "card Name": item?.card,
@@ -118,7 +118,6 @@ export default function CardBettingList() {
       `${Api.ADMIN_GAME_PERIODS}/${type}/${id}?periodFor=${time}`
     )
       .then((res) => {
-       
         setTimeout(() => {
           setLoading(false);
         }, 1500);
@@ -169,7 +168,6 @@ export default function CardBettingList() {
           );
         setTotalBetCoins(totalBetCoins);
         setTotalBetUser(res.data.data[0].totalUsers);
-        
       })
       .catch((e) => {
         console.log(e);
@@ -240,7 +238,6 @@ export default function CardBettingList() {
   };
 
   const statusUpdate = () => {
-  
     let newData = [...cardBet];
     let sortedData = newData?.sort((a, b) => {
       if (sortingOrder === "asc") {
@@ -289,7 +286,7 @@ export default function CardBettingList() {
                                 gameType: state?.gameType,
                               },
                             });
-                          } else if (state?.gameType == "3colorBetting") {
+                          } else if (state?.gameType == "Color Prediction") {
                             navigate(`/admin/periods-table`, {
                               state: {
                                 gameId: state?.gameId,
@@ -737,7 +734,7 @@ export default function CardBettingList() {
                             gameType: state.gameType,
                           },
                         });
-                      } else if (state?.gameType == "3colorBetting") {
+                      } else if (state?.gameType == "Color Prediction") {
                         navigate(`/admin/periods-table`, {
                           state: {
                             gameId: state.gameId,

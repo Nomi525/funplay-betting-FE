@@ -228,7 +228,7 @@ export default function TwoColorBetList() {
         winnerId: periodId,
         periodFor: +time,
       };
-      console.log("231: ", {data})
+      console.log("231: ", { data });
       DataService.post(Api.ADMIN_DECLARE_WINNER_COLOR_BETTING, data)
         .then((res) => {
           // setGamelist(res?.data?.data);
@@ -299,7 +299,7 @@ export default function TwoColorBetList() {
                                 gameType: state?.gameType,
                               },
                             });
-                          } else if (state?.gameType == "3colorBetting") {
+                          } else if (state?.gameType == "Color Prediction") {
                             navigate(`/admin/periods-table`, {
                               state: {
                                 gameId: state?.gameId,
@@ -744,7 +744,7 @@ export default function TwoColorBetList() {
                             gameType: state.gameType,
                           },
                         });
-                      } else if (state.gameType == "3colorBetting") {
+                      } else if (state.gameType == "Color Prediction") {
                         navigate(`/admin/periods-table`, {
                           state: {
                             gameId: state.gameId,

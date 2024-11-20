@@ -86,7 +86,7 @@ export default function NumberBettingEdit() {
   const handleOpenWinnerModel = () => setWinnerModel(true);
 
   // Download CSV file
- 
+
   useEffect(() => {
     const customHeadings = numberBet?.map((item) => ({
       Numbers: item?.number,
@@ -292,7 +292,7 @@ export default function NumberBettingEdit() {
                                 gameType: state?.gameType,
                               },
                             });
-                          } else if (state?.gameType == "3colorBetting") {
+                          } else if (state?.gameType == "Color Prediction") {
                             navigate(`/admin/periods-table`, {
                               state: {
                                 gameId: state?.gameId,
@@ -724,7 +724,7 @@ export default function NumberBettingEdit() {
                             gameType: state.gameType,
                           },
                         });
-                      } else if (state.gameType == "3colorBetting") {
+                      } else if (state.gameType == "Color Prediction") {
                         navigate(`/admin/periods-table`, {
                           state: {
                             gameId: state.gameId,

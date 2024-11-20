@@ -241,7 +241,7 @@ export default function CommunityBettingSwap() {
                                   gameType: state?.gameType,
                                 },
                               });
-                            } else if (state?.gameType == "3colorBetting") {
+                            } else if (state?.gameType == "Color Prediction") {
                               navigate(`/admin/periods-table`, {
                                 state: {
                                   gameId: state?.gameId,

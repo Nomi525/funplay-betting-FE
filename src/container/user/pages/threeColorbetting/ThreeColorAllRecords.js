@@ -237,13 +237,13 @@ const ThreeColorAllRecords = () => {
                                 ? ele?.winColourNumber
                                 : "-"}
                             </Index.TableCell>
-
+                            {/* 
                             <Index.TableCell
                               align="left"
                               className="transaction-user-td"
                             >
                               {ele?.price}
-                            </Index.TableCell>
+                            </Index.TableCell> */}
                             <Index.TableCell
                               align="left"
                               className="transaction-user-td"
