@@ -1183,16 +1183,14 @@ export default function ThreeColorBetting() {
                                         <>
                                           Winning coins (approx.) :
                                           <span>
-                                            {ele?.price * ele?.winningAmount +
-                                              ele?.price}
+                                            {ele?.price * ele?.winningAmount}
                                           </span>
                                         </>
                                       ) : ele?.isWin == true ? (
                                         <>
                                           Winning coins (approx.) :
                                           <span>
-                                            {ele?.price * ele?.winningAmount +
-                                              ele?.price}
+                                            {ele?.price * ele?.winningAmount}
                                           </span>
                                         </>
                                       ) : (
